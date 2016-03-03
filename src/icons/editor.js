@@ -1,0 +1,21 @@
+module.exports = {
+  bold: 'b101',
+  italic: 'b102',
+  underline: 'b103',
+  quote: 'b108',
+  heading: 'b100',
+  pre: 'b109',
+  link: 'b10d',
+  removeLink: 'b013',
+  at: 'b216',
+  emoji: 'b215',
+  richText: 'b217',
+  normalText: 'b218',
+  table: 'b10f',
+  alignLeft: 'b10a',
+  alignCenter: 'b10c',
+  alignRight: 'b10b',
+  indent: 'b112',
+  outdent: 'b113',
+  palette: 'b114'
+}

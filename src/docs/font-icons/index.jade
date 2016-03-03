@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+  head
+    title TB-Icons
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    link(rel="stylesheet", href='../styles.css')
+
+  body.page-font-icons
+    .icons-wrap
+      .icons-nav
+        .nav-header
+          span.icon.icon-t
+          span ICONS
+        each subIcons, type in icons
+          a.nav-item(href="#type-#{type}") #{type}
+
+      .icons-list
+        each subIcons, type in icons
+          h2(id="type-#{type}") #{type}
+          div(class="type-#{type}")
+            each unicode, name in subIcons
+              div(class="icon-card")
+                div.icon-header("data-clipboard-text"= unicode) #{unicode}
+                div.icon-body("data-clipboard-text"= name)
+                  span(class="icon icon-#{name}")
+                  div.name(title="#{name}") #{name}
+
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.8/clipboard.min.js")
+    script(src="../scripts.js")

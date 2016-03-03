@@ -1,0 +1,23 @@
+module.exports = {
+  arrowLeft: 'b009',
+  chevronLeft: 'b001',
+  circleLeft: 'a050',
+  circleLeft2: 'a06a',
+  chevronRight: 'b002',
+  circleRight: 'a051',
+  circleRight2: 'a069',
+  chevronUp: 'b004',
+  sharpUp: 'a05f',
+  sharpUp2: 'b016',
+  topUp: 'a06c',
+  dashedRight: 'b111',
+  upload: 'a023',
+  jump: 'a058',
+  chevronDown: 'b003',
+  arrowDown: 'a00a',
+  download: 'a024',
+  sharpDown: 'a05e',
+  sharpDown2: 'b017',
+  turnLeft: 'b00e',
+  turnRight: 'b00f'
+}

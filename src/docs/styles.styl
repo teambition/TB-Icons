@@ -1,0 +1,163 @@
+// TB-Colors
+@require 'tb-colors/dist/colors'
+
+// Font faces
+@import url(https://fonts.googleapis.com/css?family=Lato)
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700)
+
+// Font Icons
+@import url(./icons/font-icons.css)
+
+// Mixins
+clearfix()
+  &:before
+  &:after
+    content: ""
+    display: table
+  &:after
+    clear: both
+
+// Reset
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Lato', sans-serif
+
+// Global
+.tb-logo
+  font-family: 'Ubuntu'
+  font-weight: 700
+
+/* ==== Page: Font-icons ==== */
+.page-font-icons
+
+  $grayLight   = #f2f2f2
+  $grayLighter = #f9f9f9
+
+  .icons-nav
+    top: 4%
+    left: 3%
+    width: 19%
+    position: fixed
+    background: $grayLighter
+    border-radius: 2px
+
+    .nav-header
+      font-size: 22px
+      font-weight: 700
+      border-bottom: 1px dashed darken($grayLight, 5)
+      margin: 0 15px
+      margin-bottom: 3px
+      padding-top: 15px
+      padding-bottom: 12px
+
+      *
+        font-family: 'Ubuntu'
+
+    .icon-t
+      position: relative
+      top: 2px
+      width: 24px
+      height: 24px
+      margin-right: 8px
+      border-radius: 50%
+      color: $white
+      background: $black
+
+      &:before
+        position: relative
+        font-size: 18px
+        left: 2px
+        top: -2px
+
+    [href*=temp]
+      display: none
+
+    .nav-item
+      display: block
+      text-decoration: none
+      color: $black
+      padding: 5% 15px
+      transition: all 218ms
+
+      &:hover
+        color: $blue
+        background: $grayLight
+
+      &:first-letter
+        text-transform: uppercase
+
+  .icons-list
+    width: 72%
+    margin-left: 25%
+    margin-bottom: 3%
+
+    h2[id*=type-]
+      line-height: 1.1
+      padding-top: 4%
+      padding-bottom: 3%
+      font-size: 36px
+
+      &:first-letter
+        text-transform: uppercase
+
+    [class*=type-]
+      clearfix()
+      margin-bottom: 10px
+
+    .icon-card
+      display: inline-block
+      float: left
+      width: 14.28%
+      min-width: 130px
+      height: 130px
+      line-height: 1.2
+      text-align: center
+      border: 3px solid $white
+      background-color: $grayLighter
+      border-radius: 2px
+      transition: all 218ms
+      cursor: pointer
+
+      &:hover
+        background: $grayLight
+
+        .icon-header
+          border-bottom-color: darken($grayLight, 6)
+          background-color: darken($grayLighter, 6)
+
+      .icon-header
+        background-color: darken($grayLighter, 2)
+        padding: 7px 10px
+        border-bottom: 1px dashed darken($grayLight, 1)
+        transition: all 218ms
+
+        &:hover
+          color: $red
+
+      .icon-body
+        > *
+          transition: all 218ms
+
+        &:hover
+          &, .name
+            color: $blue
+
+      .icon
+        padding: 20px 0 12px
+        font-size: 24px
+
+      .name
+        font-size: 80%
+        color: darken($blue, 15)
+        padding: 0 10px 3px
+        line-height: 30px
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+
+  // Hidden temp
+  #type-temp,
+  .type-temp
+    display: none

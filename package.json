@@ -1,0 +1,31 @@
+{
+  "name": "tb-icons",
+  "version": "0.0.1",
+  "description": "A classified icons set that consists of a part of Material Design icons and some original icons by TB-UI team.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teambition/TB-Icons.git"
+  },
+  "author": {
+    "name": "Sune Bear",
+    "email": "hi@sunebear.com",
+    "url": "http://sunebear.com"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^3.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-jade": "^1.0.1",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-sequence": "^0.3.2",
+    "gulp-stylus": "^2.0.2"
+  },
+  "dependencies": {
+    "camel-2-dash": "^0.1.0",
+    "capitalize": "^1.0.0",
+    "require-dir": "^0.3.0",
+    "tb-colors": "0.0.2",
+    "write": "^0.2.1"
+  }
+}
