@@ -48,15 +48,15 @@
   left: 2px;
   top: -2px;
 }
-.page-font-icons .icons-nav [href*=temp] {
-  display: none;
-}
 .page-font-icons .icons-nav .nav-item {
   display: block;
   text-decoration: none;
   color: #000;
   padding: 5% 15px;
   transition: all 218ms;
+}
+.page-font-icons .icons-nav .nav-item[href*=temp] {
+  display: none;
 }
 .page-font-icons .icons-nav .nav-item:hover {
   color: #03a9f4;
