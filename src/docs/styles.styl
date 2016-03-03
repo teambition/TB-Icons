@@ -71,15 +71,15 @@ clearfix()
         left: 2px
         top: -2px
 
-    [href*=temp]
-      display: none
-
     .nav-item
       display: block
       text-decoration: none
       color: $black
       padding: 5% 15px
       transition: all 218ms
+
+      &[href*=temp]
+        display: none
 
       &:hover
         color: $blue
