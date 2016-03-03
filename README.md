@@ -14,7 +14,6 @@ Include the style in Stylus:
 
 ```
 @import 'tb-icons/dist/font-icons'
-
 ```
 
 Get an icon in Jade:
