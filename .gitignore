@@ -1,4 +1,5 @@
 node_modules
+_gh_pages
 .DS_Store
 .idea
 .publish
