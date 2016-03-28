@@ -65,6 +65,12 @@
 .page-font-icons .icons-nav .nav-item:first-letter {
   text-transform: uppercase;
 }
+.page-font-icons .icons-nav .goto-github {
+  border-top: 1px dashed #e5e5e5;
+}
+.page-font-icons .icons-nav .goto-github .icon {
+  margin-right: 10px;
+}
 .page-font-icons .icons-list {
   width: 72%;
   margin-left: 25%;
