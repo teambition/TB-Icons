@@ -15,6 +15,7 @@ module.exports = {
   jump: 'a058',
   chevronDown: 'b003',
   arrowDown: 'a00a',
+  circleDown: 'b204',
   download: 'a024',
   sharpDown: 'a05e',
   sharpDown2: 'b017',

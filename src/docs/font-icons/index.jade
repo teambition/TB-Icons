@@ -16,6 +16,10 @@ html(lang="en")
           span ICONS
         each subIcons, type in icons
           a.nav-item(href="#type-#{type}") #{type}
+        a.nav-item.goto-github(href="https://github.com/teambition/TB-Icons", target="_blank")
+          span.icon.icon-github
+          | Fork me on GitHub
+
 
       .icons-list
         each subIcons, type in icons
@@ -27,6 +31,7 @@ html(lang="en")
                 div.icon-body("data-clipboard-text"= name)
                   span(class="icon icon-#{name}")
                   div.name(title="#{name}") #{name}
+
 
     script(src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.8/clipboard.min.js")
     script(src="../scripts.js")
