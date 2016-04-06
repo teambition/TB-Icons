@@ -5,6 +5,7 @@ module.exports = {
   wechat: 'af02',
   weibo: 'af03',
   zhihu: 'af0c',
+  dingding: 'af16',
   dribbble: 'af0e',
   dropbox: 'af00',
   douban: 'af09',
