@@ -53,6 +53,7 @@ module.exports = {
   menuVertical: 'b00c',
   more: 'b209',
   move: 'b208',
+  moveTask: 'bf14',
   mute: 'a05d',
   new: 'a06b',
   orderA: 'b21d',
