@@ -768,6 +768,9 @@
 .icon-move:before {
   content: '\b208';
 }
+.icon-move-task:before {
+  content: '\bf14';
+}
 .icon-mute:before {
   content: '\a05d';
 }
