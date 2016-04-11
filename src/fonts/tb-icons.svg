@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg>
 <metadata>
-Created by FontForge 20120731 at Wed Apr  6 08:01:19 2016
+Created by FontForge 20120731 at Fri Apr  8 09:34:21 2016
  By Apache
 copyright missing
 </metadata>
@@ -533,8 +533,8 @@ d="M13 458h116l129 -366h1l126 366h114v-469h-77v362h-1l-131 -362h-67l-130 362h-2v
 d="M248 212l-31 32l138 143l31 -32zM512 355l-264 -272l-123 127l31 32l92 -96l231 241zM30 242l124 -127l-31 -32l-123 127z" />
     <glyph glyph-name="Bf13" unicode="&#xbf13;" 
 d="M459 326v-324q0 -14 -10.5 -24t-24.5 -10h-340q-14 0 -24.5 10t-10.5 24v443q0 14 10.5 24.5t24.5 10.5h221zM408 300h-129v11v117h-179v-409h308v153v128z" />
-    <glyph glyph-name="Bf14" unicode="&#xbf14;" horiz-adv-x="0" 
- />
+    <glyph glyph-name="Bf14" unicode="&#xbf14;" 
+d="M60 41h181v-60h-181q-25 0 -42.5 17.5t-17.5 42.5v362q0 25 17.5 42.5t42.5 17.5h362q25 0 42.5 -17.5t17.5 -42.5v-121h-60v121l-362 -1v-361zM401 11v58h-100v95l100 1v57l111 -105z" />
     <glyph glyph-name="B100" unicode="&#xb100;" 
 d="M449 470v-210v-72v-210h-72v210h-235v-210h-72v210v72v210h72v-210h235v210h72z" />
     <glyph glyph-name="Af0f" unicode="&#xaf0f;" 

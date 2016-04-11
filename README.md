@@ -29,11 +29,14 @@ gulp.task('move-fonts', function () {
 })
 ```
 
-
 ### Development
-```
-Writing...
-```
+The source files can be found in [`src`](src) directory.
+
+While developing, you should use the command `gulp && gulp serve` to create a watcher and run a docs server with livereload.
+
+Then, to update the icon fonts and the icon name-unicode pairs store, preview immediately on `localhost:8001`.
+
+Lastly, commit your great works, release a new version, use `gulp deploy` to publish docs to GitHub pages.
 
 ### TODO
 - Create an SVG symbol sprite from icon fonts.
