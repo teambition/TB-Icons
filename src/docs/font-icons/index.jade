@@ -28,7 +28,7 @@ html(lang="en")
             each unicode, name in subIcons
               div(class="icon-card")
                 div.icon-header("data-clipboard-text"= unicode) #{unicode}
-                div.icon-body("data-clipboard-text"= name)
+                div.icon-body("data-clipboard-text"= 'icon-' + name)
                   span(class="icon icon-#{name}")
                   div.name(title="#{name}") #{name}
 
