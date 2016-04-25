@@ -669,6 +669,9 @@
 .icon-comment:before {
   content: '\a01f';
 }
+.icon-comment-line:before {
+  content: '\bf15';
+}
 .icon-comments:before {
   content: '\a028';
 }
@@ -683,6 +686,9 @@
 }
 .icon-dig:before {
   content: '\a054';
+}
+.icon-dig-line:before {
+  content: '\bf16';
 }
 .icon-envelope:before {
   content: '\a005';
