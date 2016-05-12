@@ -1,12 +1,17 @@
+var path       = require('path')
 var gulp       = require('gulp')
+var wait       = require('gulp-wait')
 var jade       = require('gulp-jade')
 var stylus     = require('gulp-stylus')
 var rimraf     = require('gulp-rimraf')
 var connect    = require('gulp-connect')
 var sequence   = require('gulp-sequence')
 var ghPages    = require('gulp-gh-pages')
-
 var camel2Dash = require('camel-2-dash')
+var svgSymbols = require('gulp-svg-symbols')
+
+var svgo       = require('./src/tools/gulp-svgo')
+var SVGOConfig = require('./svgo.config.json')
 
 var icons      = require('./src/icons')
 var generators = require('./src/generators')
@@ -32,7 +37,21 @@ gulp.task('generator', function () {
     task = generators[key]
     task()
   }
-  return gulp.src('./src/generators')
+  return gulp.src('').pipe(wait(1000))
+})
+
+gulp.task('svg-optimize', function () {
+  return gulp.src('dist/svgs/*.svg')
+    .pipe(svgo(SVGOConfig))
+    .pipe(gulp.dest('dist/svgs'))
+})
+
+gulp.task('svg-sprites', function () {
+  return gulp.src('dist/svgs/*.svg')
+    .pipe(svgSymbols({
+      "templates":  ['default-svg', path.join(__dirname, 'src/docs/svg-symbols/index.html')]
+    }))
+    .pipe(gulp.dest('dist/'))
 })
 
 gulp.task('styl-to-css', function () {
@@ -61,6 +80,17 @@ gulp.task('docs-jade', function () {
     .pipe(connect.reload())
 })
 
+gulp.task('docs-svg-symbols', function () {
+   gulp.src(['dist/svg-symbols.svg'])
+    .pipe(gulp.dest('_gh_pages/svg-symbols/'))
+   gulp.src(['dist/index.html'])
+    .pipe(rimraf({
+      force: true
+    }))
+    .pipe(gulp.dest('_gh_pages/svg-symbols/'))
+    .pipe(connect.reload())
+})
+
 gulp.task('docs-style', function () {
   gulp.src('src/docs/*.styl')
     .pipe(stylus({
@@ -84,12 +114,14 @@ gulp.task('docs-fonts', function () {
 
 gulp.task('docs-icons', function () {
   gulp.src('dist/*.css')
-    .pipe(gulp.dest('_gh_pages/icons'))
+    .pipe(gulp.dest('_gh_pages/icons/'))
 })
 
 /* ==== Watch & Serve ==== */
 gulp.task('watch', function () {
-  gulp.watch('src/docs/**/*', ['docs'])
+  gulp.watch('src/docs/**/*', function(){
+    sequence('svg-sprites', 'docs')(function(){})
+  })
 })
 
 gulp.task('serve', ['watch'], function () {
@@ -110,6 +142,8 @@ gulp.task('deploy', function() {
 gulp.task('dev', function(callback) {
   sequence(
   'generator',
+  'svg-optimize',
+  'svg-sprites',
   'styl-to-css',
   'move-fonts'
   )(callback)
@@ -121,7 +155,8 @@ gulp.task('docs', function(callback) {
   'docs-style',
   'docs-script',
   'docs-fonts',
-  'docs-icons'
+  'docs-icons',
+  'docs-svg-symbols'
   )(callback)
 })
 

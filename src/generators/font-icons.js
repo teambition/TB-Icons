@@ -1,7 +1,7 @@
-icons     = require('../icons')
-write      = require('write')
-capitalize = require('capitalize')
-camel2Dash = require('camel-2-dash')
+var icons      = require('../icons')
+var write      = require('write')
+var capitalize = require('capitalize')
+var camel2Dash = require('camel-2-dash')
 
 module.exports = function () {
   var data = "// Teambition Icons Set\n"

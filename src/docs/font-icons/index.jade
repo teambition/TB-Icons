@@ -1,7 +1,7 @@
 doctype html
 html(lang="en")
   head
-    title TB-Icons
+    title Font Icons - TB-Icons
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
@@ -16,6 +16,9 @@ html(lang="en")
           span ICONS
         each subIcons, type in icons
           a.nav-item(href="#type-#{type}") #{type}
+        a.nav-item.goto-svg-symbols(href="../svg-symbols", target="_blank")
+          span.icon.icon-palette
+          | SVG Symbols
         a.nav-item.goto-github(href="https://github.com/teambition/TB-Icons", target="_blank")
           span.icon.icon-github
           | Fork me on GitHub

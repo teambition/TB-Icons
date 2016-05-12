@@ -19,12 +19,18 @@
     "gulp-jade": "^1.0.1",
     "gulp-rimraf": "^0.1.1",
     "gulp-sequence": "^0.3.2",
-    "gulp-stylus": "^2.0.2"
+    "gulp-stylus": "^2.0.2",
+    "gulp-svg-symbols": "^1.0.0",
+    "gulp-svgo": "^1.0.3",
+    "gulp-wait": "0.0.2"
   },
   "dependencies": {
     "camel-2-dash": "^0.1.0",
     "capitalize": "^1.0.0",
+    "lodash": "^4.12.0",
+    "mkdirp": "^0.5.1",
     "require-dir": "^0.3.0",
+    "svgfont2svgicons": "^2.0.0",
     "tb-colors": "0.0.2",
     "write": "^0.2.1"
   }
