@@ -21,7 +21,7 @@
       }
       h1 {
         margin: 0 0 1rem;
-        padding: 1rem;
+        padding: 1.3rem;
         background: white;
       }
       main {
@@ -130,11 +130,21 @@
     </style>
   </head>
   <body>
+  <svg xmlns="http://www.w3.org/2000/svg" style=" position:absolute; width:0; height:0; visibility:hidden;">
+    <defs>
+      <%= defs %>
+    </defs>
+    <% _.forEach( icons, function( icon ){ %>
+    <symbol id="<%= icon.id %>" viewBox="<%= icon.svg.viewBox %>"><% if (icon.title) {%>
+      <title><%= icon.title %></title><% }%>
+      <%= icon.svg.content %>
+    </symbol><%
+}); %></svg>
     <h1>TB-Icons · SVG Symbols</h1>
     <main><% _.each( icons, function( icon ){ %>
       <div class="icon">
         <p>#<%= icon.id %></p>
-        <div class="icon-wrapper" onclick="gulpSvgSymbol.copy('code-<%= icon.id %>')">
+        <div class="icon-wrapper" onclick="gulpSvgSymbol.copy('<%= icon.id %>')">
           <svg role="img" class="ss-<%= icon.id %>">
             <use xlink:href="#<%= icon.id %>"></use>
           </svg>
@@ -142,12 +152,12 @@
         <div class="icon-dev">
           <input class="show-code" id="toggle-<%= icon.id %>" type="checkbox" />
           <div class="icon-action">
-            <button onclick="gulpSvgSymbol.copy('code-<%= icon.id %>')">Copy</button>
-            <label onclick="gulpSvgSymbol.reflow('code-<%= icon.id %>')" for="toggle-<%= icon.id %>">Show</label>
+            <button onclick="gulpSvgSymbol.copy('<%= icon.id %>')">Copy</button>
+            <label onclick="gulpSvgSymbol.reflow('<%= icon.id %>')" for="toggle-<%= icon.id %>">Show</label>
           </div>
 <pre>
-<code id="code-<%= icon.id %>"><%= _.escape('<svg role="img" class="ss-') %><%= icon.id %><%= _.escape('">') %>
-  <%= _.escape('<use xlink:href="./svg-symbols.svg#') %><%= icon.id %><%= _.escape('"></use>') %>
+<code id="ss-<%= icon.id %>"><%= _.escape('<svg role="img" class="ss-') %><%= icon.id %><%= _.escape('">') %>
+  <%= _.escape('<use xlink:href="#') %><%= icon.id %><%= _.escape('"></use>') %>
 <%= _.escape('</svg>') %></code>
 </pre>
         </div>
@@ -167,7 +177,7 @@
         var main = document.getElementsByTagName('main')[0];
         symb.copy = function (id) {
           window.getSelection().removeAllRanges();
-          var code = document.getElementById(id);
+          var code = document.getElementById('ss-' + id);
           var range = document.createRange();
           range.selectNode(code);
           window.getSelection().addRange(range);
