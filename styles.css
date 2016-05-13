@@ -65,10 +65,10 @@
 .page-font-icons .icons-nav .nav-item:first-letter {
   text-transform: uppercase;
 }
-.page-font-icons .icons-nav .goto-github {
+.page-font-icons .icons-nav .goto-svg-symbols {
   border-top: 1px dashed #e5e5e5;
 }
-.page-font-icons .icons-nav .goto-github .icon {
+.page-font-icons .icons-nav [class*=goto-] .icon {
   margin-right: 10px;
 }
 .page-font-icons .icons-list {
