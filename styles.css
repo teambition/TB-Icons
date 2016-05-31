@@ -17,8 +17,10 @@
   left: 3%;
   width: 19%;
   position: fixed;
+  max-height: 92%;
   background: #f9f9f9;
   border-radius: 2px;
+  overflow: auto;
 }
 .page-font-icons .icons-nav .nav-header {
   font-size: 22px;
@@ -52,7 +54,7 @@
   display: block;
   text-decoration: none;
   color: #000;
-  padding: 5% 15px;
+  padding: 4.6% 15px;
   transition: all 218ms;
 }
 .page-font-icons .icons-nav .nav-item[href*=temp] {
