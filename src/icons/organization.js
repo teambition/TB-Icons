@@ -1,0 +1,20 @@
+module.exports = {
+  teamTie: 'a070',
+  teamStamp: 'a071',
+  teamTerminal: 'a072',
+  teamNotebook: 'a073',
+  teamFlag: 'a074',
+  teamLocation: 'a075',
+  teamLoudspeaker: 'a076',
+  teamBulb: 'a077',
+  teamCompass: 'a078',
+  teamBriefcase: 'a079',
+  teamPen: 'a07a',
+  teamGraph: 'a07b',
+  teamTalk: 'a07c',
+  teamCamera: 'a07d',
+  teamBuilding: 'a07e',
+  teamBus: 'a07f',
+  teamCalculator: 'a080',
+  teamMedal: 'a081'
+}
