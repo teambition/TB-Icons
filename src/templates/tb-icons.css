@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'tb-icons';
+  font-family: '<%= fontName %>';
   font-style: normal;
   font-weight: normal;
-  src: url("./fonts/tb-icons.eot");
-  src: url("./fonts/tb-icons.eot?#iefix") format('embedded-opentype'),
-       url("./fonts/tb-icons.woff2") format('woff2'),
-       url("./fonts/tb-icons.woff") format('woff'),
-       url("./fonts/tb-icons.ttf") format('truetype'),
-       url("./fonts/tb-icons.svg?#tb-icons") format('svg');
+  src: url("../fonts/<%= fontName %>.eot");
+  src: url("../fonts/<%= fontName %>.eot?#iefix") format('embedded-opentype'),
+       url("../fonts/<%= fontName %>.woff2") format('woff2'),
+       url("../fonts/<%= fontName %>.woff") format('woff'),
+       url("../fonts/<%= fontName %>.ttf") format('truetype'),
+       url("../fonts/<%= fontName %>.svg?#<%= fontName %>") format('svg');
 }
 
 .icon {
   display: inline-block;
-  font-family: 'tb-icons' !important;
+  font-family: '<%= fontName %>' !important;
   font-stretch: normal;
   font-style: normal;
   font-variant: normal;

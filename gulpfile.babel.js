@@ -18,9 +18,9 @@ gulp.task('iconfont', (callback) => {
 
 gulp.task('iconfont:clean', (callback) => {
   const files = [
+    './lib/css',
     './lib/fonts',
-    './lib/tb-icon.css',
-    './lib/tb-icon.styl'
+    './lib/stylus'
   ]
 
   return del(files, callback)
@@ -40,24 +40,26 @@ gulp.task('iconfont:build', (callback) => {
     (next) => {
       stream.on('glyphs', (glyphs, options) => {
         const consolidateOptions = {
-          glyphs: glyphs
+          glyphs: glyphs,
+          fontName: options.fontName
         }
 
-        gulp.src('./src/templates/tb-icon.css')
+        gulp.src('./src/templates/tb-icons.css')
           .pipe(consolidate('lodash', consolidateOptions))
-          .pipe(gulp.dest('./lib/'))
+          .pipe(gulp.dest('./lib/css'))
           .on('finish', next)
       })
     },
     (next) => {
       stream.on('glyphs', (glyphs, options) => {
         const consolidateOptions = {
-          glyphs: glyphs
+          glyphs: glyphs,
+          fontName: options.fontName
         }
 
-        gulp.src('./src/templates/tb-icon.styl')
+        gulp.src('./src/templates/tb-icons.styl')
           .pipe(consolidate('lodash', consolidateOptions))
-          .pipe(gulp.dest('./lib/'))
+          .pipe(gulp.dest('./lib/stylus'))
           .on('finish', next)
       })
     },
