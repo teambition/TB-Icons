@@ -4,5 +4,11 @@
 
 *.log
 
+/.babelrc
+/gulpfile.babel.js
+
 /_gh_pages
+/assets
+/gh-pages
 /node_modules
+/src
