@@ -1,5 +1,7 @@
-node_modules
-_gh_pages
 .DS_Store
 .idea
 .publish
+
+/_gh_pages
+/lib
+/node_modules
