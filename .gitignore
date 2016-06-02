@@ -5,5 +5,4 @@
 *.log
 
 /_gh_pages
-/lib
 /node_modules
