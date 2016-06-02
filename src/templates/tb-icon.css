@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'tb-icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/tb-icons.eot");
+  src: url("./fonts/tb-icons.eot?#iefix") format('embedded-opentype'),
+       url("./fonts/tb-icons.woff2") format('woff2'),
+       url("./fonts/tb-icons.woff") format('woff'),
+       url("./fonts/tb-icons.ttf") format('truetype'),
+       url("./fonts/tb-icons.svg?#tb-icons") format('svg');
+}
+
+.icon {
+  display: inline-block;
+  font-family: 'tb-icons' !important;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+<% _.each(glyphs, function(g) { %>
+.icon-<%= g.name %>:before {
+  content: "\<%= g.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>";
+}
+<% }) %>
