@@ -54,6 +54,7 @@ module.exports = {
   menu: 'b00b',
   menuVertical: 'b00c',
   more: 'b209',
+  circleMore: 'a082',
   move: 'b208',
   moveTask: 'bf14',
   mute: 'a05d',

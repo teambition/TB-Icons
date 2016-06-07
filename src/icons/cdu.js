@@ -2,6 +2,7 @@ module.exports = {
   plus: 'b005',
   plusSign: 'c004',
   circleCross: 'a04f',
+  circleCrossThin: 'a083',
   addStage: 'a01a',
   remove: 'b008',
   circleRemove: 'a04e',
