@@ -7,11 +7,14 @@ export const ICONFONTS = {
     'woff2'
   ],
   fontName: 'tb-icons',
-  timestamp: Date.now()
+  normalize: true,
+  timestamp: Date.now(),
+  fontHeight: 1000
 }
 
 export const SKETCH = {
   export: 'slices',
+  compact: true,
   formats: 'svg',
   verbose: process.env.NODE_ENV === 'dev'
 }

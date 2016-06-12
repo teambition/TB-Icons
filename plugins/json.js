@@ -54,13 +54,6 @@ const toSort = (a, b) => a.localeCompare(b)
 
 const sortName = (a, b) => toSort(a['name'], b['name'])
 
-const sortGlyphs = (group) => {
-  return {
-    'name': group['name'],
-    'glyphs': group['glyphs'].sort(sortName)
-  }
-}
-
 export default function(glyphs = []) {
 
   return through.obj(function(source, encoding, callback) {
@@ -81,18 +74,29 @@ export default function(glyphs = []) {
 
       const slices = buffers['pages'].reduce(toSlices, [])
 
-      const groups = glyphs.reduce(toGroups(slices), [])
+      const sortedSlices = slices.sort(sortName)
 
-      const sortedGroups = groups.map(sortGlyphs).sort(sortName)
-
-      const data = {
+      const svgsymbolsJson = {
         cwd: source.cwd,
         base: source.base,
-        path: path.join(source.base, 'codepoints.json'),
+        path: path.join(source.base, 'svg-symbols.json'),
+        contents: new Buffer(JSON.stringify(sortedSlices, null, 2))
+      }
+
+      this.push(new File(svgsymbolsJson))
+
+      const groups = glyphs.reduce(toGroups(sortedSlices), [])
+
+      const sortedGroups = groups.sort(sortName)
+
+      const iconfontsJson = {
+        cwd: source.cwd,
+        base: source.base,
+        path: path.join(source.base, 'iconfonts.json'),
         contents: new Buffer(JSON.stringify(sortedGroups, null, 2))
       }
 
-      this.push(new File(data))
+      this.push(new File(iconfontsJson))
 
       callback()
     })

@@ -8,8 +8,9 @@ import sequence from 'run-sequence'
 import svgmin from 'gulp-svgmin'
 import svgsymbols from 'gulp-svg-symbols'
 
-import codepoints from './plugins/codepoints'
 import * as config from './plugins/config'
+
+import json from './plugins/json'
 import sketch from './plugins/sketch'
 
 gulp.task('build', (callback) => {
@@ -33,7 +34,8 @@ gulp.task('iconfont', () => {
     }
   }
 
-  return gulp.src('./lib/svgs/*.svg')
+  return gulp.src('./src/sketch/20px.sketch')
+    .pipe(sketch(config.SKETCH))
     .pipe(iconfont(config.ICONFONTS))
     .on('glyphs', (glyphs, options) => {
       const data = {
@@ -41,8 +43,9 @@ gulp.task('iconfont', () => {
         fontName: options.fontName
       }
 
-      const codepointsStream = gulp.src('./src/sketch/20px.sketch')
-        .pipe(codepoints(data.glyphs))
+      // Generate glyphs json
+      const jsonStream = gulp.src('./src/sketch/20px.sketch')
+        .pipe(json(data.glyphs))
         .pipe(gulp.dest('./lib'))
 
       // Convert css template
@@ -55,7 +58,7 @@ gulp.task('iconfont', () => {
         .pipe(consolidate('lodash', data))
         .pipe(gulp.dest('./lib'))
 
-      return merge(codepointsStream, cssStream, stylusStream)
+      return merge(jsonStream, cssStream, stylusStream)
     })
     .pipe(gulp.dest('./lib/fonts'))
 })

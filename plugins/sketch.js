@@ -16,6 +16,10 @@ export default function(options = {}) {
     args = args.concat('export', options.export)
   }
 
+  if (options.compact) {
+    args = args.concat(`--compact=${options.compact ? 'YES' : 'NO'}`)
+  }
+
   if (options.formats) {
     args = args.concat(`--formats=${options.formats}`)
   }
