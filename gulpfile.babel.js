@@ -1,152 +1,76 @@
-import async from 'async'
 import consolidate from 'gulp-consolidate'
 import del from 'del'
 import gulp from 'gulp'
 import iconfont from 'gulp-iconfont'
+import merge from 'merge-stream'
+import rename from 'gulp-rename'
 import sequence from 'run-sequence'
-import sketch from 'gulp-sketch'
 import svgmin from 'gulp-svgmin'
 import svgsymbols from 'gulp-svg-symbols'
 
+import codepoints from './plugins/codepoints'
+import * as config from './plugins/config'
+import sketch from './plugins/sketch'
+
 gulp.task('build', (callback) => {
-  return sequence('svg', 'svgsymbols', 'iconfont', callback)
+  sequence(
+    'clean',
+    'svg',
+    ['iconfont', 'svgsymbols'],
+    callback
+  )
 })
 
-gulp.task('iconfont', (callback) => {
-  return sequence('iconfont:clean', 'iconfont:build', callback)
+gulp.task('clean', (callback) => {
+  return del(['./lib/**/*'])
 })
 
-gulp.task('iconfont:clean', (callback) => {
-  const files = [
-    './lib/css',
-    './lib/fonts',
-    './lib/stylus'
-  ]
-
-  return del(files, callback)
-})
-
-gulp.task('iconfont:build', (callback) => {
-  const iconfontOptions = {
-    formats: ['eot', 'svg', 'ttf', 'woff', 'woff2'],
-    fontName: 'tb-icons',
-    timestamp: Math.round(Date.now() / 1000)
-  }
-
-  const stream = gulp.src('./lib/svgs/*.svg')
-    .pipe(iconfont(iconfontOptions))
-
-  return async.parallel([
-    (next) => {
-      stream.on('glyphs', (glyphs, options) => {
-        const consolidateOptions = {
-          glyphs: glyphs,
-          fontName: options.fontName
-        }
-
-        gulp.src('./src/templates/tb-icons.css')
-          .pipe(consolidate('lodash', consolidateOptions))
-          .pipe(gulp.dest('./lib/css'))
-          .on('finish', next)
-      })
-    },
-    (next) => {
-      stream.on('glyphs', (glyphs, options) => {
-        const consolidateOptions = {
-          glyphs: glyphs,
-          fontName: options.fontName
-        }
-
-        gulp.src('./src/templates/tb-icons.styl')
-          .pipe(consolidate('lodash', consolidateOptions))
-          .pipe(gulp.dest('./lib/stylus'))
-          .on('finish', next)
-      })
-    },
-    (next) => {
-      stream
-        .pipe(gulp.dest('./lib/fonts'))
-        .on('finish', next)
+gulp.task('iconfont', () => {
+  const toObject = (glyph) => {
+    return {
+      name: glyph.name,
+      unicode: glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase()
     }
-  ], callback)
-})
-
-gulp.task('svg', (callback) => {
-  return sequence('svg:clean', 'svg:build', callback)
-})
-
-gulp.task('svg:clean', (callback) => {
-  return del(['./lib/svgs'], callback)
-})
-
-gulp.task('svg:build', () => {
-  const sketchOptions = {
-    export: 'slices',
-    formats: 'svg',
-    saveForWeb: true
   }
 
-  const svgminOptions = {
-    plugins: [
-      { cleanupAttrs: true },
-      { cleanupEnableBackground: true },
-      { cleanupIDs: true },
-      { cleanupListOfValues: true },
-      { cleanupNumericValues: true },
-      { collapseGroups: true },
-      { convertColors: true },
-      { convertPathData: true },
-      { convertShapeToPath: true },
-      { convertStyleToAttrs: true },
-      { convertTransform: true },
-      { mergePaths: true },
-      { minifyStyles: true },
-      { moveElemsAttrsToGroup: true },
-      { moveGroupAttrsToElems: true },
-      { removeAttrs: true },
-      { removeComments: true },
-      { removeDesc: true },
-      { removeDimensions: true },
-      { removeDoctype: true },
-      { removeEditorsNSData: true },
-      { removeEmptyAttrs: true },
-      { removeEmptyContainers: true },
-      { removeEmptyText: true },
-      { removeHiddenElems: true },
-      { removeMetadata: true },
-      { removeNonInheritableGroupAttrs: true },
-      { removeRasterImages: true },
-      { removeStyleElement: true },
-      { removeTitle: true },
-      { removeUnknownsAndDefaults: true },
-      { removeUnusedNS: true },
-      { removeUselessDefs: true },
-      { removeUselessStrokeAndFill: true },
-      { removeViewBox: false },
-      { removeXMLProcInst: true },
-      { sortAttrs: true },
-      { transformsWithOnePath: true }
-    ]
-  }
+  return gulp.src('./lib/svgs/*.svg')
+    .pipe(iconfont(config.ICONFONTS))
+    .on('glyphs', (glyphs, options) => {
+      const data = {
+        glyphs: glyphs.map(toObject),
+        fontName: options.fontName
+      }
 
+      const codepointsStream = gulp.src('./src/sketch/20px.sketch')
+        .pipe(codepoints(data.glyphs))
+        .pipe(gulp.dest('./lib'))
+
+      // Convert css template
+      const cssStream = gulp.src('./src/templates/tb-icons.css')
+        .pipe(consolidate('lodash', data))
+        .pipe(gulp.dest('./lib'))
+
+      // Convert stylus template
+      const stylusStream = gulp.src('./src/templates/tb-icons.styl')
+        .pipe(consolidate('lodash', data))
+        .pipe(gulp.dest('./lib'))
+
+      return merge(codepointsStream, cssStream, stylusStream)
+    })
+    .pipe(gulp.dest('./lib/fonts'))
+})
+
+gulp.task('svg', () => {
   return gulp.src('./src/sketch/20px.sketch')
-    .pipe(sketch(sketchOptions))
-    .pipe(svgmin(svgminOptions))
+    .pipe(sketch(config.SKETCH))
+    .pipe(svgmin(config.SKETCH_SVGMIN))
     .pipe(gulp.dest('./lib/svgs'))
 })
 
-gulp.task('svgsymbols', (callback) => {
-  return sequence('svgsymbols:clean', 'svgsymbols:build', callback)
-})
-
-gulp.task('svgsymbols:clean', (callback) => {
-  return del(['./lib/svg-symbols.svg'], callback)
-})
-
-gulp.task('svgsymbols:build', () => {
+gulp.task('svgsymbols', () => {
   return gulp.src('./lib/svgs/*.svg')
-    .pipe(svgsymbols({
-      templates: ['default-svg']
-    }))
+    .pipe(svgsymbols(config.SVGSYMBOLS))
+    .pipe(svgmin(config.SVGSYMBOLS_SVGMIN))
+    .pipe(rename('svg-symbols.svg'))
     .pipe(gulp.dest('./lib'))
 })
