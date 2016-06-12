@@ -4,5 +4,8 @@
 
 *.log
 
+/build
 /_gh_pages
+/gh-pages
+/lib
 /node_modules
