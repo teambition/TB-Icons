@@ -56,7 +56,7 @@ gulp.task('iconfont', () => {
       // Generate glyphs json
       const jsonStream = gulp.src('./src/sketch/20px.sketch')
         .pipe(json(data.glyphs))
-        .pipe(gulp.dest('./gh-pages'))
+        .pipe(gulp.dest('./src/gh-pages'))
 
       // Convert css template
       const cssStream = gulp.src('./src/templates/tb-icons.css')

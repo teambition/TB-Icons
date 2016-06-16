@@ -2,6 +2,17 @@
   "name": "tb-icons",
   "version": "0.1.0",
   "description": "A classified icons set that consists of a part of Material Design icons and some original icons by TB-UI team.",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "npm run gulp:build",
+    "dev": "npm run gulp:dev & npm run webpack:dev",
+    "gh-pages": "npm run gulp:build && npm run webpack:build",
+    "gulp:build": "./node_modules/.bin/gulp",
+    "gulp:dev": "./node_modules/.bin/gulp dev",
+    "prewebpack:build": "rm -rf ./build",
+    "webpack:build": "NODE_ENV=build ./node_modules/.bin/webpack --progress",
+    "webpack:dev": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --hot --progress"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
