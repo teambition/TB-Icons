@@ -13,13 +13,24 @@ import * as config from './plugins/config'
 import json from './plugins/json'
 import sketch from './plugins/sketch'
 
-gulp.task('build', (callback) => {
+gulp.task('default', (callback) => {
   sequence(
     'clean',
+    'build',
+    callback
+  )
+})
+
+gulp.task('build', (callback) => {
+  sequence(
     'svg',
     ['iconfont', 'svgsymbols'],
     callback
   )
+})
+
+gulp.task('dev', ['build'], () => {
+  return gulp.watch('./src/sketch/20px.sketch', ['build'])
 })
 
 gulp.task('clean', (callback) => {
@@ -34,8 +45,7 @@ gulp.task('iconfont', () => {
     }
   }
 
-  return gulp.src('./src/sketch/20px.sketch')
-    .pipe(sketch(config.SKETCH))
+  return gulp.src('./lib/svgs/*.svg')
     .pipe(iconfont(config.ICONFONTS))
     .on('glyphs', (glyphs, options) => {
       const data = {
@@ -46,7 +56,7 @@ gulp.task('iconfont', () => {
       // Generate glyphs json
       const jsonStream = gulp.src('./src/sketch/20px.sketch')
         .pipe(json(data.glyphs))
-        .pipe(gulp.dest('./lib'))
+        .pipe(gulp.dest('./gh-pages'))
 
       // Convert css template
       const cssStream = gulp.src('./src/templates/tb-icons.css')

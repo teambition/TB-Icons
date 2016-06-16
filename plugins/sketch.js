@@ -1,6 +1,7 @@
 import { spawn } from 'child_process'
 import del from 'del'
 import fs from 'fs'
+import inflection from 'inflection'
 import dir from 'node-dir'
 import path from 'path'
 import through from 'through2'
@@ -52,7 +53,7 @@ export default function(options = {}) {
           const data = {
             cwd: source.cwd,
             base: source.base,
-            path: path.join(source.base, path.basename(v)),
+            path: path.join(source.base, inflection.dasherize(path.basename(v).toLowerCase())),
             contents: fs.readFileSync(v)
           }
 
@@ -60,6 +61,7 @@ export default function(options = {}) {
         })
 
         del.sync(cachePath)
+
         callback()
       })
     })

@@ -1,18 +1,24 @@
 import { spawn } from 'child_process'
-import File from 'vinyl'
+import inflection from 'inflection'
 import path from 'path'
 import through from 'through2'
+import File from 'vinyl'
 
 const toSlices = (s, v) => {
   const addSlice = (s, v) => {
     if (v['name'] && v['name'].length > 0) {
-      const names = v['name'].split('/')
+      const transformedNames = inflection.dasherize(v['name'])
+
+      const names = transformedNames.split('/')
 
       const name = names[names.length - 1]
 
       const group = names.length > 1 ? names[0] : 'uncategorized'
 
-      return s.concat({ name, group })
+      return s.concat({
+        name: name.toLowerCase(),
+        group: group.toLowerCase()
+      })
     } else {
       return s
     }
@@ -76,15 +82,6 @@ export default function(glyphs = []) {
 
       const sortedSlices = slices.sort(sortName)
 
-      const svgsymbolsJson = {
-        cwd: source.cwd,
-        base: source.base,
-        path: path.join(source.base, 'svg-symbols.json'),
-        contents: new Buffer(JSON.stringify(sortedSlices, null, 2))
-      }
-
-      this.push(new File(svgsymbolsJson))
-
       const groups = glyphs.reduce(toGroups(sortedSlices), [])
 
       const sortedGroups = groups.sort(sortName)
@@ -92,7 +89,7 @@ export default function(glyphs = []) {
       const iconfontsJson = {
         cwd: source.cwd,
         base: source.base,
-        path: path.join(source.base, 'iconfonts.json'),
+        path: path.join(source.base, 'glyphs.json'),
         contents: new Buffer(JSON.stringify(sortedGroups, null, 2))
       }
 
