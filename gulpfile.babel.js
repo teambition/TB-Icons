@@ -24,7 +24,9 @@ gulp.task('default', (callback) => {
 gulp.task('build', (callback) => {
   sequence(
     'svg',
-    ['iconfont', 'svgsymbols'],
+    'iconfont',
+    'svgmin',
+    'svgsymbols',
     callback
   )
 })
@@ -76,14 +78,19 @@ gulp.task('iconfont', () => {
 gulp.task('svg', () => {
   return gulp.src('./src/sketch/20px.sketch')
     .pipe(sketch(config.SKETCH))
-    .pipe(svgmin(config.SKETCH_SVGMIN))
+    .pipe(gulp.dest('./lib/svgs'))
+})
+
+gulp.task('svgmin', () => {
+  return gulp.src('./lib/svgs/*.svg')
+    .pipe(svgmin(config.svgoConfig()))
     .pipe(gulp.dest('./lib/svgs'))
 })
 
 gulp.task('svgsymbols', () => {
   return gulp.src('./lib/svgs/*.svg')
     .pipe(svgsymbols(config.SVGSYMBOLS))
-    .pipe(svgmin(config.SVGSYMBOLS_SVGMIN))
+    .pipe(svgmin(config.svgoConfig(false)))
     .pipe(rename('svg-symbols.svg'))
     .pipe(gulp.dest('./lib'))
 })
