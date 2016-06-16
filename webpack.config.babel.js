@@ -28,12 +28,12 @@ let config = {
   entry: {
     iconfonts: [
       './lib/tb-icons.styl',
-      './gh-pages/common.styl',
-      './gh-pages/app.js'
+      './src/gh-pages/common.styl',
+      './src/gh-pages/app.js'
     ],
     svgs: [
-      './gh-pages/common.styl',
-      './gh-pages/app.js'
+      './src/gh-pages/common.styl',
+      './src/gh-pages/app.js'
     ]
   },
   output: {
@@ -131,21 +131,21 @@ let config = {
       inject: false,
       minify: htmlminOptions,
       filename: 'index.html',
-      template: './gh-pages/index.html',
+      template: './src/gh-pages/index.html',
       showErrors: true
     }),
     new HtmlWebpackPlugin({
       inject: false,
       minify: htmlminOptions,
       filename: 'iconfonts/index.html',
-      template: './gh-pages/iconfonts/index.html',
+      template: './src/gh-pages/iconfonts/index.html',
       showErrors: true
     }),
     new HtmlWebpackPlugin({
       inject: false,
       minify: htmlminOptions,
       filename: 'svgs/index.html',
-      template: './gh-pages/svgs/index.html',
+      template: './src/gh-pages/svgs/index.html',
       showErrors: true
     })
   ],
