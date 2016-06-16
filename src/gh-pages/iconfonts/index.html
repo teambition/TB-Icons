@@ -1,0 +1,80 @@
+<% var glyphs = require("../glyphs.json") %>
+<% var svgSymbolsUrl = require("../../../lib/svg-symbols.svg") %>
+
+<!DOCTYPE html>
+<head>
+  <title>TB-Icons - Iconfonts</title>
+  <%- include ../head.html -%>
+  <% if (htmlWebpackPlugin.files.chunks.iconfonts.css) { %>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.iconfonts.css %>">
+  <% } %>
+  <script src="<%= htmlWebpackPlugin.files.chunks.iconfonts.entry %>" defer></script>
+</head>
+<body>
+  <main>
+
+    <aside class="aside">
+
+      <h2 class="aside-header">
+        <span class="icon icon-t"></span>
+        Iconfonts
+      </h2>
+
+      <nav class="aside-nav">
+        <ul>
+          <% glyphs.forEach(function(glyphGroup) { %>
+            <li>
+              <a href="#<%= glyphGroup['name'] %>">
+                <%= glyphGroup['name'] %>
+              </a>
+            </li>
+          <% }) %>
+        </ul>
+
+        <a href="../svgs">
+          <svg class="svg-symbols" role="img">
+            <use xlink:href="<%= svgSymbolsUrl %>#palette"></use>
+          </svg>
+          SVG Symbols
+        </a>
+        <a href="https://github.com/teambition/TB-Icons">
+          <svg class="svg-symbols" role="img">
+            <use xlink:href="<%= svgSymbolsUrl %>#github"></use>
+          </svg>
+          Fork on GitHub
+        </a>
+      </nav>
+
+    </aside>
+
+    <section class="section">
+
+      <% glyphs.forEach(function(glyphGroup) { %>
+        <article class="article">
+          <h2 class="title" id="<%= glyphGroup['name'] %>"><%= glyphGroup['name'] %></h2>
+          <ul>
+            <% glyphGroup['glyphs'].forEach(function(glyph) { %>
+              <li class="card" title="<%= glyph['name'] %>">
+                <div class="code" title="<%= glyph['unicode'] %>"><%= glyph['unicode'] %></div>
+                <div class="content">
+                  <span class="icon icon-<%= glyph['name'] %>"></span>
+                  <div class="text"><%= glyph['name'] %></div>
+                </div>
+                <div class="handler">
+                  <button class="copy-handler" data-clipboard-text="\<%= glyph['unicode'] %>">
+                    <span class="text">CODE</span>
+                  </button>
+                  <button class="copy-handler" data-clipboard-text="icon-<%= glyph['name'] %>">
+                    <span class="text">ICON</span>
+                  </button>
+                </div>
+              </li>
+            <% }) %>
+          </ul>
+        </article>
+      <% }) %>
+
+    </section>
+
+  </main>
+</body>
