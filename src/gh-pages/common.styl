@@ -1,0 +1,277 @@
+@import url('//fonts.googleapis.com/css?family=Lato')
+@import url('//fonts.googleapis.com/css?family=Ubuntu:400,700')
+
+@import '~normalize.css/normalize.css'
+
+black = #333
+black-border = 1px solid black
+
+blue = #03A9F4
+blue-border = 1px solid blue
+
+gray = #F9F9F9
+
+white = #FFF
+
+aside-width = 200px
+
+clearfix()
+  &:before
+
+  &:after
+    content: ''
+    display: table
+
+  &:after
+    clear: both
+
+*, *:before, *:after
+  box-sizing: border-box
+
+body
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif
+  font-size: 16px
+  line-height: 1.5
+
+  background-color: white
+  color: black
+  fill: black
+
+a
+  text-decoration: none
+  color: inherit
+  cursor: pointer
+
+button
+  margin: 0
+  padding: 0
+
+  background-color: transparent
+  border: 0
+  color: inherit
+  outline: 0
+
+  cursor: pointer
+
+ul
+  margin: 0
+  padding: 0
+
+  list-style: none
+
+.aside
+  position: fixed
+
+  top: 0
+  left: 0
+  bottom: 0
+
+  width: aside-width
+
+  overflow: auto
+
+  background-color: white
+  border-right: black-border
+
+.aside-header
+  margin: 0
+  padding: 15px
+
+  font-family: 'Ubuntu', sans-serif
+  font-size: 22px
+  text-transform: uppercase
+
+  background-color: black
+  color: white
+
+.aside-nav
+  ul
+    padding: 10px 0
+
+    border-bottom: black-border
+
+    li > a
+      text-transform capitalize
+
+  a
+    display: flex
+
+    padding: 8px 15px
+
+    align-items: center
+
+    &:hover
+      background-color: black
+      color: white
+      fill: white
+
+    .svg-symbols
+      height: 30px
+      width: 30px
+
+      margin-right: 8px
+
+.section
+  margin-left: aside-width
+
+  padding: 20px
+
+  overflow: auto
+
+.article
+
+  ul
+    clearfix()
+
+  & + .article
+    margin-top: 20px
+
+  .title
+    margin: 0 1%
+
+    font-size: 36px
+    line-height: 2
+    text-transform: uppercase
+
+.card
+  @media (min-width: 1200px)
+    width: 18%
+    margin: 1%
+
+  @media (max-width: 1200px)
+    width: 23%
+    margin: 1%
+
+  @media (max-width: 900px)
+    width: 48%
+    margin: 1%
+
+  @media (max-width: 480px)
+    width: 98%
+    margin: 4% 1%
+
+.card
+  float: left
+
+  overflow: hidden
+
+  text-align: center
+
+  border: black-border
+  border-radius: 4px
+
+  transition: border-color .3s ease,
+              color .3s ease,
+              fill .3s ease
+
+  &:hover
+    border-color: blue
+    color: blue
+    fill: blue
+
+  .code
+    padding: 7px 10px
+
+    overflow: hidden
+
+    text-overflow: ellipsis
+    white-space: nowrap
+
+    background-color: black
+    color: white
+
+    transition: background-color .3s ease
+
+  &:hover .code
+    background-color: blue
+
+  .content
+    padding: 10px
+
+    .icon
+      font-size: 60px
+      line-height: 1
+
+      transition: transform .3s ease
+
+    .svg-symbols
+      height: 50%
+      width: 50%
+
+      transition: transform .3s ease
+
+    .text
+      width: 100%
+
+      overflow: hidden
+
+      text-overflow: ellipsis
+      white-space: nowrap
+
+  &:hover
+    .content .icon,
+    .content .svg-symbols
+      transform: scale(1.2)
+
+  .handler
+    display: flex
+
+    border-top: black-border
+
+    transition: border-color .3s ease
+
+  &:hover .handler
+    border-color: blue
+
+  .copy-handler
+    position: relative
+
+    height: 40px
+    width: 100%
+
+    flex: 1
+
+    overflow: hidden
+
+    text-align center
+    text-transform: capitalize
+
+    transition: border-color .3s ease
+
+    & + .copy-handler
+      border-left: black-border
+
+    &:hover
+      background-color: blue
+      color: white
+
+    .text
+      position: absolute
+
+      top: 0
+      left: 0
+
+      height: 40px
+      width: 100%
+
+      line-height: 40px
+
+  &:hover .copy-handler
+    border-color: blue
+
+.pop-up
+  animation: pop-up .1s ease
+
+@keyframes pop-up {
+  0% {
+    transform: scale(1)
+  }
+
+  50% {
+    transform: scale(1.5)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
