@@ -16,23 +16,30 @@ const htmlminOptions = {
   sortClassName: IS_BUILD
 }
 
+const DEV_HOST = process.env.HOST || 'localhost'
+const DEV_PORT = process.env.PORT || '8080'
+
+const publicPath = {
+  dev: `http://${DEV_HOST}:${DEV_PORT}/`,
+  build: 'http://teambition.github.io/TB-Icons/'
+}
+
 let config = {
   entry: {
     iconfonts: [
+      './lib/tb-icons.styl',
       './gh-pages/common.styl',
-      './gh-pages/iconfonts/style.styl',
-      './gh-pages/iconfonts/app.js'
+      './gh-pages/app.js'
     ],
     svgs: [
       './gh-pages/common.styl',
-      './gh-pages/svgs/style.styl',
-      './gh-pages/svgs/app.js'
+      './gh-pages/app.js'
     ]
   },
   output: {
     path: './build',
     filename: JS_NAME,
-    publicPath: 'http://localhost:8080/'
+    publicPath: IS_BUILD ? publicPath.build : publicPath.dev
   },
   resolve: {
     extensions: [
@@ -158,6 +165,10 @@ let config = {
 if (!IS_BUILD) {
   config.debug = true
   config.devtool = 'eval-source-map'
+  config.devServer = {
+    host: DEV_HOST,
+    port: DEV_PORT
+  }
 
   config.plugins = config.plugins.concat([
     new webpack.NoErrorsPlugin(),
@@ -167,7 +178,7 @@ if (!IS_BUILD) {
   Object.keys(config.entry).forEach(function(key) {
     config.entry[key] = config.entry[key].concat(
       'webpack/hot/dev-server',
-      `webpack-dev-server/client?http://localhost:8080`
+      `webpack-dev-server/client?${publicPath.dev}`
     )
   })
 }
