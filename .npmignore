@@ -6,9 +6,11 @@
 
 /.babelrc
 /gulpfile.babel.js
+/webpack.config.babel.js
 
 /_gh_pages
 /assets
-/gh-pages
+/build
 /node_modules
+/plugins
 /src
