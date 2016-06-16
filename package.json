@@ -8,8 +8,8 @@
     "dev": "npm run gulp:dev & npm run webpack:dev",
     "preghpages": "npm run gulp:build && npm run webpack:build",
     "ghpages": "./node_modules/.bin/gulp gh-pages",
-    "gulp:build": "./node_modules/.bin/gulp",
-    "gulp:dev": "./node_modules/.bin/gulp dev",
+    "gulp:build": "NODE_ENV=build ./node_modules/.bin/gulp",
+    "gulp:dev": "NODE_ENV=development ./node_modules/.bin/gulp dev",
     "prewebpack:build": "rm -rf ./build",
     "webpack:build": "NODE_ENV=build ./node_modules/.bin/webpack --progress",
     "webpack:dev": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --hot --progress"
