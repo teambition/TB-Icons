@@ -1,62 +1,87 @@
-## TB-ICONS: Find & Copy Playing
+# TB Icons
+
 A classified icons set that consists of a part of Material Design icons and some original icons by [TB-UI](https://www.github.com/teambition/tb-ui) team. Available in Icon Fonts and SVG Symbols.
 
-![TB-Icons Logo](./images/tb-icons-screenshot.png)
+You can check out all [iconfonts](http://teambition.github.io/TB-Icons/v2/iconfonts/) or all [SVG symbols](http://teambition.github.io/TB-Icons/v2/svgs/)
+
+
+### Updates
+
+Now the package has updated to version 0.2.0, if you are looking for the old version, checkout [v1](https://github.com/teambition/TB-Icons/tree/v1) branch or open [gh-pages/v1](http://teambition.github.io/TB-Icons/v1).
+
 
 ### Installation
-```
-npm i tb-icons --save
-```
-
-### Font Icons Usage
-
-Move the fonts with Gulp:
-```
-gulp.task('move-fonts', function () {
-  gulp.src('node_modules/tb-icons/dist/fonts/**/*')
-    .pipe(gulp.dest('static/fonts/'))
-})
-```
-
-Include the style in Stylus:
 
 ```
-@import 'tb-icons'
+npm install tb-icons
 ```
 
-Get an icon in Jade:
-```
-span.icon.icon-t
-```
 
-Check out [the font icons page](http://teambition.github.io/TB-Icons/font-icons/) to see all font icons.
+### Import
 
-### SVG Symbols Usage
-Inline combined SVG reference into body, then drop a `<use>` element snippet like this:
+* Webpack
 
-``` xml
-<svg role="img" class="ss-t">
-  <use xlink:href="#t"></use>
-</svg>
-```
+  Make sure install `url-loader`, `file-loader` to resolve iconfonts files or svg files, and install target `*-loader` to import icon stylesheets, like `stylus-loader`, `less-loader`, etc.
 
-Or directly link the external `svg-symbols` file:
-``` xml
-<svg role="img" class="ss-t">
-  <use xlink:href="#{svg-path}/svg-symbols.svg#t"></use>
-</svg>
-```
+* LESS
 
-All SVG symbols available on [the SVG symbols page](http://teambition.github.io/TB-Icons/svg-symbols/).
+  ```
+  @import (css) "path/to/tb-icons/lib/tb-icons.less";
+  ```
+
+* Stylus
+
+  ```
+  @import 'path/to/tb-icons/lib/tb-icons.styl'
+  ```
+
+* Gulp
+
+  Move the fonts with Gulp
+
+  ```
+  gulp.task('move-fonts', function () {
+    gulp.src('node_modules/tb-icons/lib/fonts/**/*')
+      .pipe(gulp.dest('path/to/fonts/'))
+  })
+  ```
+
+
+### Usage
+
+* Class Name
+
+  Ensure you've import relative stylesheets, and use it within existed icons
+
+  ```
+  <span class="icon icon-{Icon Name}"></span>
+  ```
+
+* SVG Symbols
+
+  Inline combined SVG reference into body, then drop a `<use>` element snippet
+
+  ```
+  <svg role="img">
+    <use xlink:href="#{Icon Name}></use>
+  </svg>
+  ```
+
+  Or directly link the external `svg-symbols` file:
+
+  ```
+  <svg role="img">
+    <use xlink:href="{Url}/svg-symbols.svg#{Icon Name}"></use>
+  </svg>
+  ```
+
 
 ### Development
-The source files can be found in the [`src`](src) directory.
 
-While developing, you should use the command `gulp && gulp serve` to create a watcher and run a docs server with livereload.
+New version of TB-Icons required a valid `Sketch` file to generate all resources, please make sure you have rights to create more assets, or you can ask designers to distribute that.
 
-Then, to update the icon fonts, SVG font, and the icon name-unicode pairs store, preview immediately on `localhost:8001`.
+All build process can be found in `gulpfile.babel.js` and local development is required for `webpack`.
 
-Lastly, commit your great works, release a new version, use `gulp deploy` to publish docs to GitHub Pages.
 
 ### License
-This work is licensed under the MIT license.
+[MIT](https://opensource.org/licenses/MIT)
