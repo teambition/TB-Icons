@@ -42,7 +42,9 @@ gulp.task('clean', (callback) => {
 
 gulp.task('gh-pages', () => {
   return gulp.src('./build/**/*')
-    .pipe(ghpages())
+    .pipe(ghpages({
+      add: true
+    }))
 })
 
 gulp.task('iconfont', () => {

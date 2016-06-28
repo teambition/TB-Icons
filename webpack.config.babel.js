@@ -21,7 +21,7 @@ const DEV_PORT = process.env.PORT || '8080'
 
 const publicPath = {
   dev: `http://${DEV_HOST}:${DEV_PORT}/`,
-  build: 'http://teambition.github.io/TB-Icons/'
+  build: 'http://teambition.github.io/TB-Icons/v2/'
 }
 
 let config = {
@@ -37,7 +37,7 @@ let config = {
     ]
   },
   output: {
-    path: './build',
+    path: './build/v2',
     filename: JS_NAME,
     publicPath: IS_BUILD ? publicPath.build : publicPath.dev
   },

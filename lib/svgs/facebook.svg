@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs></defs>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Web" transform="translate(-289.000000, -988.000000)" fill="#000000">
-            <g id="brand/facebook" transform="translate(289.000000, 988.000000)">
-                <path d="M12.71872,4.40624 L14,4.40624 L14,2 L11.21872,2 C10,2 8.46864,3.15632 8.46864,4.87504 L8.46864,7.71872 L6,7.71872 L6,10.34368 L8.46864,10.34368 L8.46864,18 L11.24992,18 L11.24992,10.34368 L13.74992,10.34368 L13.74992,7.71872 L11.24992,7.71872 L11.24992,5.56256 C11.24992,4.90624 12.09376,4.40624 12.71872,4.40624 L12.71872,4.40624 Z" id="Shape"></path>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <path fill="#000" fill-rule="evenodd" d="M12.719 4.406H14V2h-2.781a2.928 2.928 0 0 0-2.75 2.875v2.844H6v2.625h2.469V18h2.78v-7.656h2.5V7.719h-2.5V5.563c0-.657.845-1.157 1.47-1.157z"/>
 </svg>

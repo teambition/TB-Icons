@@ -4,7 +4,6 @@
 
 *.log
 
-/_gh_pages
 /build
 /node_modules
 /src/sketch/20px.sketch

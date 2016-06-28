@@ -37,6 +37,7 @@
     "ejs-compiled-loader": "^2.1.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
+    "gh-pages": "^0.11.0",
     "gulp": "^3.9.0",
     "gulp-consolidate": "^0.2.0",
     "gulp-gh-pages": "^0.5.4",
