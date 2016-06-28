@@ -1,7 +1,6 @@
 import consolidate from 'gulp-consolidate'
 import del from 'del'
 import gulp from 'gulp'
-import ghpages from 'gulp-gh-pages'
 import iconfont from 'gulp-iconfont'
 import merge from 'merge-stream'
 import rename from 'gulp-rename'
@@ -32,19 +31,16 @@ gulp.task('build', (callback) => {
   )
 })
 
+gulp.task('publish', (callback) => {
+  // TODO
+})
+
 gulp.task('dev', ['build'], () => {
   return gulp.watch('./src/sketch/20px.sketch', ['build'])
 })
 
 gulp.task('clean', (callback) => {
   return del(['./lib/**/*'])
-})
-
-gulp.task('gh-pages', () => {
-  return gulp.src('./build/**/*')
-    .pipe(ghpages({
-      add: true
-    }))
 })
 
 gulp.task('iconfont', () => {
