@@ -2,7 +2,7 @@
 
 A classified icons set that consists of a part of Material Design icons and some original icons by [TB-UI](https://www.github.com/teambition/tb-ui) team. Available in Icon Fonts and SVG Symbols.
 
-You can check out all [iconfonts](http://teambition.github.io/TB-Icons/v2/iconfonts/) or all [SVG symbols](http://teambition.github.io/TB-Icons/v2/svgs/)
+You can check out all [Iconfonts](http://teambition.github.io/TB-Icons/v2/iconfonts/) or all [SVG symbols](http://teambition.github.io/TB-Icons/v2/svgs/)
 
 
 ### Updates
@@ -26,7 +26,7 @@ npm install tb-icons
 * LESS
 
   ```
-  @import (css) "path/to/tb-icons/lib/tb-icons.less";
+  @import (css) "path/to/tb-icons/lib/tb-icons.css";
   ```
 
 * Stylus
