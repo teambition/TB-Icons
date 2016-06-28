@@ -1,0 +1,84 @@
+<% var glyphs = require("../glyphs.json") %>
+<% var svgSymbolsUrl = require("../../../lib/svg-symbols.svg") %>
+<% var svgSymbolsText = function(text) {
+  return "<svg role=\"img\"><use xlink:href=\"#" + text + "\"></use></svg>"
+} %>
+
+<!DOCTYPE html>
+<head>
+  <title>TB-Icons - SVG Symbols</title>
+  <%- include ../head.html -%>
+  <% if (htmlWebpackPlugin.files.chunks.svgs.css) { %>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.svgs.css %>">
+  <% } %>
+  <script src="<%= htmlWebpackPlugin.files.chunks.svgs.entry %>" defer></script>
+</head>
+<body>
+
+  <main>
+    <aside class="aside">
+
+      <h2 class="aside-header">
+        <span class="icon icon-t"></span>
+        SVG Symbols
+      </h2>
+
+      <nav class="aside-nav">
+        <ul>
+          <% glyphs.forEach(function(glyphGroup) { %>
+            <li>
+              <a href="#<%= glyphGroup['name'] %>">
+                <%= glyphGroup['name'] %>
+              </a>
+            </li>
+          <% }) %>
+        </ul>
+
+        <a href="../iconfonts">
+          <svg class="svg-symbols" role="img">
+            <use xlink:href="<%= svgSymbolsUrl %>#emoji"></use>
+          </svg>
+          Iconfonts
+        </a>
+        <a href="https://github.com/teambition/TB-Icons">
+          <svg class="svg-symbols" role="img">
+            <use xlink:href="<%= svgSymbolsUrl %>#github"></use>
+          </svg>
+          Fork on GitHub
+        </a>
+      </nav>
+
+    </aside>
+
+    <section class="section">
+
+      <% glyphs.forEach(function(glyphGroup) { %>
+        <article class="article">
+          <h2 class="title" id="<%= glyphGroup['name'] %>"><%= glyphGroup['name'] %></h2>
+          <ul>
+            <% glyphGroup['glyphs'].forEach(function(glyph) { %>
+              <li class="card" title="<%= glyph['name'] %>">
+                <div class="code">#<%= glyph['name'] %></div>
+                <div class="content">
+                  <svg class="svg-symbols" role="img">
+                    <use xlink:href="<%= svgSymbolsUrl %>#<%= glyph['name'] %>"></use>
+                  </svg>
+                </div>
+                <div class="handler">
+                  <button class="copy-handler" data-clipboard-text="#<%= glyph['name'] %>">
+                    <span class="text">ID</span>
+                  </button>
+                  <button class="copy-handler" data-clipboard-text="<%= svgSymbolsText(glyph['name']) %>">
+                    <span class="text">SVG</span>
+                  </button>
+                </div>
+              </li>
+            <% }) %>
+          </ul>
+        </article>
+      <% }) %>
+
+    </section>
+
+  </main>
+</body>

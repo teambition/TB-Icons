@@ -1,5 +1,9 @@
-node_modules
-_gh_pages
 .DS_Store
 .idea
 .publish
+
+*.log
+
+/build
+/node_modules
+/src/sketch/20px.sketch

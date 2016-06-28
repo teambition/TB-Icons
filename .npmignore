@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+.publish
+
+*.log
+
+/.babelrc
+/gulpfile.babel.js
+/webpack.config.babel.js
+
+/_gh_pages
+/assets
+/build
+/node_modules
+/plugins
+/scripts
+/src
