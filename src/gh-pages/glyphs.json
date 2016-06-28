@@ -19,7 +19,7 @@
         "unicode": "EA0F"
       },
       {
-        "name": "brefcase",
+        "name": "briefcase",
         "unicode": "EA12"
       },
       {
@@ -307,52 +307,40 @@
         "unicode": "EACE"
       },
       {
-        "name": "team-building",
-        "unicode": "EACF"
-      },
-      {
-        "name": "team-camera",
-        "unicode": "EAD0"
-      },
-      {
-        "name": "team-location",
-        "unicode": "EAD1"
-      },
-      {
-        "name": "team-medal",
-        "unicode": "EAD2"
-      },
-      {
-        "name": "terminal",
-        "unicode": "EAD3"
-      },
-      {
-        "name": "th",
-        "unicode": "EAD5"
-      },
-      {
-        "name": "tick",
-        "unicode": "EAD6"
-      },
-      {
-        "name": "tie",
-        "unicode": "EAD7"
-      },
-      {
-        "name": "unarchive",
+        "name": "team-tie",
         "unicode": "EAE0"
       },
       {
-        "name": "unlock",
+        "name": "terminal",
+        "unicode": "EAE1"
+      },
+      {
+        "name": "th",
         "unicode": "EAE3"
       },
       {
+        "name": "tick",
+        "unicode": "EAE4"
+      },
+      {
+        "name": "tie",
+        "unicode": "EAE5"
+      },
+      {
+        "name": "unarchive",
+        "unicode": "EAEE"
+      },
+      {
+        "name": "unlock",
+        "unicode": "EAF1"
+      },
+      {
         "name": "video",
-        "unicode": "EAEA"
+        "unicode": "EAF8"
       },
       {
         "name": "wall",
-        "unicode": "EAEB"
+        "unicode": "EAF9"
       }
     ]
   },
@@ -505,19 +493,19 @@
       },
       {
         "name": "top-up",
-        "unicode": "EAD8"
+        "unicode": "EAE6"
       },
       {
         "name": "turn-left",
-        "unicode": "EADB"
+        "unicode": "EAE9"
       },
       {
         "name": "turn-right",
-        "unicode": "EADC"
+        "unicode": "EAEA"
       },
       {
         "name": "upload",
-        "unicode": "EAE7"
+        "unicode": "EAF5"
       }
     ]
   },
@@ -554,7 +542,7 @@
       },
       {
         "name": "travel",
-        "unicode": "EADA"
+        "unicode": "EAE8"
       }
     ]
   },
@@ -611,31 +599,31 @@
       },
       {
         "name": "twitter",
-        "unicode": "EADD"
+        "unicode": "EAEB"
       },
       {
         "name": "wechat",
-        "unicode": "EAED"
+        "unicode": "EAFB"
       },
       {
         "name": "weibo",
-        "unicode": "EAEE"
+        "unicode": "EAFC"
       },
       {
         "name": "wps",
-        "unicode": "EAEF"
+        "unicode": "EAFD"
       },
       {
         "name": "xiaomi",
-        "unicode": "EAF0"
+        "unicode": "EAFE"
       },
       {
         "name": "zendesk",
-        "unicode": "EAF1"
+        "unicode": "EAFF"
       },
       {
         "name": "zhihu",
-        "unicode": "EAF2"
+        "unicode": "EB00"
       }
     ]
   },
@@ -798,11 +786,11 @@
       },
       {
         "name": "underline",
-        "unicode": "EAE2"
+        "unicode": "EAF0"
       },
       {
         "name": "unordered-list",
-        "unicode": "EAE4"
+        "unicode": "EAF2"
       }
     ]
   },
@@ -847,15 +835,15 @@
       },
       {
         "name": "text-file",
-        "unicode": "EAD4"
+        "unicode": "EAE2"
       },
       {
         "name": "update-file",
-        "unicode": "EAE5"
+        "unicode": "EAF3"
       },
       {
         "name": "upload-file",
-        "unicode": "EAE6"
+        "unicode": "EAF4"
       }
     ]
   },
@@ -889,11 +877,11 @@
       },
       {
         "name": "ul-sort",
-        "unicode": "EADE"
+        "unicode": "EAEC"
       },
       {
         "name": "ul",
-        "unicode": "EADF"
+        "unicode": "EAED"
       }
     ]
   },
@@ -942,7 +930,80 @@
       },
       {
         "name": "trash",
+        "unicode": "EAE7"
+      }
+    ]
+  },
+  {
+    "name": "team",
+    "glyphs": [
+      {
+        "name": "team-briefcase",
+        "unicode": "EACF"
+      },
+      {
+        "name": "team-building",
+        "unicode": "EAD0"
+      },
+      {
+        "name": "team-bulb",
+        "unicode": "EAD1"
+      },
+      {
+        "name": "team-bus",
+        "unicode": "EAD2"
+      },
+      {
+        "name": "team-calculator",
+        "unicode": "EAD3"
+      },
+      {
+        "name": "team-camera",
+        "unicode": "EAD4"
+      },
+      {
+        "name": "team-compass",
+        "unicode": "EAD5"
+      },
+      {
+        "name": "team-flag",
+        "unicode": "EAD6"
+      },
+      {
+        "name": "team-graph",
+        "unicode": "EAD7"
+      },
+      {
+        "name": "team-location",
+        "unicode": "EAD8"
+      },
+      {
+        "name": "team-loudspeaker",
         "unicode": "EAD9"
+      },
+      {
+        "name": "team-medal",
+        "unicode": "EADA"
+      },
+      {
+        "name": "team-notebook",
+        "unicode": "EADB"
+      },
+      {
+        "name": "team-pen",
+        "unicode": "EADC"
+      },
+      {
+        "name": "team-stamp",
+        "unicode": "EADD"
+      },
+      {
+        "name": "team-talk",
+        "unicode": "EADE"
+      },
+      {
+        "name": "team-terminal",
+        "unicode": "EADF"
       }
     ]
   },
@@ -995,7 +1056,7 @@
       },
       {
         "name": "warning",
-        "unicode": "EAEC"
+        "unicode": "EAFA"
       }
     ]
   },
@@ -1020,15 +1081,15 @@
       },
       {
         "name": "unassigned",
-        "unicode": "EAE1"
+        "unicode": "EAEF"
       },
       {
         "name": "user",
-        "unicode": "EAE8"
+        "unicode": "EAF6"
       },
       {
         "name": "users",
-        "unicode": "EAE9"
+        "unicode": "EAF7"
       }
     ]
   }
