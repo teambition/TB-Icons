@@ -7,6 +7,7 @@ import rename from 'gulp-rename'
 import sequence from 'run-sequence'
 import svgmin from 'gulp-svgmin'
 import svgsymbols from 'gulp-svg-symbols'
+import ghPages from 'gulp-gh-pages'
 
 import * as config from './plugins/config'
 
@@ -39,6 +40,11 @@ gulp.task('dev', ['build'], () => {
   return gulp.watch('./src/sketch/20px.sketch', ['build'])
 })
 
+gulp.task('deploy', () => {
+  return gulp.src('./build/**/*')
+    .pipe(ghPages())
+})
+
 gulp.task('clean', (callback) => {
   return del(['./lib/**/*'])
 })
@@ -67,12 +73,12 @@ gulp.task('iconfont', () => {
       // Convert css template
       const cssStream = gulp.src('./src/templates/tb-icons.css')
         .pipe(consolidate('lodash', data))
-        .pipe(gulp.dest('./lib'))
+        .pipe(gulp.dest('./lib/styles'))
 
       // Convert stylus template
       const stylusStream = gulp.src('./src/templates/tb-icons.styl')
         .pipe(consolidate('lodash', data))
-        .pipe(gulp.dest('./lib'))
+        .pipe(gulp.dest('./lib/styles'))
 
       return merge(jsonStream, cssStream, stylusStream)
     })

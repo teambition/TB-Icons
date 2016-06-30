@@ -27,7 +27,7 @@ const publicPath = {
 let config = {
   entry: {
     iconfonts: [
-      './lib/tb-icons.styl',
+      './lib/styles/tb-icons.styl',
       './src/gh-pages/common.styl',
       './src/gh-pages/app.js'
     ],
