@@ -17,6 +17,7 @@ module.exports = {
   checkboxIosChecked: 'b211',
   circle: 'b202',
   crown: 'a062',
+  crop: 'b018',
   collapse: 'b011',
   collection: 'a059',
   comment: 'a01f',

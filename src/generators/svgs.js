@@ -29,6 +29,7 @@ module.exports = function () {
       if(icon) {
         if (icon.metadata.name.indexOf('notdef') !== -1) return
         icon.metadata.name = icon.metadata.name.toLowerCase().replace('.', '').replace('oo', '00')
+        delete icons['temp'] // Exclude temp category
         _.forEach(icons, function(subIcons) {
           _.find(subIcons, function(value, key) {
             if (value === icon.metadata.name) {
