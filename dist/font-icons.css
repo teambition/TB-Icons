@@ -474,6 +474,9 @@
 .icon-zendesk:before {
   content: '\af10';
 }
+.icon-jinshuju:before {
+  content: '\af1A';
+}
 .icon-add-list:before {
   content: '\a04f';
 }

@@ -23,5 +23,6 @@ module.exports = {
   wps: 'af0b',
   linkedin: 'af0f',
   processon: 'af15',
-  zendesk: 'af10'
+  zendesk: 'af10',
+  jinshuju: 'af1A'
 }
