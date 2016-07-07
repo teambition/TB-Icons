@@ -1,7 +1,9 @@
 import consolidate from 'gulp-consolidate'
 import del from 'del'
+import request from 'request'
 import gulp from 'gulp'
 import iconfont from 'gulp-iconfont'
+import download from 'gulp-download'
 import merge from 'merge-stream'
 import rename from 'gulp-rename'
 import sequence from 'run-sequence'
@@ -47,6 +49,24 @@ gulp.task('deploy', () => {
 
 gulp.task('clean', (callback) => {
   return del(['./lib/**/*'])
+})
+
+gulp.task('download', () => {
+  if (!process.env.TB_COOKIE) {
+    throw new Error('Download failed, TB_COOKIE is undefined.\n Please run: export TB_COOKIE="Your Teambition cookie"')
+  }
+  return request
+    .get({
+      url: 'https://www.teambition.com/api/works/577338e42873fdc76c6c2ad1',
+      headers: {
+        cookie: process.env.TB_COOKIE
+      }
+    }, (err, resp, body) => {
+      const url = JSON.parse(body).downloadUrl
+      return download(url)
+        .pipe(rename('20px.sketch'))
+        .pipe(gulp.dest('./src/sketch/'))
+    })
 })
 
 gulp.task('iconfont', () => {
