@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+@import url("./icons/font-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+.tb-logo {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+}
+/* ==== Page: Font-icons ==== */
+.page-font-icons .icons-nav {
+  top: 4%;
+  left: 3%;
+  width: 19%;
+  position: fixed;
+  max-height: 92%;
+  background: #f9f9f9;
+  border-radius: 2px;
+  overflow: auto;
+}
+.page-font-icons .icons-nav .nav-header {
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 1px dashed #e5e5e5;
+  margin: 0 15px;
+  margin-bottom: 3px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.page-font-icons .icons-nav .nav-header * {
+  font-family: 'Ubuntu';
+}
+.page-font-icons .icons-nav .icon-t {
+  position: relative;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+  color: #fff;
+  background: #000;
+}
+.page-font-icons .icons-nav .icon-t:before {
+  position: relative;
+  font-size: 18px;
+  left: 2px;
+  top: -2px;
+}
+.page-font-icons .icons-nav .nav-item {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 4.6% 15px;
+  transition: all 218ms;
+}
+.page-font-icons .icons-nav .nav-item[href*=temp] {
+  display: none;
+}
+.page-font-icons .icons-nav .nav-item:hover {
+  color: #03a9f4;
+  background: #f2f2f2;
+}
+.page-font-icons .icons-nav .nav-item:first-letter {
+  text-transform: uppercase;
+}
+.page-font-icons .icons-nav .goto-svg-symbols {
+  border-top: 1px dashed #e5e5e5;
+}
+.page-font-icons .icons-nav [class*=goto-] .icon {
+  margin-right: 10px;
+}
+.page-font-icons .icons-list {
+  width: 72%;
+  margin-left: 25%;
+  margin-bottom: 3%;
+}
+.page-font-icons .icons-list h2[id*=type-] {
+  line-height: 1.1;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  font-size: 36px;
+}
+.page-font-icons .icons-list h2[id*=type-]:first-letter {
+  text-transform: uppercase;
+}
+.page-font-icons .icons-list [class*=type-] {
+  margin-bottom: 10px;
+}
+.page-font-icons .icons-list [class*=type-]:before,
+.page-font-icons .icons-list [class*=type-]:after {
+  content: "";
+  display: table;
+}
+.page-font-icons .icons-list [class*=type-]:after {
+  clear: both;
+}
+.page-font-icons .icons-list .icon-card {
+  display: inline-block;
+  float: left;
+  width: 14.28%;
+  min-width: 130px;
+  height: 130px;
+  line-height: 1.2;
+  text-align: center;
+  border: 3px solid #fff;
+  background-color: #f9f9f9;
+  border-radius: 2px;
+  transition: all 218ms;
+  cursor: pointer;
+}
+.page-font-icons .icons-list .icon-card:hover {
+  background: #f2f2f2;
+}
+.page-font-icons .icons-list .icon-card:hover .icon-header {
+  border-bottom-color: #e3e3e3;
+  background-color: #eaeaea;
+}
+.page-font-icons .icons-list .icon-card .icon-header {
+  background-color: #f4f4f4;
+  padding: 7px 10px;
+  border-bottom: 1px dashed #efefef;
+  transition: all 218ms;
+}
+.page-font-icons .icons-list .icon-card .icon-header:hover {
+  color: #ff3c00;
+}
+.page-font-icons .icons-list .icon-card .icon-body > * {
+  transition: all 218ms;
+}
+.page-font-icons .icons-list .icon-card .icon-body:hover,
+.page-font-icons .icons-list .icon-card .icon-body:hover .name {
+  color: #03a9f4;
+}
+.page-font-icons .icons-list .icon-card .icon {
+  padding: 20px 0 12px;
+  font-size: 24px;
+}
+.page-font-icons .icons-list .icon-card .name {
+  font-size: 80%;
+  color: #0275a8;
+  padding: 0 10px 3px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page-font-icons #type-temp,
+.page-font-icons .type-temp {
+  display: none;
+}
