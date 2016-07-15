@@ -60,7 +60,10 @@ export const svgoConfig = (defaultValue = true) => {
       { "minifyStyles": true },
       { "moveElemsAttrsToGroup": true },
       { "moveGroupAttrsToElems": true },
-      { "removeAttrs": true },
+      { "removeAttrs": {
+          attrs: '(fill|fill-rule)'
+        }
+      },
       { "removeComments": true },
       { "removeDesc": true },
       { "removeDimensions": true },
