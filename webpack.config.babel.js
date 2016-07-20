@@ -17,7 +17,7 @@ const htmlminOptions = {
 }
 
 const DEV_HOST = process.env.HOST || 'localhost'
-const DEV_PORT = process.env.PORT || '8080'
+const DEV_PORT = process.env.PORT || '4200'
 
 const publicPath = {
   dev: `http://${DEV_HOST}:${DEV_PORT}/`,

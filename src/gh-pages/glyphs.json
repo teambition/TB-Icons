@@ -349,6 +349,27 @@
     ]
   },
   {
+    "name": "arrow",
+    "glyphs": [
+      {
+        "name": "chevron-down",
+        "unicode": "EA25"
+      },
+      {
+        "name": "chevron-left",
+        "unicode": "EA26"
+      },
+      {
+        "name": "chevron-right",
+        "unicode": "EA27"
+      },
+      {
+        "name": "chevron-up",
+        "unicode": "EA28"
+      }
+    ]
+  },
+  {
     "name": "audit",
     "glyphs": [
       {
@@ -909,22 +930,6 @@
       {
         "name": "checkbox-checked",
         "unicode": "EA22"
-      },
-      {
-        "name": "chevron-down",
-        "unicode": "EA25"
-      },
-      {
-        "name": "chevron-left",
-        "unicode": "EA26"
-      },
-      {
-        "name": "chevron-right",
-        "unicode": "EA27"
-      },
-      {
-        "name": "chevron-up",
-        "unicode": "EA28"
       },
       {
         "name": "circle-arrow-down-o",
