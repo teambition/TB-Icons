@@ -56,242 +56,246 @@
       },
       {
         "name": "checkbox",
-        "unicode": "EA25"
+        "unicode": "EA24"
       },
       {
         "name": "circle",
-        "unicode": "EA50"
+        "unicode": "EA4F"
       },
       {
         "name": "collapse",
-        "unicode": "EA53"
+        "unicode": "EA52"
       },
       {
         "name": "collection",
-        "unicode": "EA54"
+        "unicode": "EA53"
       },
       {
         "name": "comment-line",
-        "unicode": "EA55"
+        "unicode": "EA54"
       },
       {
         "name": "comments",
-        "unicode": "EA57"
+        "unicode": "EA56"
       },
       {
         "name": "compass",
-        "unicode": "EA59"
+        "unicode": "EA58"
       },
       {
         "name": "convert",
-        "unicode": "EA5B"
+        "unicode": "EA5A"
       },
       {
         "name": "copy",
-        "unicode": "EA5E"
+        "unicode": "EA5D"
       },
       {
         "name": "crown",
-        "unicode": "EA60"
+        "unicode": "EA5F"
       },
       {
         "name": "dig-line",
-        "unicode": "EA62"
+        "unicode": "EA61"
       },
       {
         "name": "dig",
-        "unicode": "EA63"
+        "unicode": "EA62"
       },
       {
         "name": "earth",
-        "unicode": "EA69"
+        "unicode": "EA68"
       },
       {
         "name": "envelope",
-        "unicode": "EA6C"
+        "unicode": "EA6B"
       },
       {
         "name": "eye",
-        "unicode": "EA6E"
+        "unicode": "EA6D"
       },
       {
         "name": "favorite",
-        "unicode": "EA70"
+        "unicode": "EA6F"
       },
       {
         "name": "flag",
-        "unicode": "EA78"
+        "unicode": "EA77"
       },
       {
         "name": "focus",
-        "unicode": "EA79"
+        "unicode": "EA78"
       },
       {
         "name": "graph",
-        "unicode": "EA82"
+        "unicode": "EA81"
       },
       {
         "name": "home",
-        "unicode": "EA85"
+        "unicode": "EA84"
       },
       {
         "name": "image",
-        "unicode": "EA88"
+        "unicode": "EA87"
       },
       {
         "name": "import-project",
-        "unicode": "EA89"
+        "unicode": "EA88"
       },
       {
         "name": "inbox",
-        "unicode": "EA8A"
+        "unicode": "EA89"
       },
       {
         "name": "intelligence",
-        "unicode": "EA8E"
+        "unicode": "EA8D"
       },
       {
         "name": "intro",
-        "unicode": "EA8F"
+        "unicode": "EA8E"
       },
       {
         "name": "leave",
-        "unicode": "EA94"
+        "unicode": "EA93"
       },
       {
         "name": "lightning",
-        "unicode": "EA95"
+        "unicode": "EA94"
       },
       {
         "name": "loading",
-        "unicode": "EA99"
+        "unicode": "EA98"
       },
       {
         "name": "location",
-        "unicode": "EA9A"
+        "unicode": "EA99"
       },
       {
         "name": "lock",
-        "unicode": "EA9B"
+        "unicode": "EA9A"
       },
       {
         "name": "loudspeaker",
-        "unicode": "EA9C"
+        "unicode": "EA9B"
       },
       {
         "name": "mail",
-        "unicode": "EA9D"
+        "unicode": "EA9C"
       },
       {
         "name": "mark-as-read",
-        "unicode": "EA9E"
+        "unicode": "EA9D"
       },
       {
         "name": "medal",
-        "unicode": "EAA0"
+        "unicode": "EA9F"
       },
       {
         "name": "menu-vertical",
-        "unicode": "EAA2"
+        "unicode": "EAA1"
       },
       {
         "name": "menu",
-        "unicode": "EAA3"
+        "unicode": "EAA2"
       },
       {
         "name": "more",
-        "unicode": "EAA4"
+        "unicode": "EAA3"
       },
       {
         "name": "move",
-        "unicode": "EAA7"
+        "unicode": "EAA6"
       },
       {
         "name": "mute",
-        "unicode": "EAA8"
+        "unicode": "EAA7"
       },
       {
         "name": "notebook",
-        "unicode": "EAAE"
+        "unicode": "EAAD"
       },
       {
         "name": "paperclip",
-        "unicode": "EACD"
+        "unicode": "EACC"
       },
       {
         "name": "pause",
-        "unicode": "EACE"
+        "unicode": "EACD"
       },
       {
         "name": "pen",
-        "unicode": "EACF"
+        "unicode": "EACE"
       },
       {
         "name": "picture",
-        "unicode": "EAD2"
+        "unicode": "EAD1"
       },
       {
         "name": "pin",
-        "unicode": "EAD3"
+        "unicode": "EAD2"
       },
       {
         "name": "play",
-        "unicode": "EAD5"
+        "unicode": "EAD4"
       },
       {
         "name": "project",
-        "unicode": "EADC"
+        "unicode": "EADB"
       },
       {
         "name": "putback",
-        "unicode": "EADE"
+        "unicode": "EADD"
       },
       {
         "name": "qrcode",
-        "unicode": "EAE0"
+        "unicode": "EADF"
       },
       {
         "name": "quit",
-        "unicode": "EAE2"
+        "unicode": "EAE1"
       },
       {
         "name": "refresh",
-        "unicode": "EAE5"
+        "unicode": "EAE4"
       },
       {
         "name": "review",
-        "unicode": "EAE9"
+        "unicode": "EAE8"
       },
       {
         "name": "rss",
-        "unicode": "EAEB"
+        "unicode": "EAEA"
       },
       {
         "name": "scanning",
-        "unicode": "EAED"
+        "unicode": "EAEC"
       },
       {
         "name": "search-text",
-        "unicode": "EAEF"
+        "unicode": "EAEE"
       },
       {
         "name": "search",
-        "unicode": "EAF1"
+        "unicode": "EAF0"
       },
       {
         "name": "share",
-        "unicode": "EAF2"
+        "unicode": "EAF1"
       },
       {
         "name": "sharp",
-        "unicode": "EAF7"
+        "unicode": "EAF6"
       },
       {
         "name": "stage",
-        "unicode": "EAF9"
+        "unicode": "EAF8"
       },
       {
         "name": "stamp",
+        "unicode": "EAF9"
+      },
+      {
+        "name": "star-stroke",
         "unicode": "EAFA"
       },
       {
@@ -357,23 +361,23 @@
       },
       {
         "name": "human",
-        "unicode": "EA87"
+        "unicode": "EA86"
       },
       {
         "name": "income",
-        "unicode": "EA8B"
+        "unicode": "EA8A"
       },
       {
         "name": "meal",
-        "unicode": "EA9F"
+        "unicode": "EA9E"
       },
       {
         "name": "normal",
-        "unicode": "EAAD"
+        "unicode": "EAAC"
       },
       {
         "name": "sale",
-        "unicode": "EAEC"
+        "unicode": "EAEB"
       },
       {
         "name": "travel",
@@ -386,55 +390,55 @@
     "glyphs": [
       {
         "name": "dingding",
-        "unicode": "EA64"
+        "unicode": "EA63"
       },
       {
         "name": "douban",
-        "unicode": "EA65"
+        "unicode": "EA64"
       },
       {
         "name": "dribbble",
-        "unicode": "EA67"
+        "unicode": "EA66"
       },
       {
         "name": "dropbox",
-        "unicode": "EA68"
+        "unicode": "EA67"
       },
       {
         "name": "evernote",
-        "unicode": "EA6D"
+        "unicode": "EA6C"
       },
       {
         "name": "facebook",
-        "unicode": "EA6F"
+        "unicode": "EA6E"
       },
       {
         "name": "github",
-        "unicode": "EA7F"
+        "unicode": "EA7E"
       },
       {
         "name": "google",
-        "unicode": "EA81"
+        "unicode": "EA80"
       },
       {
         "name": "jinshuju",
-        "unicode": "EA91"
+        "unicode": "EA90"
       },
       {
         "name": "linkedin",
-        "unicode": "EA98"
+        "unicode": "EA97"
       },
       {
         "name": "netease",
-        "unicode": "EAA9"
+        "unicode": "EAA8"
       },
       {
         "name": "processon",
-        "unicode": "EADB"
+        "unicode": "EADA"
       },
       {
         "name": "qq",
-        "unicode": "EADF"
+        "unicode": "EADE"
       },
       {
         "name": "twitter",
@@ -471,7 +475,7 @@
     "glyphs": [
       {
         "name": "post",
-        "unicode": "EAD9"
+        "unicode": "EAD8"
       },
       {
         "name": "state-check",
@@ -500,23 +504,23 @@
       },
       {
         "name": "clock",
-        "unicode": "EA51"
+        "unicode": "EA50"
       },
       {
         "name": "end-date",
-        "unicode": "EA6B"
+        "unicode": "EA6A"
       },
       {
         "name": "leave-state",
-        "unicode": "EA93"
+        "unicode": "EA92"
       },
       {
         "name": "new-schedule",
-        "unicode": "EAAA"
+        "unicode": "EAA9"
       },
       {
         "name": "repeat",
-        "unicode": "EAE8"
+        "unicode": "EAE7"
       },
       {
         "name": "start-date",
@@ -553,59 +557,59 @@
       },
       {
         "name": "emoji",
-        "unicode": "EA6A"
+        "unicode": "EA69"
       },
       {
         "name": "heading",
-        "unicode": "EA83"
+        "unicode": "EA82"
       },
       {
         "name": "horizontal",
-        "unicode": "EA86"
+        "unicode": "EA85"
       },
       {
         "name": "indent",
-        "unicode": "EA8C"
+        "unicode": "EA8B"
       },
       {
         "name": "italic",
-        "unicode": "EA90"
+        "unicode": "EA8F"
       },
       {
         "name": "link",
-        "unicode": "EA96"
+        "unicode": "EA95"
       },
       {
         "name": "normal-text",
-        "unicode": "EAAC"
+        "unicode": "EAAB"
       },
       {
         "name": "ordered-list",
-        "unicode": "EAB2"
+        "unicode": "EAB1"
       },
       {
         "name": "outdent",
-        "unicode": "EACB"
+        "unicode": "EACA"
       },
       {
         "name": "palette",
-        "unicode": "EACC"
+        "unicode": "EACB"
       },
       {
         "name": "pre",
-        "unicode": "EADA"
+        "unicode": "EAD9"
       },
       {
         "name": "quote",
-        "unicode": "EAE4"
+        "unicode": "EAE3"
       },
       {
         "name": "remove-link",
-        "unicode": "EAE6"
+        "unicode": "EAE5"
       },
       {
         "name": "rich-text",
-        "unicode": "EAEA"
+        "unicode": "EAE9"
       },
       {
         "name": "table",
@@ -626,15 +630,15 @@
     "glyphs": [
       {
         "name": "file",
-        "unicode": "EA74"
+        "unicode": "EA73"
       },
       {
         "name": "folder",
-        "unicode": "EA7A"
+        "unicode": "EA79"
       },
       {
         "name": "move-file",
-        "unicode": "EAA5"
+        "unicode": "EAA4"
       },
       {
         "name": "text-file",
@@ -655,19 +659,19 @@
     "glyphs": [
       {
         "name": "commit",
-        "unicode": "EA58"
+        "unicode": "EA57"
       },
       {
         "name": "git-fork",
-        "unicode": "EA7C"
+        "unicode": "EA7B"
       },
       {
         "name": "git-issue",
-        "unicode": "EA7D"
+        "unicode": "EA7C"
       },
       {
         "name": "pull-request",
-        "unicode": "EADD"
+        "unicode": "EADC"
       }
     ]
   },
@@ -676,7 +680,7 @@
     "glyphs": [
       {
         "name": "ol",
-        "unicode": "EAAF"
+        "unicode": "EAAE"
       },
       {
         "name": "ul-sort",
@@ -693,35 +697,35 @@
     "glyphs": [
       {
         "name": "circle-plus-o",
-        "unicode": "EA47"
+        "unicode": "EA46"
       },
       {
         "name": "circle-plus",
-        "unicode": "EA48"
+        "unicode": "EA47"
       },
       {
         "name": "circle-remove",
-        "unicode": "EA4B"
+        "unicode": "EA4A"
       },
       {
         "name": "cog",
-        "unicode": "EA52"
+        "unicode": "EA51"
       },
       {
         "name": "config",
-        "unicode": "EA5A"
+        "unicode": "EA59"
       },
       {
         "name": "pencil",
-        "unicode": "EAD0"
+        "unicode": "EACF"
       },
       {
         "name": "plus",
-        "unicode": "EAD7"
+        "unicode": "EAD6"
       },
       {
         "name": "remove",
-        "unicode": "EAE7"
+        "unicode": "EAE6"
       },
       {
         "name": "trash",
@@ -811,47 +815,47 @@
     "glyphs": [
       {
         "name": "circle-check-o",
-        "unicode": "EA32"
+        "unicode": "EA31"
       },
       {
         "name": "circle-check",
-        "unicode": "EA33"
+        "unicode": "EA32"
       },
       {
         "name": "circle-error-o",
-        "unicode": "EA3F"
+        "unicode": "EA3E"
       },
       {
         "name": "circle-error",
-        "unicode": "EA40"
+        "unicode": "EA3F"
       },
       {
         "name": "circle-info-o-bold",
-        "unicode": "EA41"
+        "unicode": "EA40"
       },
       {
         "name": "circle-info-o",
-        "unicode": "EA42"
+        "unicode": "EA41"
       },
       {
         "name": "circle-info",
-        "unicode": "EA43"
+        "unicode": "EA42"
       },
       {
         "name": "circle-question-o",
-        "unicode": "EA49"
+        "unicode": "EA48"
       },
       {
         "name": "circle-question",
-        "unicode": "EA4A"
+        "unicode": "EA49"
       },
       {
         "name": "help",
-        "unicode": "EA84"
+        "unicode": "EA83"
       },
       {
         "name": "info",
-        "unicode": "EA8D"
+        "unicode": "EA8C"
       },
       {
         "name": "warning",
@@ -907,356 +911,352 @@
         "unicode": "EA22"
       },
       {
-        "name": "checkbox-thin",
-        "unicode": "EA24"
-      },
-      {
         "name": "chevron-down",
-        "unicode": "EA26"
+        "unicode": "EA25"
       },
       {
         "name": "chevron-left",
-        "unicode": "EA27"
+        "unicode": "EA26"
       },
       {
         "name": "chevron-right",
-        "unicode": "EA28"
+        "unicode": "EA27"
       },
       {
         "name": "chevron-up",
-        "unicode": "EA29"
+        "unicode": "EA28"
       },
       {
         "name": "circle-arrow-down-o",
-        "unicode": "EA2A"
+        "unicode": "EA29"
       },
       {
         "name": "circle-arrow-down",
-        "unicode": "EA2B"
+        "unicode": "EA2A"
       },
       {
         "name": "circle-arrow-left-o",
-        "unicode": "EA2C"
+        "unicode": "EA2B"
       },
       {
         "name": "circle-arrow-left",
-        "unicode": "EA2D"
+        "unicode": "EA2C"
       },
       {
         "name": "circle-arrow-right-o",
-        "unicode": "EA2E"
+        "unicode": "EA2D"
       },
       {
         "name": "circle-arrow-right",
-        "unicode": "EA2F"
+        "unicode": "EA2E"
       },
       {
         "name": "circle-arrow-up-o",
-        "unicode": "EA30"
+        "unicode": "EA2F"
       },
       {
         "name": "circle-arrow-up",
-        "unicode": "EA31"
+        "unicode": "EA30"
       },
       {
         "name": "circle-chevron-down-o",
-        "unicode": "EA34"
+        "unicode": "EA33"
       },
       {
         "name": "circle-chevron-down",
-        "unicode": "EA35"
+        "unicode": "EA34"
       },
       {
         "name": "circle-chevron-left-o",
-        "unicode": "EA36"
+        "unicode": "EA35"
       },
       {
         "name": "circle-chevron-left",
-        "unicode": "EA37"
+        "unicode": "EA36"
       },
       {
         "name": "circle-chevron-right-o",
-        "unicode": "EA38"
+        "unicode": "EA37"
       },
       {
         "name": "circle-chevron-right",
-        "unicode": "EA39"
+        "unicode": "EA38"
       },
       {
         "name": "circle-chevron-up-o",
-        "unicode": "EA3A"
+        "unicode": "EA39"
       },
       {
         "name": "circle-chevron-up",
-        "unicode": "EA3B"
+        "unicode": "EA3A"
       },
       {
         "name": "circle-cross-thin",
-        "unicode": "EA3C"
+        "unicode": "EA3B"
       },
       {
         "name": "circle-cross",
-        "unicode": "EA3D"
+        "unicode": "EA3C"
       },
       {
         "name": "circle-down",
-        "unicode": "EA3E"
+        "unicode": "EA3D"
       },
       {
         "name": "circle-left",
-        "unicode": "EA44"
+        "unicode": "EA43"
       },
       {
         "name": "circle-left2",
-        "unicode": "EA45"
+        "unicode": "EA44"
       },
       {
         "name": "circle-more",
-        "unicode": "EA46"
+        "unicode": "EA45"
       },
       {
         "name": "circle-right",
-        "unicode": "EA4C"
+        "unicode": "EA4B"
       },
       {
         "name": "circle-right2",
-        "unicode": "EA4D"
+        "unicode": "EA4C"
       },
       {
         "name": "circle-user",
-        "unicode": "EA4F"
+        "unicode": "EA4E"
       },
       {
         "name": "comment",
-        "unicode": "EA56"
+        "unicode": "EA55"
       },
       {
         "name": "copy-project",
-        "unicode": "EA5C"
+        "unicode": "EA5B"
       },
       {
         "name": "copy-task",
-        "unicode": "EA5D"
+        "unicode": "EA5C"
       },
       {
         "name": "crop",
-        "unicode": "EA5F"
+        "unicode": "EA5E"
       },
       {
         "name": "dashed-right",
-        "unicode": "EA61"
+        "unicode": "EA60"
       },
       {
         "name": "download",
-        "unicode": "EA66"
+        "unicode": "EA65"
       },
       {
         "name": "file-move",
-        "unicode": "EA71"
+        "unicode": "EA70"
       },
       {
         "name": "file-move2",
-        "unicode": "EA72"
+        "unicode": "EA71"
       },
       {
         "name": "file-update",
-        "unicode": "EA73"
+        "unicode": "EA72"
       },
       {
         "name": "file2",
-        "unicode": "EA75"
+        "unicode": "EA74"
       },
       {
         "name": "file3",
-        "unicode": "EA76"
+        "unicode": "EA75"
       },
       {
         "name": "file4",
-        "unicode": "EA77"
+        "unicode": "EA76"
       },
       {
         "name": "git-commit",
-        "unicode": "EA7B"
+        "unicode": "EA7A"
       },
       {
         "name": "git-pull-request",
-        "unicode": "EA7E"
+        "unicode": "EA7D"
       },
       {
         "name": "globe",
-        "unicode": "EA80"
+        "unicode": "EA7F"
       },
       {
         "name": "jump",
-        "unicode": "EA92"
+        "unicode": "EA91"
       },
       {
         "name": "link2",
-        "unicode": "EA97"
+        "unicode": "EA96"
       },
       {
         "name": "members",
-        "unicode": "EAA1"
+        "unicode": "EAA0"
       },
       {
         "name": "move-task",
-        "unicode": "EAA6"
+        "unicode": "EAA5"
       },
       {
         "name": "new",
-        "unicode": "EAAB"
+        "unicode": "EAAA"
       },
       {
         "name": "order-a",
-        "unicode": "EAB0"
+        "unicode": "EAAF"
       },
       {
         "name": "order-desc",
-        "unicode": "EAB1"
+        "unicode": "EAB0"
       },
       {
         "name": "org-alert",
-        "unicode": "EAB3"
+        "unicode": "EAB2"
       },
       {
         "name": "org-apps",
-        "unicode": "EAB4"
+        "unicode": "EAB3"
       },
       {
         "name": "org-atom",
-        "unicode": "EAB5"
+        "unicode": "EAB4"
       },
       {
         "name": "org-avatar",
-        "unicode": "EAB6"
+        "unicode": "EAB5"
       },
       {
         "name": "org-book",
-        "unicode": "EAB7"
+        "unicode": "EAB6"
       },
       {
         "name": "org-building",
-        "unicode": "EAB8"
+        "unicode": "EAB7"
       },
       {
         "name": "org-calendar",
-        "unicode": "EAB9"
+        "unicode": "EAB8"
       },
       {
         "name": "org-checkbox-checked",
-        "unicode": "EABA"
+        "unicode": "EAB9"
       },
       {
         "name": "org-chevron-down",
-        "unicode": "EABB"
+        "unicode": "EABA"
       },
       {
         "name": "org-chevron-right",
-        "unicode": "EABC"
+        "unicode": "EABB"
       },
       {
         "name": "org-circle-down",
-        "unicode": "EABD"
+        "unicode": "EABC"
       },
       {
         "name": "org-circle-up",
-        "unicode": "EABE"
+        "unicode": "EABD"
       },
       {
         "name": "org-crown",
-        "unicode": "EABF"
+        "unicode": "EABE"
       },
       {
         "name": "org-direct-message",
-        "unicode": "EAC0"
+        "unicode": "EABF"
       },
       {
         "name": "org-dress",
-        "unicode": "EAC1"
+        "unicode": "EAC0"
       },
       {
         "name": "org-eye",
-        "unicode": "EAC2"
+        "unicode": "EAC1"
       },
       {
         "name": "org-lock",
-        "unicode": "EAC3"
+        "unicode": "EAC2"
       },
       {
         "name": "org-medal",
-        "unicode": "EAC4"
+        "unicode": "EAC3"
       },
       {
         "name": "org-money",
-        "unicode": "EAC5"
+        "unicode": "EAC4"
       },
       {
         "name": "org-projects",
-        "unicode": "EAC6"
+        "unicode": "EAC5"
       },
       {
         "name": "org-search",
-        "unicode": "EAC7"
+        "unicode": "EAC6"
       },
       {
         "name": "org-user",
-        "unicode": "EAC8"
+        "unicode": "EAC7"
       },
       {
         "name": "org-users",
-        "unicode": "EAC9"
+        "unicode": "EAC8"
       },
       {
         "name": "org-who",
-        "unicode": "EACA"
+        "unicode": "EAC9"
       },
       {
         "name": "phone",
-        "unicode": "EAD1"
+        "unicode": "EAD0"
       },
       {
         "name": "pin2",
-        "unicode": "EAD4"
+        "unicode": "EAD3"
       },
       {
         "name": "plus-sign",
-        "unicode": "EAD6"
+        "unicode": "EAD5"
       },
       {
         "name": "post-forbidden",
-        "unicode": "EAD8"
+        "unicode": "EAD7"
       },
       {
         "name": "question",
-        "unicode": "EAE1"
+        "unicode": "EAE0"
       },
       {
         "name": "quit2",
-        "unicode": "EAE3"
+        "unicode": "EAE2"
       },
       {
         "name": "search-warning",
-        "unicode": "EAF0"
+        "unicode": "EAEF"
       },
       {
         "name": "sharp-down",
-        "unicode": "EAF3"
+        "unicode": "EAF2"
       },
       {
         "name": "sharp-down2",
-        "unicode": "EAF4"
+        "unicode": "EAF3"
       },
       {
         "name": "sharp-up",
-        "unicode": "EAF5"
+        "unicode": "EAF4"
       },
       {
         "name": "sharp-up2",
-        "unicode": "EAF6"
+        "unicode": "EAF5"
       },
       {
         "name": "spread",
-        "unicode": "EAF8"
+        "unicode": "EAF7"
       },
       {
         "name": "state-top",
@@ -1309,11 +1309,11 @@
       },
       {
         "name": "circle-user-o",
-        "unicode": "EA4E"
+        "unicode": "EA4D"
       },
       {
         "name": "search-member",
-        "unicode": "EAEE"
+        "unicode": "EAED"
       },
       {
         "name": "unassigned",
