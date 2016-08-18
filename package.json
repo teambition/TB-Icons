@@ -1,6 +1,6 @@
 {
   "name": "tb-icons",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "A classified icons set that consists of a part of Material Design icons and some original icons by TB-UI team.",
   "scripts": {
     "prepublish": "npm run gulp:publish",
@@ -11,7 +11,7 @@
     "ghpages": "node ./scripts/gh-pages",
     "gulp:build": "NODE_ENV=build ./node_modules/.bin/gulp",
     "gulp:dev": "NODE_ENV=development ./node_modules/.bin/gulp dev",
-    "gulp:publish": "NODE_ENV=build ./node_modules/.bin/gulp publish",
+    "gulp:publish": "git push --tag && npm run ghpages",
     "prewebpack:build": "rm -rf ./build",
     "webpack:build": "NODE_ENV=build ./node_modules/.bin/webpack --progress",
     "webpack:dev": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --hot --progress"
