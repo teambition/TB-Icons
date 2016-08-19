@@ -9,6 +9,7 @@ export const ICONFONTS = {
   fontName: 'tb-icons',
   normalize: true,
   timestamp: Date.now(),
+  centerHorizontally: true,
   fontHeight: 1000
 }
 
