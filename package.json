@@ -1,9 +1,9 @@
 {
   "name": "tb-icons",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "description": "A classified icons set that consists of a part of Material Design icons and some original icons by TB-UI team.",
   "scripts": {
-    "prepublish": "npm run gulp:publish",
+    "prepublish": "",
     "build": "npm run gulp:build",
     "dev": "npm run gulp:dev & npm run webpack:dev",
     "download": "gulp download",
