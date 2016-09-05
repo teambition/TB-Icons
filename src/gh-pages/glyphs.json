@@ -515,19 +515,19 @@
       },
       {
         "name": "wps",
-        "unicode": "EB4A"
-      },
-      {
-        "name": "xiaomi",
         "unicode": "EB4B"
       },
       {
-        "name": "zendesk",
+        "name": "xiaomi",
         "unicode": "EB4C"
       },
       {
-        "name": "zhihu",
+        "name": "zendesk",
         "unicode": "EB4D"
+      },
+      {
+        "name": "zhihu",
+        "unicode": "EB4E"
       }
     ]
   },
@@ -731,11 +731,11 @@
       },
       {
         "name": "zoom-in",
-        "unicode": "EB4E"
+        "unicode": "EB4F"
       },
       {
         "name": "zoom-out",
-        "unicode": "EB4F"
+        "unicode": "EB50"
       }
     ]
   },
@@ -1380,8 +1380,12 @@
         "unicode": "EB41"
       },
       {
-        "name": "window-min",
+        "name": "window-max",
         "unicode": "EB49"
+      },
+      {
+        "name": "window-min",
+        "unicode": "EB4A"
       }
     ]
   },

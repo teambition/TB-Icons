@@ -1336,30 +1336,34 @@
   content: "\EB48";
 }
 
-.icon-window-min:before {
+.icon-window-max:before {
   content: "\EB49";
 }
 
-.icon-wps:before {
+.icon-window-min:before {
   content: "\EB4A";
 }
 
-.icon-xiaomi:before {
+.icon-wps:before {
   content: "\EB4B";
 }
 
-.icon-zendesk:before {
+.icon-xiaomi:before {
   content: "\EB4C";
 }
 
-.icon-zhihu:before {
+.icon-zendesk:before {
   content: "\EB4D";
 }
 
-.icon-zoom-in:before {
+.icon-zhihu:before {
   content: "\EB4E";
 }
 
-.icon-zoom-out:before {
+.icon-zoom-in:before {
   content: "\EB4F";
+}
+
+.icon-zoom-out:before {
+  content: "\EB50";
 }
