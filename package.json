@@ -1,6 +1,6 @@
 {
   "name": "tb-icons",
-  "version": "0.2.49",
+  "version": "0.2.50",
   "description": "A classified icons set that consists of a part of Material Design icons and some original icons by TB-UI team.",
   "scripts": {
     "prepublish": "",
