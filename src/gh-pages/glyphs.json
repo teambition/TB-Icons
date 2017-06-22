@@ -472,23 +472,23 @@
       },
       {
         "name": "unarchive",
-        "unicode": "EB60"
+        "unicode": "EB61"
       },
       {
         "name": "unlock",
-        "unicode": "EB63"
+        "unicode": "EB64"
       },
       {
         "name": "video",
-        "unicode": "EB6B"
-      },
-      {
-        "name": "view-board",
         "unicode": "EB6C"
       },
       {
-        "name": "wall",
+        "name": "view-board",
         "unicode": "EB6D"
+      },
+      {
+        "name": "wall",
+        "unicode": "EB6E"
       }
     ]
   },
@@ -607,35 +607,35 @@
       },
       {
         "name": "twitter",
-        "unicode": "EB5D"
+        "unicode": "EB5E"
       },
       {
         "name": "wechat",
-        "unicode": "EB6F"
-      },
-      {
-        "name": "weibo",
         "unicode": "EB70"
       },
       {
-        "name": "wps",
-        "unicode": "EB73"
+        "name": "weibo",
+        "unicode": "EB71"
       },
       {
-        "name": "xiaomi",
+        "name": "wps",
         "unicode": "EB74"
       },
       {
-        "name": "yunzhijia",
+        "name": "xiaomi",
         "unicode": "EB75"
       },
       {
-        "name": "zendesk",
+        "name": "yunzhijia",
         "unicode": "EB76"
       },
       {
-        "name": "zhihu",
+        "name": "zendesk",
         "unicode": "EB77"
+      },
+      {
+        "name": "zhihu",
+        "unicode": "EB78"
       }
     ]
   },
@@ -794,11 +794,11 @@
       },
       {
         "name": "underline",
-        "unicode": "EB62"
+        "unicode": "EB63"
       },
       {
         "name": "unordered-list",
-        "unicode": "EB64"
+        "unicode": "EB65"
       }
     ]
   },
@@ -831,19 +831,19 @@
       },
       {
         "name": "update-file",
-        "unicode": "EB65"
-      },
-      {
-        "name": "upload-file",
         "unicode": "EB66"
       },
       {
+        "name": "upload-file",
+        "unicode": "EB67"
+      },
+      {
         "name": "zoom-in",
-        "unicode": "EB78"
+        "unicode": "EB79"
       },
       {
         "name": "zoom-out",
-        "unicode": "EB79"
+        "unicode": "EB7A"
       }
     ]
   },
@@ -881,11 +881,11 @@
       },
       {
         "name": "ul-sort",
-        "unicode": "EB5E"
+        "unicode": "EB5F"
       },
       {
         "name": "ul",
-        "unicode": "EB5F"
+        "unicode": "EB60"
       }
     ]
   },
@@ -1060,7 +1060,7 @@
       },
       {
         "name": "warning",
-        "unicode": "EB6E"
+        "unicode": "EB6F"
       }
     ]
   },
@@ -1528,24 +1528,28 @@
         "unicode": "EB58"
       },
       {
-        "name": "turn-left",
+        "name": "triangle-right",
         "unicode": "EB5B"
       },
       {
-        "name": "turn-right",
+        "name": "turn-left",
         "unicode": "EB5C"
       },
       {
+        "name": "turn-right",
+        "unicode": "EB5D"
+      },
+      {
         "name": "upload",
-        "unicode": "EB67"
+        "unicode": "EB68"
       },
       {
         "name": "window-max",
-        "unicode": "EB71"
+        "unicode": "EB72"
       },
       {
         "name": "window-min",
-        "unicode": "EB72"
+        "unicode": "EB73"
       }
     ]
   },
@@ -1566,19 +1570,19 @@
       },
       {
         "name": "unassigned",
-        "unicode": "EB61"
+        "unicode": "EB62"
       },
       {
         "name": "user-switch",
-        "unicode": "EB68"
-      },
-      {
-        "name": "user",
         "unicode": "EB69"
       },
       {
-        "name": "users",
+        "name": "user",
         "unicode": "EB6A"
+      },
+      {
+        "name": "users",
+        "unicode": "EB6B"
       }
     ]
   }
