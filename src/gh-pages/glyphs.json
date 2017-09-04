@@ -611,31 +611,31 @@
       },
       {
         "name": "wechat",
-        "unicode": "EB77"
-      },
-      {
-        "name": "weibo",
         "unicode": "EB78"
       },
       {
-        "name": "wps",
-        "unicode": "EB7B"
+        "name": "weibo",
+        "unicode": "EB79"
       },
       {
-        "name": "xiaomi",
+        "name": "wps",
         "unicode": "EB7C"
       },
       {
-        "name": "yunzhijia",
+        "name": "xiaomi",
         "unicode": "EB7D"
       },
       {
-        "name": "zendesk",
+        "name": "yunzhijia",
         "unicode": "EB7E"
       },
       {
-        "name": "zhihu",
+        "name": "zendesk",
         "unicode": "EB7F"
+      },
+      {
+        "name": "zhihu",
+        "unicode": "EB80"
       }
     ]
   },
@@ -839,11 +839,11 @@
       },
       {
         "name": "zoom-in",
-        "unicode": "EB80"
+        "unicode": "EB81"
       },
       {
         "name": "zoom-out",
-        "unicode": "EB81"
+        "unicode": "EB82"
       }
     ]
   },
@@ -1060,7 +1060,7 @@
       },
       {
         "name": "warning",
-        "unicode": "EB76"
+        "unicode": "EB77"
       }
     ]
   },
@@ -1572,12 +1572,16 @@
         "unicode": "EB6F"
       },
       {
+        "name": "warning-o",
+        "unicode": "EB76"
+      },
+      {
         "name": "window-max",
-        "unicode": "EB79"
+        "unicode": "EB7A"
       },
       {
         "name": "window-min",
-        "unicode": "EB7A"
+        "unicode": "EB7B"
       }
     ]
   },
