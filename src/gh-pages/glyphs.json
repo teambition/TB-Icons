@@ -452,43 +452,43 @@
       },
       {
         "name": "terminal",
-        "unicode": "EB64"
+        "unicode": "EB65"
       },
       {
         "name": "th",
-        "unicode": "EB66"
+        "unicode": "EB67"
       },
       {
         "name": "tick",
-        "unicode": "EB68"
-      },
-      {
-        "name": "tie",
         "unicode": "EB69"
       },
       {
-        "name": "time-view",
+        "name": "tie",
         "unicode": "EB6A"
       },
       {
+        "name": "time-view",
+        "unicode": "EB6B"
+      },
+      {
         "name": "unarchive",
-        "unicode": "EB77"
+        "unicode": "EB78"
       },
       {
         "name": "unlock",
-        "unicode": "EB7A"
+        "unicode": "EB7B"
       },
       {
         "name": "video",
-        "unicode": "EB82"
-      },
-      {
-        "name": "view-board",
         "unicode": "EB83"
       },
       {
-        "name": "wall",
+        "name": "view-board",
         "unicode": "EB84"
+      },
+      {
+        "name": "wall",
+        "unicode": "EB85"
       }
     ]
   },
@@ -546,7 +546,7 @@
       },
       {
         "name": "travel",
-        "unicode": "EB6D"
+        "unicode": "EB6E"
       }
     ]
   },
@@ -607,35 +607,35 @@
       },
       {
         "name": "twitter",
-        "unicode": "EB74"
+        "unicode": "EB75"
       },
       {
         "name": "wechat",
-        "unicode": "EB88"
-      },
-      {
-        "name": "weibo",
         "unicode": "EB89"
       },
       {
-        "name": "wps",
-        "unicode": "EB8C"
+        "name": "weibo",
+        "unicode": "EB8A"
       },
       {
-        "name": "xiaomi",
+        "name": "wps",
         "unicode": "EB8D"
       },
       {
-        "name": "yunzhijia",
+        "name": "xiaomi",
         "unicode": "EB8E"
       },
       {
-        "name": "zendesk",
+        "name": "yunzhijia",
         "unicode": "EB8F"
       },
       {
-        "name": "zhihu",
+        "name": "zendesk",
         "unicode": "EB90"
+      },
+      {
+        "name": "zhihu",
+        "unicode": "EB91"
       }
     ]
   },
@@ -794,11 +794,11 @@
       },
       {
         "name": "underline",
-        "unicode": "EB79"
+        "unicode": "EB7A"
       },
       {
         "name": "unordered-list",
-        "unicode": "EB7B"
+        "unicode": "EB7C"
       }
     ]
   },
@@ -827,23 +827,23 @@
       },
       {
         "name": "text-file",
-        "unicode": "EB65"
+        "unicode": "EB66"
       },
       {
         "name": "update-file",
-        "unicode": "EB7C"
-      },
-      {
-        "name": "upload-file",
         "unicode": "EB7D"
       },
       {
+        "name": "upload-file",
+        "unicode": "EB7E"
+      },
+      {
         "name": "zoom-in",
-        "unicode": "EB91"
+        "unicode": "EB92"
       },
       {
         "name": "zoom-out",
-        "unicode": "EB92"
+        "unicode": "EB93"
       }
     ]
   },
@@ -881,11 +881,11 @@
       },
       {
         "name": "ul-sort",
-        "unicode": "EB75"
+        "unicode": "EB76"
       },
       {
         "name": "ul",
-        "unicode": "EB76"
+        "unicode": "EB77"
       }
     ]
   },
@@ -926,7 +926,7 @@
       },
       {
         "name": "trash",
-        "unicode": "EB6C"
+        "unicode": "EB6D"
       }
     ]
   },
@@ -935,75 +935,75 @@
     "glyphs": [
       {
         "name": "team-briefcase",
-        "unicode": "EB52"
-      },
-      {
-        "name": "team-building",
         "unicode": "EB53"
       },
       {
-        "name": "team-bulb",
+        "name": "team-building",
         "unicode": "EB54"
       },
       {
-        "name": "team-bus",
+        "name": "team-bulb",
         "unicode": "EB55"
       },
       {
-        "name": "team-calculator",
+        "name": "team-bus",
         "unicode": "EB56"
       },
       {
-        "name": "team-camera",
+        "name": "team-calculator",
         "unicode": "EB57"
       },
       {
-        "name": "team-compass",
+        "name": "team-camera",
         "unicode": "EB58"
       },
       {
-        "name": "team-flag",
+        "name": "team-compass",
         "unicode": "EB59"
       },
       {
-        "name": "team-graph",
+        "name": "team-flag",
         "unicode": "EB5A"
       },
       {
-        "name": "team-location",
+        "name": "team-graph",
         "unicode": "EB5B"
       },
       {
-        "name": "team-loudspeaker",
+        "name": "team-location",
         "unicode": "EB5C"
       },
       {
-        "name": "team-medal",
+        "name": "team-loudspeaker",
         "unicode": "EB5D"
       },
       {
-        "name": "team-notebook",
+        "name": "team-medal",
         "unicode": "EB5E"
       },
       {
-        "name": "team-pen",
+        "name": "team-notebook",
         "unicode": "EB5F"
       },
       {
-        "name": "team-stamp",
+        "name": "team-pen",
         "unicode": "EB60"
       },
       {
-        "name": "team-talk",
+        "name": "team-stamp",
         "unicode": "EB61"
       },
       {
-        "name": "team-terminal",
+        "name": "team-talk",
         "unicode": "EB62"
       },
       {
-        "name": "team-tie",
+        "name": "team-terminal",
         "unicode": "EB63"
+      },
+      {
+        "name": "team-tie",
+        "unicode": "EB64"
       }
     ]
   },
@@ -1060,7 +1060,7 @@
       },
       {
         "name": "warning",
-        "unicode": "EB86"
+        "unicode": "EB87"
       }
     ]
   },
@@ -1592,60 +1592,64 @@
         "unicode": "EB50"
       },
       {
-        "name": "task-type",
+        "name": "task-id",
         "unicode": "EB51"
       },
       {
+        "name": "task-type",
+        "unicode": "EB52"
+      },
+      {
         "name": "tick-thin",
-        "unicode": "EB67"
+        "unicode": "EB68"
       },
       {
         "name": "top-up",
-        "unicode": "EB6B"
+        "unicode": "EB6C"
       },
       {
         "name": "triangle-down",
-        "unicode": "EB6E"
-      },
-      {
-        "name": "triangle-left",
         "unicode": "EB6F"
       },
       {
-        "name": "triangle-right",
+        "name": "triangle-left",
         "unicode": "EB70"
       },
       {
-        "name": "triangle-up",
+        "name": "triangle-right",
         "unicode": "EB71"
       },
       {
-        "name": "turn-left",
+        "name": "triangle-up",
         "unicode": "EB72"
       },
       {
-        "name": "turn-right",
+        "name": "turn-left",
         "unicode": "EB73"
       },
       {
+        "name": "turn-right",
+        "unicode": "EB74"
+      },
+      {
         "name": "upload",
-        "unicode": "EB7E"
+        "unicode": "EB7F"
       },
       {
         "name": "warning-o",
-        "unicode": "EB85"
+        "unicode": "EB86"
       },
       {
         "name": "wave",
-        "unicode": "EB87"
+        "unicode": "EB88"
       },
       {
         "name": "window-max",
-        "unicode": "EB8A"
+        "unicode": "EB8B"
       },
       {
         "name": "window-min",
-        "unicode": "EB8B"
+        "unicode": "EB8C"
       }
     ]
   },
@@ -1666,19 +1670,19 @@
       },
       {
         "name": "unassigned",
-        "unicode": "EB78"
+        "unicode": "EB79"
       },
       {
         "name": "user-switch",
-        "unicode": "EB7F"
-      },
-      {
-        "name": "user",
         "unicode": "EB80"
       },
       {
-        "name": "users",
+        "name": "user",
         "unicode": "EB81"
+      },
+      {
+        "name": "users",
+        "unicode": "EB82"
       }
     ]
   }
