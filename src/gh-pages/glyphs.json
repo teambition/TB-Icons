@@ -480,15 +480,15 @@
       },
       {
         "name": "video",
-        "unicode": "EB84"
-      },
-      {
-        "name": "view-board",
         "unicode": "EB85"
       },
       {
-        "name": "wall",
+        "name": "view-board",
         "unicode": "EB86"
+      },
+      {
+        "name": "wall",
+        "unicode": "EB87"
       }
     ]
   },
@@ -611,31 +611,31 @@
       },
       {
         "name": "wechat",
-        "unicode": "EB8A"
-      },
-      {
-        "name": "weibo",
         "unicode": "EB8B"
       },
       {
-        "name": "wps",
-        "unicode": "EB8E"
+        "name": "weibo",
+        "unicode": "EB8C"
       },
       {
-        "name": "xiaomi",
+        "name": "wps",
         "unicode": "EB8F"
       },
       {
-        "name": "yunzhijia",
+        "name": "xiaomi",
         "unicode": "EB90"
       },
       {
-        "name": "zendesk",
+        "name": "yunzhijia",
         "unicode": "EB91"
       },
       {
-        "name": "zhihu",
+        "name": "zendesk",
         "unicode": "EB92"
+      },
+      {
+        "name": "zhihu",
+        "unicode": "EB93"
       }
     ]
   },
@@ -831,19 +831,19 @@
       },
       {
         "name": "update-file",
-        "unicode": "EB7E"
-      },
-      {
-        "name": "upload-file",
         "unicode": "EB7F"
       },
       {
+        "name": "upload-file",
+        "unicode": "EB80"
+      },
+      {
         "name": "zoom-in",
-        "unicode": "EB93"
+        "unicode": "EB94"
       },
       {
         "name": "zoom-out",
-        "unicode": "EB94"
+        "unicode": "EB95"
       }
     ]
   },
@@ -1060,7 +1060,7 @@
       },
       {
         "name": "warning",
-        "unicode": "EB88"
+        "unicode": "EB89"
       }
     ]
   },
@@ -1636,24 +1636,28 @@
         "unicode": "EB75"
       },
       {
+        "name": "unread",
+        "unicode": "EB7E"
+      },
+      {
         "name": "upload",
-        "unicode": "EB80"
+        "unicode": "EB81"
       },
       {
         "name": "warning-o",
-        "unicode": "EB87"
+        "unicode": "EB88"
       },
       {
         "name": "wave",
-        "unicode": "EB89"
+        "unicode": "EB8A"
       },
       {
         "name": "window-max",
-        "unicode": "EB8C"
+        "unicode": "EB8D"
       },
       {
         "name": "window-min",
-        "unicode": "EB8D"
+        "unicode": "EB8E"
       }
     ]
   },
@@ -1678,15 +1682,15 @@
       },
       {
         "name": "user-switch",
-        "unicode": "EB81"
-      },
-      {
-        "name": "user",
         "unicode": "EB82"
       },
       {
-        "name": "users",
+        "name": "user",
         "unicode": "EB83"
+      },
+      {
+        "name": "users",
+        "unicode": "EB84"
       }
     ]
   }

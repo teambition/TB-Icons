@@ -1548,94 +1548,98 @@
   content: "\EB7D";
 }
 
-.icon-update-file:before {
+.icon-unread:before {
   content: "\EB7E";
 }
 
-.icon-upload-file:before {
+.icon-update-file:before {
   content: "\EB7F";
 }
 
-.icon-upload:before {
+.icon-upload-file:before {
   content: "\EB80";
 }
 
-.icon-user-switch:before {
+.icon-upload:before {
   content: "\EB81";
 }
 
-.icon-user:before {
+.icon-user-switch:before {
   content: "\EB82";
 }
 
-.icon-users:before {
+.icon-user:before {
   content: "\EB83";
 }
 
-.icon-video:before {
+.icon-users:before {
   content: "\EB84";
 }
 
-.icon-view-board:before {
+.icon-video:before {
   content: "\EB85";
 }
 
-.icon-wall:before {
+.icon-view-board:before {
   content: "\EB86";
 }
 
-.icon-warning-o:before {
+.icon-wall:before {
   content: "\EB87";
 }
 
-.icon-warning:before {
+.icon-warning-o:before {
   content: "\EB88";
 }
 
-.icon-wave:before {
+.icon-warning:before {
   content: "\EB89";
 }
 
-.icon-wechat:before {
+.icon-wave:before {
   content: "\EB8A";
 }
 
-.icon-weibo:before {
+.icon-wechat:before {
   content: "\EB8B";
 }
 
-.icon-window-max:before {
+.icon-weibo:before {
   content: "\EB8C";
 }
 
-.icon-window-min:before {
+.icon-window-max:before {
   content: "\EB8D";
 }
 
-.icon-wps:before {
+.icon-window-min:before {
   content: "\EB8E";
 }
 
-.icon-xiaomi:before {
+.icon-wps:before {
   content: "\EB8F";
 }
 
-.icon-yunzhijia:before {
+.icon-xiaomi:before {
   content: "\EB90";
 }
 
-.icon-zendesk:before {
+.icon-yunzhijia:before {
   content: "\EB91";
 }
 
-.icon-zhihu:before {
+.icon-zendesk:before {
   content: "\EB92";
 }
 
-.icon-zoom-in:before {
+.icon-zhihu:before {
   content: "\EB93";
 }
 
-.icon-zoom-out:before {
+.icon-zoom-in:before {
   content: "\EB94";
+}
+
+.icon-zoom-out:before {
+  content: "\EB95";
 }
