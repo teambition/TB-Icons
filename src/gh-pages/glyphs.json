@@ -444,51 +444,51 @@
       },
       {
         "name": "tag",
-        "unicode": "EB55"
-      },
-      {
-        "name": "talk",
         "unicode": "EB56"
       },
       {
+        "name": "talk",
+        "unicode": "EB57"
+      },
+      {
         "name": "terminal",
-        "unicode": "EB6C"
+        "unicode": "EB6D"
       },
       {
         "name": "th",
-        "unicode": "EB6E"
+        "unicode": "EB6F"
       },
       {
         "name": "tick",
-        "unicode": "EB70"
-      },
-      {
-        "name": "tie",
         "unicode": "EB71"
       },
       {
-        "name": "time-view",
+        "name": "tie",
         "unicode": "EB72"
       },
       {
+        "name": "time-view",
+        "unicode": "EB73"
+      },
+      {
         "name": "unarchive",
-        "unicode": "EB7F"
+        "unicode": "EB80"
       },
       {
         "name": "unlock",
-        "unicode": "EB82"
+        "unicode": "EB83"
       },
       {
         "name": "video",
-        "unicode": "EB8B"
-      },
-      {
-        "name": "view-board",
         "unicode": "EB8C"
       },
       {
-        "name": "wall",
+        "name": "view-board",
         "unicode": "EB8D"
+      },
+      {
+        "name": "wall",
+        "unicode": "EB8E"
       }
     ]
   },
@@ -546,7 +546,7 @@
       },
       {
         "name": "travel",
-        "unicode": "EB75"
+        "unicode": "EB76"
       }
     ]
   },
@@ -607,35 +607,35 @@
       },
       {
         "name": "twitter",
-        "unicode": "EB7C"
+        "unicode": "EB7D"
       },
       {
         "name": "wechat",
-        "unicode": "EB91"
-      },
-      {
-        "name": "weibo",
         "unicode": "EB92"
       },
       {
-        "name": "wps",
-        "unicode": "EB95"
+        "name": "weibo",
+        "unicode": "EB93"
       },
       {
-        "name": "xiaomi",
+        "name": "wps",
         "unicode": "EB96"
       },
       {
-        "name": "yunzhijia",
+        "name": "xiaomi",
         "unicode": "EB97"
       },
       {
-        "name": "zendesk",
+        "name": "yunzhijia",
         "unicode": "EB98"
       },
       {
-        "name": "zhihu",
+        "name": "zendesk",
         "unicode": "EB99"
+      },
+      {
+        "name": "zhihu",
+        "unicode": "EB9A"
       }
     ]
   },
@@ -790,15 +790,15 @@
       },
       {
         "name": "table",
-        "unicode": "EB52"
+        "unicode": "EB53"
       },
       {
         "name": "underline",
-        "unicode": "EB81"
+        "unicode": "EB82"
       },
       {
         "name": "unordered-list",
-        "unicode": "EB83"
+        "unicode": "EB84"
       }
     ]
   },
@@ -827,23 +827,23 @@
       },
       {
         "name": "text-file",
-        "unicode": "EB6D"
+        "unicode": "EB6E"
       },
       {
         "name": "update-file",
-        "unicode": "EB85"
-      },
-      {
-        "name": "upload-file",
         "unicode": "EB86"
       },
       {
+        "name": "upload-file",
+        "unicode": "EB87"
+      },
+      {
         "name": "zoom-in",
-        "unicode": "EB9A"
+        "unicode": "EB9B"
       },
       {
         "name": "zoom-out",
-        "unicode": "EB9B"
+        "unicode": "EB9C"
       }
     ]
   },
@@ -881,11 +881,11 @@
       },
       {
         "name": "ul-sort",
-        "unicode": "EB7D"
+        "unicode": "EB7E"
       },
       {
         "name": "ul",
-        "unicode": "EB7E"
+        "unicode": "EB7F"
       }
     ]
   },
@@ -926,7 +926,7 @@
       },
       {
         "name": "trash",
-        "unicode": "EB74"
+        "unicode": "EB75"
       }
     ]
   },
@@ -935,75 +935,75 @@
     "glyphs": [
       {
         "name": "team-briefcase",
-        "unicode": "EB5A"
-      },
-      {
-        "name": "team-building",
         "unicode": "EB5B"
       },
       {
-        "name": "team-bulb",
+        "name": "team-building",
         "unicode": "EB5C"
       },
       {
-        "name": "team-bus",
+        "name": "team-bulb",
         "unicode": "EB5D"
       },
       {
-        "name": "team-calculator",
+        "name": "team-bus",
         "unicode": "EB5E"
       },
       {
-        "name": "team-camera",
+        "name": "team-calculator",
         "unicode": "EB5F"
       },
       {
-        "name": "team-compass",
+        "name": "team-camera",
         "unicode": "EB60"
       },
       {
-        "name": "team-flag",
+        "name": "team-compass",
         "unicode": "EB61"
       },
       {
-        "name": "team-graph",
+        "name": "team-flag",
         "unicode": "EB62"
       },
       {
-        "name": "team-location",
+        "name": "team-graph",
         "unicode": "EB63"
       },
       {
-        "name": "team-loudspeaker",
+        "name": "team-location",
         "unicode": "EB64"
       },
       {
-        "name": "team-medal",
+        "name": "team-loudspeaker",
         "unicode": "EB65"
       },
       {
-        "name": "team-notebook",
+        "name": "team-medal",
         "unicode": "EB66"
       },
       {
-        "name": "team-pen",
+        "name": "team-notebook",
         "unicode": "EB67"
       },
       {
-        "name": "team-stamp",
+        "name": "team-pen",
         "unicode": "EB68"
       },
       {
-        "name": "team-talk",
+        "name": "team-stamp",
         "unicode": "EB69"
       },
       {
-        "name": "team-terminal",
+        "name": "team-talk",
         "unicode": "EB6A"
       },
       {
-        "name": "team-tie",
+        "name": "team-terminal",
         "unicode": "EB6B"
+      },
+      {
+        "name": "team-tie",
+        "unicode": "EB6C"
       }
     ]
   },
@@ -1060,7 +1060,7 @@
       },
       {
         "name": "warning",
-        "unicode": "EB8F"
+        "unicode": "EB90"
       }
     ]
   },
@@ -1604,84 +1604,88 @@
         "unicode": "EB4D"
       },
       {
-        "name": "t",
+        "name": "t-o",
         "unicode": "EB51"
       },
       {
-        "name": "tachometer",
-        "unicode": "EB53"
+        "name": "t",
+        "unicode": "EB52"
       },
       {
-        "name": "tag-reverse",
+        "name": "tachometer",
         "unicode": "EB54"
       },
       {
-        "name": "talkai",
-        "unicode": "EB57"
+        "name": "tag-reverse",
+        "unicode": "EB55"
       },
       {
-        "name": "task-id",
+        "name": "talkai",
         "unicode": "EB58"
       },
       {
-        "name": "task-type",
+        "name": "task-id",
         "unicode": "EB59"
       },
       {
+        "name": "task-type",
+        "unicode": "EB5A"
+      },
+      {
         "name": "tick-thin",
-        "unicode": "EB6F"
+        "unicode": "EB70"
       },
       {
         "name": "top-up",
-        "unicode": "EB73"
+        "unicode": "EB74"
       },
       {
         "name": "triangle-down",
-        "unicode": "EB76"
-      },
-      {
-        "name": "triangle-left",
         "unicode": "EB77"
       },
       {
-        "name": "triangle-right",
+        "name": "triangle-left",
         "unicode": "EB78"
       },
       {
-        "name": "triangle-up",
+        "name": "triangle-right",
         "unicode": "EB79"
       },
       {
-        "name": "turn-left",
+        "name": "triangle-up",
         "unicode": "EB7A"
       },
       {
-        "name": "turn-right",
+        "name": "turn-left",
         "unicode": "EB7B"
       },
       {
+        "name": "turn-right",
+        "unicode": "EB7C"
+      },
+      {
         "name": "unread",
-        "unicode": "EB84"
+        "unicode": "EB85"
       },
       {
         "name": "upload",
-        "unicode": "EB87"
+        "unicode": "EB88"
       },
       {
         "name": "warning-o",
-        "unicode": "EB8E"
+        "unicode": "EB8F"
       },
       {
         "name": "wave",
-        "unicode": "EB90"
+        "unicode": "EB91"
       },
       {
         "name": "window-max",
-        "unicode": "EB93"
+        "unicode": "EB94"
       },
       {
         "name": "window-min",
-        "unicode": "EB94"
+        "unicode": "EB95"
       }
     ]
   },
@@ -1702,19 +1706,19 @@
       },
       {
         "name": "unassigned",
-        "unicode": "EB80"
+        "unicode": "EB81"
       },
       {
         "name": "user-switch",
-        "unicode": "EB88"
-      },
-      {
-        "name": "user",
         "unicode": "EB89"
       },
       {
-        "name": "users",
+        "name": "user",
         "unicode": "EB8A"
+      },
+      {
+        "name": "users",
+        "unicode": "EB8B"
       }
     ]
   }
