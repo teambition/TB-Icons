@@ -188,303 +188,303 @@
       },
       {
         "name": "graph",
-        "unicode": "EAA8"
+        "unicode": "EAAA"
       },
       {
         "name": "home",
-        "unicode": "EAAD"
+        "unicode": "EAAF"
       },
       {
         "name": "image",
-        "unicode": "EAB0"
-      },
-      {
-        "name": "import-project",
-        "unicode": "EAB1"
-      },
-      {
-        "name": "inbox",
         "unicode": "EAB2"
       },
       {
+        "name": "import-project",
+        "unicode": "EAB3"
+      },
+      {
+        "name": "inbox",
+        "unicode": "EAB4"
+      },
+      {
         "name": "intelligence",
-        "unicode": "EAB8"
+        "unicode": "EABA"
       },
       {
         "name": "intro",
-        "unicode": "EAB9"
+        "unicode": "EABB"
       },
       {
         "name": "lab",
-        "unicode": "EABD"
-      },
-      {
-        "name": "leave",
         "unicode": "EABF"
       },
       {
+        "name": "leave",
+        "unicode": "EAC1"
+      },
+      {
         "name": "lightning",
-        "unicode": "EAC0"
+        "unicode": "EAC2"
       },
       {
         "name": "loading",
-        "unicode": "EAC4"
-      },
-      {
-        "name": "location",
-        "unicode": "EAC5"
-      },
-      {
-        "name": "lock",
         "unicode": "EAC6"
       },
       {
-        "name": "loudspeaker",
+        "name": "location",
         "unicode": "EAC7"
       },
       {
-        "name": "mail",
+        "name": "lock",
         "unicode": "EAC8"
       },
       {
-        "name": "mark-as-read",
+        "name": "loudspeaker",
         "unicode": "EAC9"
       },
       {
-        "name": "markdown",
+        "name": "mail",
         "unicode": "EACA"
       },
       {
-        "name": "medal",
+        "name": "mark-as-read",
+        "unicode": "EACB"
+      },
+      {
+        "name": "markdown",
         "unicode": "EACC"
       },
       {
-        "name": "member-disable",
-        "unicode": "EACD"
-      },
-      {
-        "name": "member-group",
+        "name": "medal",
         "unicode": "EACE"
       },
       {
-        "name": "menu-vertical",
+        "name": "member-disable",
+        "unicode": "EACF"
+      },
+      {
+        "name": "member-group",
         "unicode": "EAD0"
       },
       {
-        "name": "menu",
-        "unicode": "EAD1"
-      },
-      {
-        "name": "message",
+        "name": "menu-vertical",
         "unicode": "EAD2"
       },
       {
-        "name": "mobile",
+        "name": "menu",
         "unicode": "EAD3"
       },
       {
-        "name": "more-stroke",
+        "name": "message",
         "unicode": "EAD4"
       },
       {
-        "name": "more",
+        "name": "mobile",
         "unicode": "EAD5"
       },
       {
+        "name": "more-stroke",
+        "unicode": "EAD6"
+      },
+      {
+        "name": "more",
+        "unicode": "EAD7"
+      },
+      {
         "name": "move",
-        "unicode": "EAD8"
-      },
-      {
-        "name": "multi-selection",
-        "unicode": "EAD9"
-      },
-      {
-        "name": "mute",
         "unicode": "EADA"
       },
       {
+        "name": "multi-selection",
+        "unicode": "EADB"
+      },
+      {
+        "name": "mute",
+        "unicode": "EADC"
+      },
+      {
         "name": "notebook",
-        "unicode": "EAE1"
+        "unicode": "EAE3"
       },
       {
         "name": "nut",
-        "unicode": "EAE2"
+        "unicode": "EAE4"
       },
       {
         "name": "paperclip",
-        "unicode": "EB05"
-      },
-      {
-        "name": "pause",
-        "unicode": "EB06"
-      },
-      {
-        "name": "pen",
         "unicode": "EB07"
       },
       {
+        "name": "pause",
+        "unicode": "EB08"
+      },
+      {
+        "name": "pen",
+        "unicode": "EB09"
+      },
+      {
         "name": "picture",
-        "unicode": "EB0B"
+        "unicode": "EB0D"
       },
       {
         "name": "pin",
-        "unicode": "EB0C"
-      },
-      {
-        "name": "play",
         "unicode": "EB0E"
       },
       {
+        "name": "play",
+        "unicode": "EB10"
+      },
+      {
         "name": "project",
-        "unicode": "EB16"
+        "unicode": "EB18"
       },
       {
         "name": "putback-right",
-        "unicode": "EB19"
+        "unicode": "EB1B"
       },
       {
         "name": "putback",
-        "unicode": "EB1A"
-      },
-      {
-        "name": "qrcode",
         "unicode": "EB1C"
       },
       {
-        "name": "quit",
+        "name": "qrcode",
         "unicode": "EB1E"
       },
       {
+        "name": "quit",
+        "unicode": "EB20"
+      },
+      {
         "name": "refresh",
-        "unicode": "EB21"
+        "unicode": "EB23"
       },
       {
         "name": "reorder",
-        "unicode": "EB24"
-      },
-      {
-        "name": "review",
         "unicode": "EB26"
       },
       {
-        "name": "rss",
+        "name": "review",
         "unicode": "EB28"
       },
       {
-        "name": "scanning",
-        "unicode": "EB2B"
+        "name": "rss",
+        "unicode": "EB2A"
       },
       {
-        "name": "search-text",
+        "name": "scanning",
         "unicode": "EB2D"
       },
       {
-        "name": "search",
+        "name": "search-text",
         "unicode": "EB2F"
       },
       {
-        "name": "share-chain",
-        "unicode": "EB30"
-      },
-      {
-        "name": "share-stroke",
+        "name": "search",
         "unicode": "EB31"
       },
       {
-        "name": "share",
+        "name": "share-chain",
         "unicode": "EB32"
       },
       {
-        "name": "sharp",
-        "unicode": "EB37"
+        "name": "share-stroke",
+        "unicode": "EB33"
       },
       {
-        "name": "single-selection",
+        "name": "share",
+        "unicode": "EB34"
+      },
+      {
+        "name": "sharp",
         "unicode": "EB39"
       },
       {
-        "name": "snooze",
+        "name": "single-selection",
         "unicode": "EB3B"
       },
       {
-        "name": "sort-by-time",
-        "unicode": "EB3C"
-      },
-      {
-        "name": "sort-by-unread",
+        "name": "snooze",
         "unicode": "EB3D"
       },
       {
+        "name": "sort-by-time",
+        "unicode": "EB3E"
+      },
+      {
+        "name": "sort-by-unread",
+        "unicode": "EB3F"
+      },
+      {
         "name": "stage",
-        "unicode": "EB44"
-      },
-      {
-        "name": "stamp",
-        "unicode": "EB45"
-      },
-      {
-        "name": "star-stroke",
         "unicode": "EB46"
       },
       {
-        "name": "star",
+        "name": "stamp",
         "unicode": "EB47"
       },
       {
+        "name": "star-stroke",
+        "unicode": "EB48"
+      },
+      {
+        "name": "star",
+        "unicode": "EB49"
+      },
+      {
         "name": "switch-workspace",
-        "unicode": "EB54"
+        "unicode": "EB56"
       },
       {
         "name": "switch",
-        "unicode": "EB55"
+        "unicode": "EB57"
       },
       {
         "name": "tag",
-        "unicode": "EB5B"
+        "unicode": "EB5D"
       },
       {
         "name": "talk",
-        "unicode": "EB5C"
+        "unicode": "EB5E"
       },
       {
         "name": "terminal",
-        "unicode": "EB72"
-      },
-      {
-        "name": "th",
         "unicode": "EB74"
       },
       {
-        "name": "tick",
+        "name": "th",
         "unicode": "EB76"
       },
       {
-        "name": "tie",
-        "unicode": "EB77"
-      },
-      {
-        "name": "time-view",
+        "name": "tick",
         "unicode": "EB78"
       },
       {
+        "name": "tie",
+        "unicode": "EB79"
+      },
+      {
+        "name": "time-view",
+        "unicode": "EB7A"
+      },
+      {
         "name": "unarchive",
-        "unicode": "EB85"
+        "unicode": "EB87"
       },
       {
         "name": "unlock",
-        "unicode": "EB88"
+        "unicode": "EB8A"
       },
       {
         "name": "video",
-        "unicode": "EB91"
+        "unicode": "EB93"
       },
       {
         "name": "view-board",
-        "unicode": "EB92"
+        "unicode": "EB94"
       },
       {
         "name": "wall",
-        "unicode": "EB93"
+        "unicode": "EB95"
       }
     ]
   },
@@ -522,27 +522,27 @@
       },
       {
         "name": "human",
-        "unicode": "EAAF"
+        "unicode": "EAB1"
       },
       {
         "name": "income",
-        "unicode": "EAB4"
+        "unicode": "EAB6"
       },
       {
         "name": "meal",
-        "unicode": "EACB"
+        "unicode": "EACD"
       },
       {
         "name": "normal",
-        "unicode": "EAE0"
+        "unicode": "EAE2"
       },
       {
         "name": "sale",
-        "unicode": "EB29"
+        "unicode": "EB2B"
       },
       {
         "name": "travel",
-        "unicode": "EB7B"
+        "unicode": "EB7D"
       }
     ]
   },
@@ -575,63 +575,63 @@
       },
       {
         "name": "github",
-        "unicode": "EAA5"
-      },
-      {
-        "name": "google",
         "unicode": "EAA7"
       },
       {
+        "name": "google",
+        "unicode": "EAA9"
+      },
+      {
         "name": "jinshuju",
-        "unicode": "EABB"
+        "unicode": "EABD"
       },
       {
         "name": "linkedin",
-        "unicode": "EAC3"
+        "unicode": "EAC5"
       },
       {
         "name": "netease",
-        "unicode": "EADB"
+        "unicode": "EADD"
       },
       {
         "name": "processon",
-        "unicode": "EB15"
+        "unicode": "EB17"
       },
       {
         "name": "qq",
-        "unicode": "EB1B"
+        "unicode": "EB1D"
       },
       {
         "name": "twitter",
-        "unicode": "EB82"
+        "unicode": "EB84"
       },
       {
         "name": "wechat",
-        "unicode": "EB97"
+        "unicode": "EB99"
       },
       {
         "name": "weibo",
-        "unicode": "EB98"
+        "unicode": "EB9A"
       },
       {
         "name": "wps",
-        "unicode": "EB9B"
-      },
-      {
-        "name": "xiaomi",
-        "unicode": "EB9C"
-      },
-      {
-        "name": "yunzhijia",
         "unicode": "EB9D"
       },
       {
-        "name": "zendesk",
+        "name": "xiaomi",
         "unicode": "EB9E"
       },
       {
-        "name": "zhihu",
+        "name": "yunzhijia",
         "unicode": "EB9F"
+      },
+      {
+        "name": "zendesk",
+        "unicode": "EBA0"
+      },
+      {
+        "name": "zhihu",
+        "unicode": "EBA1"
       }
     ]
   },
@@ -640,23 +640,23 @@
     "glyphs": [
       {
         "name": "post",
-        "unicode": "EB12"
+        "unicode": "EB14"
       },
       {
         "name": "state-check",
-        "unicode": "EB49"
-      },
-      {
-        "name": "state-official",
-        "unicode": "EB4A"
-      },
-      {
-        "name": "state-other",
         "unicode": "EB4B"
       },
       {
-        "name": "state",
+        "name": "state-official",
+        "unicode": "EB4C"
+      },
+      {
+        "name": "state-other",
         "unicode": "EB4D"
+      },
+      {
+        "name": "state",
+        "unicode": "EB4F"
       }
     ]
   },
@@ -681,19 +681,19 @@
       },
       {
         "name": "leave-state",
-        "unicode": "EABE"
+        "unicode": "EAC0"
       },
       {
         "name": "new-schedule",
-        "unicode": "EADD"
+        "unicode": "EADF"
       },
       {
         "name": "repeat",
-        "unicode": "EB25"
+        "unicode": "EB27"
       },
       {
         "name": "start-date",
-        "unicode": "EB48"
+        "unicode": "EB4A"
       }
     ]
   },
@@ -730,71 +730,71 @@
       },
       {
         "name": "heading",
-        "unicode": "EAA9"
+        "unicode": "EAAB"
       },
       {
         "name": "horizontal",
-        "unicode": "EAAE"
+        "unicode": "EAB0"
       },
       {
         "name": "indent",
-        "unicode": "EAB5"
+        "unicode": "EAB7"
       },
       {
         "name": "italic",
-        "unicode": "EABA"
+        "unicode": "EABC"
       },
       {
         "name": "link",
-        "unicode": "EAC1"
+        "unicode": "EAC3"
       },
       {
         "name": "normal-text",
-        "unicode": "EADF"
+        "unicode": "EAE1"
       },
       {
         "name": "ordered-list",
-        "unicode": "EAEA"
+        "unicode": "EAEC"
       },
       {
         "name": "outdent",
-        "unicode": "EB03"
+        "unicode": "EB05"
       },
       {
         "name": "palette",
-        "unicode": "EB04"
+        "unicode": "EB06"
       },
       {
         "name": "pre",
-        "unicode": "EB14"
+        "unicode": "EB16"
       },
       {
         "name": "quote",
-        "unicode": "EB20"
-      },
-      {
-        "name": "remove-link",
         "unicode": "EB22"
       },
       {
+        "name": "remove-link",
+        "unicode": "EB24"
+      },
+      {
         "name": "rich-text",
-        "unicode": "EB27"
+        "unicode": "EB29"
       },
       {
         "name": "strike-through",
-        "unicode": "EB53"
+        "unicode": "EB55"
       },
       {
         "name": "table",
-        "unicode": "EB58"
+        "unicode": "EB5A"
       },
       {
         "name": "underline",
-        "unicode": "EB87"
+        "unicode": "EB89"
       },
       {
         "name": "unordered-list",
-        "unicode": "EB89"
+        "unicode": "EB8B"
       }
     ]
   },
@@ -819,27 +819,27 @@
       },
       {
         "name": "move-file",
-        "unicode": "EAD6"
+        "unicode": "EAD8"
       },
       {
         "name": "text-file",
-        "unicode": "EB73"
+        "unicode": "EB75"
       },
       {
         "name": "update-file",
-        "unicode": "EB8B"
+        "unicode": "EB8D"
       },
       {
         "name": "upload-file",
-        "unicode": "EB8C"
+        "unicode": "EB8E"
       },
       {
         "name": "zoom-in",
-        "unicode": "EBA0"
+        "unicode": "EBA2"
       },
       {
         "name": "zoom-out",
-        "unicode": "EBA1"
+        "unicode": "EBA3"
       }
     ]
   },
@@ -855,16 +855,24 @@
         "unicode": "EA68"
       },
       {
-        "name": "git-fork",
+        "name": "git-fill",
         "unicode": "EAA2"
       },
       {
-        "name": "git-issue",
+        "name": "git-fork",
         "unicode": "EAA3"
       },
       {
+        "name": "git-issue",
+        "unicode": "EAA4"
+      },
+      {
+        "name": "git-o",
+        "unicode": "EAA5"
+      },
+      {
         "name": "pull-request",
-        "unicode": "EB17"
+        "unicode": "EB19"
       }
     ]
   },
@@ -873,15 +881,15 @@
     "glyphs": [
       {
         "name": "ol",
-        "unicode": "EAE6"
+        "unicode": "EAE8"
       },
       {
         "name": "ul-sort",
-        "unicode": "EB83"
+        "unicode": "EB85"
       },
       {
         "name": "ul",
-        "unicode": "EB84"
+        "unicode": "EB86"
       }
     ]
   },
@@ -910,19 +918,19 @@
       },
       {
         "name": "pencil",
-        "unicode": "EB08"
+        "unicode": "EB0A"
       },
       {
         "name": "plus",
-        "unicode": "EB10"
+        "unicode": "EB12"
       },
       {
         "name": "remove",
-        "unicode": "EB23"
+        "unicode": "EB25"
       },
       {
         "name": "trash",
-        "unicode": "EB7A"
+        "unicode": "EB7C"
       }
     ]
   },
@@ -931,75 +939,75 @@
     "glyphs": [
       {
         "name": "team-briefcase",
-        "unicode": "EB60"
-      },
-      {
-        "name": "team-building",
-        "unicode": "EB61"
-      },
-      {
-        "name": "team-bulb",
         "unicode": "EB62"
       },
       {
-        "name": "team-bus",
+        "name": "team-building",
         "unicode": "EB63"
       },
       {
-        "name": "team-calculator",
+        "name": "team-bulb",
         "unicode": "EB64"
       },
       {
-        "name": "team-camera",
+        "name": "team-bus",
         "unicode": "EB65"
       },
       {
-        "name": "team-compass",
+        "name": "team-calculator",
         "unicode": "EB66"
       },
       {
-        "name": "team-flag",
+        "name": "team-camera",
         "unicode": "EB67"
       },
       {
-        "name": "team-graph",
+        "name": "team-compass",
         "unicode": "EB68"
       },
       {
-        "name": "team-location",
+        "name": "team-flag",
         "unicode": "EB69"
       },
       {
-        "name": "team-loudspeaker",
+        "name": "team-graph",
         "unicode": "EB6A"
       },
       {
-        "name": "team-medal",
+        "name": "team-location",
         "unicode": "EB6B"
       },
       {
-        "name": "team-notebook",
+        "name": "team-loudspeaker",
         "unicode": "EB6C"
       },
       {
-        "name": "team-pen",
+        "name": "team-medal",
         "unicode": "EB6D"
       },
       {
-        "name": "team-stamp",
+        "name": "team-notebook",
         "unicode": "EB6E"
       },
       {
-        "name": "team-talk",
+        "name": "team-pen",
         "unicode": "EB6F"
       },
       {
-        "name": "team-terminal",
+        "name": "team-stamp",
         "unicode": "EB70"
       },
       {
-        "name": "team-tie",
+        "name": "team-talk",
         "unicode": "EB71"
+      },
+      {
+        "name": "team-terminal",
+        "unicode": "EB72"
+      },
+      {
+        "name": "team-tie",
+        "unicode": "EB73"
       }
     ]
   },
@@ -1044,19 +1052,19 @@
       },
       {
         "name": "help",
-        "unicode": "EAAB"
+        "unicode": "EAAD"
       },
       {
         "name": "info-single",
-        "unicode": "EAB6"
+        "unicode": "EAB8"
       },
       {
         "name": "info",
-        "unicode": "EAB7"
+        "unicode": "EAB9"
       },
       {
         "name": "warning",
-        "unicode": "EB95"
+        "unicode": "EB97"
       }
     ]
   },
@@ -1345,367 +1353,367 @@
       },
       {
         "name": "git-pull-request",
-        "unicode": "EAA4"
-      },
-      {
-        "name": "globe",
         "unicode": "EAA6"
       },
       {
-        "name": "headset",
-        "unicode": "EAAA"
+        "name": "globe",
+        "unicode": "EAA8"
       },
       {
-        "name": "home-fill",
+        "name": "headset",
         "unicode": "EAAC"
       },
       {
+        "name": "home-fill",
+        "unicode": "EAAE"
+      },
+      {
         "name": "inbox2",
-        "unicode": "EAB3"
+        "unicode": "EAB5"
       },
       {
         "name": "jump",
-        "unicode": "EABC"
+        "unicode": "EABE"
       },
       {
         "name": "link2",
-        "unicode": "EAC2"
+        "unicode": "EAC4"
       },
       {
         "name": "members",
-        "unicode": "EACF"
+        "unicode": "EAD1"
       },
       {
         "name": "move-task",
-        "unicode": "EAD7"
+        "unicode": "EAD9"
       },
       {
         "name": "new-o",
-        "unicode": "EADC"
-      },
-      {
-        "name": "new",
         "unicode": "EADE"
       },
       {
+        "name": "new",
+        "unicode": "EAE0"
+      },
+      {
         "name": "office-excel",
-        "unicode": "EAE3"
-      },
-      {
-        "name": "office-powerpoint",
-        "unicode": "EAE4"
-      },
-      {
-        "name": "office-word",
         "unicode": "EAE5"
       },
       {
-        "name": "oldman",
+        "name": "office-powerpoint",
+        "unicode": "EAE6"
+      },
+      {
+        "name": "office-word",
         "unicode": "EAE7"
       },
       {
-        "name": "order-a",
-        "unicode": "EAE8"
-      },
-      {
-        "name": "order-desc",
+        "name": "oldman",
         "unicode": "EAE9"
       },
       {
-        "name": "org-apps",
+        "name": "order-a",
+        "unicode": "EAEA"
+      },
+      {
+        "name": "order-desc",
         "unicode": "EAEB"
       },
       {
-        "name": "org-atom",
-        "unicode": "EAEC"
-      },
-      {
-        "name": "org-avatar",
+        "name": "org-apps",
         "unicode": "EAED"
       },
       {
-        "name": "org-book",
+        "name": "org-atom",
         "unicode": "EAEE"
       },
       {
-        "name": "org-building",
+        "name": "org-avatar",
         "unicode": "EAEF"
       },
       {
-        "name": "org-calendar",
+        "name": "org-book",
         "unicode": "EAF0"
       },
       {
-        "name": "org-checkbox-checked",
+        "name": "org-building",
         "unicode": "EAF1"
       },
       {
-        "name": "org-chevron-down",
+        "name": "org-calendar",
         "unicode": "EAF2"
       },
       {
-        "name": "org-chevron-right",
+        "name": "org-checkbox-checked",
         "unicode": "EAF3"
       },
       {
-        "name": "org-circle-down",
+        "name": "org-chevron-down",
         "unicode": "EAF4"
       },
       {
-        "name": "org-circle-up",
+        "name": "org-chevron-right",
         "unicode": "EAF5"
       },
       {
-        "name": "org-crown",
+        "name": "org-circle-down",
         "unicode": "EAF6"
       },
       {
-        "name": "org-direct-message",
+        "name": "org-circle-up",
         "unicode": "EAF7"
       },
       {
-        "name": "org-dress",
+        "name": "org-crown",
         "unicode": "EAF8"
       },
       {
-        "name": "org-eye",
+        "name": "org-direct-message",
         "unicode": "EAF9"
       },
       {
-        "name": "org-lock",
+        "name": "org-dress",
         "unicode": "EAFA"
       },
       {
-        "name": "org-medal",
+        "name": "org-eye",
         "unicode": "EAFB"
       },
       {
-        "name": "org-money",
+        "name": "org-lock",
         "unicode": "EAFC"
       },
       {
-        "name": "org-projects",
+        "name": "org-medal",
         "unicode": "EAFD"
       },
       {
-        "name": "org-search",
+        "name": "org-money",
         "unicode": "EAFE"
       },
       {
-        "name": "org-search2",
+        "name": "org-projects",
         "unicode": "EAFF"
       },
       {
-        "name": "org-user",
+        "name": "org-search",
         "unicode": "EB00"
       },
       {
-        "name": "org-users",
+        "name": "org-search2",
         "unicode": "EB01"
       },
       {
-        "name": "org-who",
+        "name": "org-user",
         "unicode": "EB02"
       },
       {
+        "name": "org-users",
+        "unicode": "EB03"
+      },
+      {
+        "name": "org-who",
+        "unicode": "EB04"
+      },
+      {
         "name": "phone-o",
-        "unicode": "EB09"
+        "unicode": "EB0B"
       },
       {
         "name": "phone",
-        "unicode": "EB0A"
+        "unicode": "EB0C"
       },
       {
         "name": "pin2",
-        "unicode": "EB0D"
-      },
-      {
-        "name": "plus-sign",
         "unicode": "EB0F"
       },
       {
-        "name": "post-forbidden",
+        "name": "plus-sign",
         "unicode": "EB11"
       },
       {
-        "name": "power",
+        "name": "post-forbidden",
         "unicode": "EB13"
       },
       {
+        "name": "power",
+        "unicode": "EB15"
+      },
+      {
         "name": "punctuate",
-        "unicode": "EB18"
+        "unicode": "EB1A"
       },
       {
         "name": "question",
-        "unicode": "EB1D"
-      },
-      {
-        "name": "quit2",
         "unicode": "EB1F"
       },
       {
+        "name": "quit2",
+        "unicode": "EB21"
+      },
+      {
         "name": "salesman",
-        "unicode": "EB2A"
+        "unicode": "EB2C"
       },
       {
         "name": "search-warning",
-        "unicode": "EB2E"
+        "unicode": "EB30"
       },
       {
         "name": "sharp-down",
-        "unicode": "EB33"
-      },
-      {
-        "name": "sharp-down2",
-        "unicode": "EB34"
-      },
-      {
-        "name": "sharp-up",
         "unicode": "EB35"
       },
       {
-        "name": "sharp-up2",
+        "name": "sharp-down2",
         "unicode": "EB36"
       },
       {
-        "name": "shortcut",
+        "name": "sharp-up",
+        "unicode": "EB37"
+      },
+      {
+        "name": "sharp-up2",
         "unicode": "EB38"
       },
       {
-        "name": "slice",
+        "name": "shortcut",
         "unicode": "EB3A"
       },
       {
+        "name": "slice",
+        "unicode": "EB3C"
+      },
+      {
         "name": "spread",
-        "unicode": "EB3E"
-      },
-      {
-        "name": "sprint",
-        "unicode": "EB3F"
-      },
-      {
-        "name": "stack-cancel",
         "unicode": "EB40"
       },
       {
-        "name": "stack-clock-fill",
+        "name": "sprint",
         "unicode": "EB41"
       },
       {
-        "name": "stack-tick-fill",
+        "name": "stack-cancel",
         "unicode": "EB42"
       },
       {
-        "name": "stack-tick",
+        "name": "stack-clock-fill",
         "unicode": "EB43"
       },
       {
-        "name": "state-top",
-        "unicode": "EB4C"
+        "name": "stack-tick-fill",
+        "unicode": "EB44"
       },
       {
-        "name": "stationery",
+        "name": "stack-tick",
+        "unicode": "EB45"
+      },
+      {
+        "name": "state-top",
         "unicode": "EB4E"
       },
       {
-        "name": "statistics-o",
-        "unicode": "EB4F"
-      },
-      {
-        "name": "statistics",
+        "name": "stationery",
         "unicode": "EB50"
       },
       {
-        "name": "store",
+        "name": "statistics-o",
         "unicode": "EB51"
       },
       {
-        "name": "story-points",
+        "name": "statistics",
         "unicode": "EB52"
       },
       {
+        "name": "store",
+        "unicode": "EB53"
+      },
+      {
+        "name": "story-points",
+        "unicode": "EB54"
+      },
+      {
         "name": "t-o",
-        "unicode": "EB56"
+        "unicode": "EB58"
       },
       {
         "name": "t",
-        "unicode": "EB57"
-      },
-      {
-        "name": "tachometer",
         "unicode": "EB59"
       },
       {
+        "name": "tachometer",
+        "unicode": "EB5B"
+      },
+      {
         "name": "tag-reverse",
-        "unicode": "EB5A"
+        "unicode": "EB5C"
       },
       {
         "name": "talkai",
-        "unicode": "EB5D"
-      },
-      {
-        "name": "task-id",
-        "unicode": "EB5E"
-      },
-      {
-        "name": "task-type",
         "unicode": "EB5F"
       },
       {
+        "name": "task-id",
+        "unicode": "EB60"
+      },
+      {
+        "name": "task-type",
+        "unicode": "EB61"
+      },
+      {
         "name": "tick-thin",
-        "unicode": "EB75"
+        "unicode": "EB77"
       },
       {
         "name": "top-up",
-        "unicode": "EB79"
+        "unicode": "EB7B"
       },
       {
         "name": "triangle-down",
-        "unicode": "EB7C"
-      },
-      {
-        "name": "triangle-left",
-        "unicode": "EB7D"
-      },
-      {
-        "name": "triangle-right",
         "unicode": "EB7E"
       },
       {
-        "name": "triangle-up",
+        "name": "triangle-left",
         "unicode": "EB7F"
       },
       {
-        "name": "turn-left",
+        "name": "triangle-right",
         "unicode": "EB80"
       },
       {
-        "name": "turn-right",
+        "name": "triangle-up",
         "unicode": "EB81"
       },
       {
+        "name": "turn-left",
+        "unicode": "EB82"
+      },
+      {
+        "name": "turn-right",
+        "unicode": "EB83"
+      },
+      {
         "name": "unread",
-        "unicode": "EB8A"
+        "unicode": "EB8C"
       },
       {
         "name": "upload",
-        "unicode": "EB8D"
+        "unicode": "EB8F"
       },
       {
         "name": "warning-o",
-        "unicode": "EB94"
-      },
-      {
-        "name": "wave",
         "unicode": "EB96"
       },
       {
+        "name": "wave",
+        "unicode": "EB98"
+      },
+      {
         "name": "window-max",
-        "unicode": "EB99"
+        "unicode": "EB9B"
       },
       {
         "name": "window-min",
-        "unicode": "EB9A"
+        "unicode": "EB9C"
       }
     ]
   },
@@ -1722,23 +1730,23 @@
       },
       {
         "name": "search-member",
-        "unicode": "EB2C"
+        "unicode": "EB2E"
       },
       {
         "name": "unassigned",
-        "unicode": "EB86"
+        "unicode": "EB88"
       },
       {
         "name": "user-switch",
-        "unicode": "EB8E"
+        "unicode": "EB90"
       },
       {
         "name": "user",
-        "unicode": "EB8F"
+        "unicode": "EB91"
       },
       {
         "name": "users",
-        "unicode": "EB90"
+        "unicode": "EB92"
       }
     ]
   }
