@@ -82,6 +82,13 @@ New version of TB-Icons required a valid `Sketch` file to generate all resources
 
 All build process can be found in `gulpfile.babel.js` and local development is required for `webpack`.
 
+#### Tips
+
+Please note the path to the `sketchtool`. Usually the binary is distributed with the Sketch package. So you need to add following line to your shell rc file (like .bashrc, .zshrc, etc.) or execute it manually before run this project.
+
+```
+export PATH="/Applications/Sketch.app/Contents/Resources/sketchtool/bin/:$PATH"
+```
 
 ### License
 [MIT](https://opensource.org/licenses/MIT)
