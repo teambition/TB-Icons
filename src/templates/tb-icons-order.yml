@@ -1,0 +1,6 @@
+name: tb-icon-preserved
+seed: <%= seed %>
+order: {
+  <% _.each(glyphs, function(g) { %><%= g.name %>: <%= g.order %>,
+  <% }) %>
+}
