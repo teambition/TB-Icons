@@ -1711,3 +1711,15 @@
 .icon-zoom-out:before {
   content: "\EBA6";
 }
+
+.icon-disk:before {
+  content: "\EBA7";
+}
+
+.icon-download-file:before {
+  content: "\EBA8";
+}
+
+.icon-key:before {
+  content: "\EBA9";
+}

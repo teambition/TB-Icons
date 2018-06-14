@@ -158,6 +158,11 @@
         "order": 109
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -616,6 +621,16 @@
         "name": "wall",
         "unicode": "EB98",
         "order": 408
+      },
+      {
+        "name": "disk",
+        "unicode": "EBA7",
+        "order": 423
+      },
+      {
+        "name": "key",
+        "unicode": "EBA9",
+        "order": 426
       }
     ]
   },
@@ -1056,6 +1071,11 @@
         "name": "zoom-out",
         "unicode": "EBA6",
         "order": 422
+      },
+      {
+        "name": "download-file",
+        "unicode": "EBA8",
+        "order": 425
       }
     ]
   },
@@ -1561,11 +1581,6 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
-      },
-      {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
       },
       {
         "name": "coupon",

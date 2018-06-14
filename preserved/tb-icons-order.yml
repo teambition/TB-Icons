@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 422
+seed: 426
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -423,5 +423,8 @@ order: {
   zhihu: 420,
   zoom-in: 421,
   zoom-out: 422,
-
+  disk: 423,
+  download-file: 425,
+  key: 426,
+  
 }
