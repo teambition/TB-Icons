@@ -1723,3 +1723,7 @@
 .icon-key:before {
   content: "\EBA9";
 }
+
+.icon-folder-private:before {
+  content: "\EBAA";
+}
