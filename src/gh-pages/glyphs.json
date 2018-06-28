@@ -158,6 +158,11 @@
         "order": 109
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -1276,6 +1281,11 @@
         "name": "team-terminal",
         "unicode": "EB76",
         "order": 374
+      },
+      {
+        "name": "team-tie",
+        "unicode": "EBAB",
+        "order": 428
       }
     ]
   },
@@ -1581,11 +1591,6 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
-      },
-      {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
       },
       {
         "name": "coupon",

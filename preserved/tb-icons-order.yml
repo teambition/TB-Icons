@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 427
+seed: 428
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -427,5 +427,6 @@ order: {
   download-file: 425,
   key: 426,
   folder-private: 427,
+  team-tie: 428,
   
 }
