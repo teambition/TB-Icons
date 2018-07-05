@@ -1121,6 +1121,11 @@
         "name": "pull-request",
         "unicode": "EB1D",
         "order": 285
+      },
+      {
+        "name": "git-merge",
+        "unicode": "EBAC",
+        "order": 429
       }
     ]
   },

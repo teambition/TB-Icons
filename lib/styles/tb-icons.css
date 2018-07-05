@@ -1731,3 +1731,7 @@
 .icon-team-tie:before {
   content: "\EBAB";
 }
+
+.icon-git-merge:before {
+  content: "\EBAC";
+}
