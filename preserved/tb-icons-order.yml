@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 429
+seed: 430
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -429,5 +429,6 @@ order: {
   folder-private: 427,
   team-tie: 428,
   git-merge: 429,
+  move-in: 430,
   
 }
