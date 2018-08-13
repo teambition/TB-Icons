@@ -1743,3 +1743,7 @@
 .icon-face-frown:before {
   content: "\EBAE";
 }
+
+.icon-dock:before {
+  content: "\EBAF";
+}
