@@ -1747,3 +1747,7 @@
 .icon-dock:before {
   content: "\EBAF";
 }
+
+.icon-id:before {
+  content: "\EBB0";
+}
