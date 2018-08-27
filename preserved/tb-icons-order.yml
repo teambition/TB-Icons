@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 433
+seed: 439
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -433,5 +433,11 @@ order: {
   face-frown: 431,
   dock: 432,
   id: 433,
+  testcase: 434,
+  testplan: 435,
+  usercase-create: 436,
+  usercase-import: 437,
+  usercase-library: 438,
+  usercase-planning: 439,
   
 }

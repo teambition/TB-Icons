@@ -158,11 +158,6 @@
         "order": 109
       },
       {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
-      },
-      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -1315,6 +1310,41 @@
     ]
   },
   {
+    "name": "test-case",
+    "glyphs": [
+      {
+        "name": "testcase",
+        "unicode": "EBB1",
+        "order": 434
+      },
+      {
+        "name": "testplan",
+        "unicode": "EBB2",
+        "order": 435
+      },
+      {
+        "name": "usercase-create",
+        "unicode": "EBB3",
+        "order": 436
+      },
+      {
+        "name": "usercase-import",
+        "unicode": "EBB4",
+        "order": 437
+      },
+      {
+        "name": "usercase-library",
+        "unicode": "EBB5",
+        "order": 438
+      },
+      {
+        "name": "usercase-planning",
+        "unicode": "EBB6",
+        "order": 439
+      }
+    ]
+  },
+  {
     "name": "tip",
     "glyphs": [
       {
@@ -1616,6 +1646,11 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
+      },
+      {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
       },
       {
         "name": "coupon",
