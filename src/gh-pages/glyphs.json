@@ -646,6 +646,16 @@
         "name": "id",
         "unicode": "EBB0",
         "order": 433
+      },
+      {
+        "name": "database",
+        "unicode": "EBB6",
+        "order": 440
+      },
+      {
+        "name": "project-overview",
+        "unicode": "EBB8",
+        "order": 442
       }
     ]
   },
@@ -831,6 +841,11 @@
         "name": "zhihu",
         "unicode": "EBA4",
         "order": 420
+      },
+      {
+        "name": "dribbble-fill",
+        "unicode": "EBB7",
+        "order": 441
       }
     ]
   },
@@ -1333,14 +1348,14 @@
         "order": 437
       },
       {
-        "name": "usercase-library",
+        "name": "usercase-planning",
         "unicode": "EBB5",
-        "order": 438
+        "order": 439
       },
       {
-        "name": "usercase-planning",
-        "unicode": "EBB6",
-        "order": 439
+        "name": "usercase-library",
+        "unicode": "EBB9",
+        "order": 443
       }
     ]
   },
