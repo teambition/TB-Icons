@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 443
+seed: 453
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -442,5 +442,15 @@ order: {
   dribbble-fill: 441,
   project-overview: 442,
   usercase-library: 443,
+  link3: 444,
+  remove-link3: 445,
+  sort: 446,
+  star-stroke-s: 447,
+  start-s: 448,
+  transform-status: 449,
+  triangle-down-s: 450,
+  triangle-left-s: 451,
+  triangle-right-s: 452,
+  triangle-up-s: 453,
   
 }

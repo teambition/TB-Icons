@@ -656,6 +656,36 @@
         "name": "project-overview",
         "unicode": "EBB8",
         "order": 442
+      },
+      {
+        "name": "link3",
+        "unicode": "EBBA",
+        "order": 444
+      },
+      {
+        "name": "remove-link3",
+        "unicode": "EBBB",
+        "order": 445
+      },
+      {
+        "name": "sort",
+        "unicode": "EBBC",
+        "order": 446
+      },
+      {
+        "name": "star-stroke-s",
+        "unicode": "EBBD",
+        "order": 447
+      },
+      {
+        "name": "start-s",
+        "unicode": "EBBE",
+        "order": 448
+      },
+      {
+        "name": "transform-status",
+        "unicode": "EBBF",
+        "order": 449
       }
     ]
   },
@@ -686,6 +716,26 @@
         "name": "chevron-up",
         "unicode": "EA32",
         "order": 50
+      },
+      {
+        "name": "triangle-down-s",
+        "unicode": "EBC0",
+        "order": 450
+      },
+      {
+        "name": "triangle-left-s",
+        "unicode": "EBC1",
+        "order": 451
+      },
+      {
+        "name": "triangle-right-s",
+        "unicode": "EBC2",
+        "order": 452
+      },
+      {
+        "name": "triangle-up-s",
+        "unicode": "EBC3",
+        "order": 453
       }
     ]
   },
