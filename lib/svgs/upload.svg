@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 17">
-    <path d="M8 .5a8 8 0 1 0 0 16 8 8 0 0 0 0-16m.6 11.514a.6.6 0 1 1-1.2 0v-5.58L5.09 8.741a.6.6 0 1 1-.847-.849L7.576 4.56a.6.6 0 0 1 .848 0l3.334 3.333a.601.601 0 0 1-.85.85L8.6 6.432"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>upload</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Deprecated" transform="translate(-42.000000, -160.000000)" fill="#000000">
+            <g id="upload" transform="translate(42.000000, 160.500000)">
+                <path d="M8,0 C3.582,0 0,3.582 0,8 C0,12.418 3.582,16 8,16 C12.418,16 16,12.418 16,8 C16,3.582 12.418,0 8,0 L8,0 M8.5998,11.5144 C8.5998,11.8464 8.3308,12.1144 7.9998,12.1144 C7.6678,12.1144 7.3998,11.8464 7.3998,11.5144 L7.3998,5.9334 L5.0908,8.2424 C4.8568,8.4764 4.4758,8.4764 4.2428,8.2424 C4.1258,8.1254 4.0668,7.9714 4.0668,7.8184 C4.0668,7.6644 4.1258,7.5114 4.2428,7.3934 L7.5758,4.0604 C7.8098,3.8264 8.1898,3.8264 8.4238,4.0604 L11.7578,7.3934 C11.9918,7.6284 11.9918,8.0084 11.7578,8.2424 C11.5228,8.4764 11.1428,8.4764 10.9088,8.2424 L8.5998,5.9334" id="Shape"></path>
+            </g>
+        </g>
+    </g>
 </svg>

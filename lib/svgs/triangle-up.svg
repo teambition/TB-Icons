@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-    <path d="M8.416 2.423l7.066 10.599a.5.5 0 0 1-.416.777H.934a.5.5 0 0 1-.416-.777L7.584 2.423a.5.5 0 0 1 .832 0z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>triangle-up</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Deprecated" transform="translate(-282.000000, -271.000000)" fill="#000000">
+            <g id="triangle-up" transform="translate(282.000000, 271.000000)">
+                <path d="M8.41599858,2.42337038 L15.48174,13.0219826 C15.6349163,13.2517469 15.5728293,13.5621816 15.343065,13.7153578 C15.2609312,13.7701136 15.1644274,13.7993327 15.0657149,13.7993327 L0.934231978,13.7993327 C0.658089603,13.7993327 0.434231978,13.575475 0.434231978,13.2993327 C0.434231978,13.2006202 0.463450991,13.1041163 0.51820683,13.0219826 L7.58394828,2.42337038 C7.73712451,2.19360604 8.04755919,2.1315191 8.27732353,2.28469533 C8.33224967,2.32131276 8.37938115,2.36844424 8.41599858,2.42337038 Z"></path>
+            </g>
+        </g>
+    </g>
 </svg>

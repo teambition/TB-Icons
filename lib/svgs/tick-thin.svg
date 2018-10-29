@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-    <path d="M14.752 1.887L16 3.166 5.115 14.113 0 9.029l1.31-1.31 3.805 3.837z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>tick-thin</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Deprecated" transform="translate(-164.000000, -200.000000)" fill="#000000">
+            <g id="tick-thin" transform="translate(164.000000, 200.000000)">
+                <polygon id="Shape" points="14.7524366 1.88693957 16 3.16569201 5.11500975 14.1130604 0 9.02923977 1.30994152 7.71929825 5.11500975 11.5555556"></polygon>
+            </g>
+        </g>
+    </g>
 </svg>

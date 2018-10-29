@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-    <path d="M10.317 3.794v8.403a.3.3 0 0 1-.509.215L5.682 8.406a.5.5 0 0 1-.005-.713l4.129-4.111a.3.3 0 0 1 .511.212z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow/triangle-left-s</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Arrow" transform="translate(-56.000000, -200.000000)" fill="#000000">
+            <g id="arrow/triangle-left-s" transform="translate(56.000000, 200.000000)">
+                <path d="M10.3172083,3.79426587 L10.3172083,12.1971448 C10.3172083,12.3628302 10.1828938,12.4971448 10.0172083,12.4971448 C9.93917175,12.4971448 9.8642062,12.4667372 9.80822016,12.4123748 L5.6819903,8.40580811 C5.48387658,8.21343981 5.479219,7.89689158 5.6715873,7.69877786 C5.67353396,7.69677306 5.67549739,7.69478462 5.67747738,7.69281274 L9.80551241,3.58169863 C9.92291005,3.46478219 10.1128591,3.4651723 10.2297756,3.58256995 C10.2857702,3.63879502 10.3172083,3.7149144 10.3172083,3.79426587 Z" id="triangle-left-s"></path>
+            </g>
+        </g>
+    </g>
 </svg>

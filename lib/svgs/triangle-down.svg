@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-    <path d="M7.584 13.577L.518 2.978a.5.5 0 0 1 .416-.777h14.132a.5.5 0 0 1 .416.777L8.416 13.577a.5.5 0 0 1-.832 0z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>triangle-down</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Deprecated" transform="translate(-242.000000, -271.000000)" fill="#000000">
+            <g id="triangle-down" transform="translate(242.000000, 271.000000)">
+                <path d="M7.58400142,13.5766296 L0.518259967,2.97801744 C0.365083738,2.74825309 0.427170672,2.43781842 0.656935016,2.28464219 C0.739068775,2.22988635 0.835572622,2.20066734 0.934285114,2.20066734 L15.065768,2.20066734 C15.3419104,2.20066734 15.565768,2.42452497 15.565768,2.70066734 C15.565768,2.79937983 15.536549,2.89588368 15.4817932,2.97801744 L8.41605172,13.5766296 C8.26287549,13.806394 7.95244081,13.8684809 7.72267647,13.7153047 C7.66775033,13.6786872 7.62061885,13.6315558 7.58400142,13.5766296 Z"></path>
+            </g>
+        </g>
+    </g>
 </svg>

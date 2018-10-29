@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-    <path d="M8 16c-4.41 0-8-3.59-8-8 0-4.411 3.59-8 8-8 4.412 0 8 3.589 8 8 0 4.41-3.588 8-8 8m-.814-6.449L5.024 7.389a.598.598 0 0 0-.848 0 .601.601 0 0 0 0 .849l2.587 2.586a.6.6 0 0 0 .848 0l4.8-4.8a.6.6 0 1 0-.85-.848"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>community/state-check</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web" transform="translate(-99.000000, -1136.000000)" fill="#000000">
+            <g id="community/state-check" transform="translate(99.000000, 1136.000000)">
+                <path d="M8,16 C3.58918919,16 0,12.4099723 0,7.9994595 C0,3.58894669 3.58918919,0 8,0 C12.4118919,0 16,3.58894669 16,7.9994595 C16,12.4099723 12.4118919,16 8,16 M7.1865,9.551 L5.0245,7.389 C4.9075,7.272 4.7535,7.214 4.6005,7.214 C4.4465,7.214 4.2925,7.272 4.1755,7.389 C3.9415,7.624 3.9415,8.004 4.1755,8.238 L6.7625,10.824 C6.8795,10.941 7.0335,11 7.1865,11 C7.3395,11 7.4935,10.941 7.6105,10.824 L12.4105,6.024 C12.6445,5.79 12.6445,5.41 12.4105,5.176 C12.2935,5.058 12.1395,5 11.9865,5 C11.8325,5 11.6795,5.058 11.5615,5.176" id="Shape"></path>
+            </g>
+        </g>
+    </g>
 </svg>

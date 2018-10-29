@@ -678,14 +678,14 @@
         "order": 447
       },
       {
-        "name": "start-s",
-        "unicode": "EBBE",
-        "order": 448
-      },
-      {
         "name": "transform-status",
         "unicode": "EBBF",
         "order": 449
+      },
+      {
+        "name": "star-s",
+        "unicode": "EBC4",
+        "order": 454
       }
     ]
   },

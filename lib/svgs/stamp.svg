@@ -1,3 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-    <path d="M2.25 13.5h12.5v1.25H2.25V13.5m12.468-4.627l-4.343-1.449V3.951l1.448-.484a.624.624 0 0 0 .427-.592V1h-7.5v1.875c0 .269.172.507.427.592l1.448.484v3.474L2.282 8.873A1.874 1.874 0 0 0 1 10.65v1.599h15v-1.6c0-.806-.516-1.523-1.282-1.777"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>app/stamp</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web" transform="translate(-579.000000, -456.000000)" fill="#000000">
+            <g id="app/stamp" transform="translate(579.000000, 456.000000)">
+                <path d="M2.25,13.5 L14.75,13.5 L14.75,14.75 L2.25,14.75 L2.25,13.5 L2.25,13.5 M14.718125,8.8725 L10.375,7.424375 L10.375,3.950625 L11.823125,3.4675 C12.078125,3.3825 12.25,3.14375 12.25,2.875 L12.25,1 L4.75,1 L4.75,2.875 C4.75,3.14375 4.921875,3.3825 5.176875,3.4675 L6.625,3.950625 L6.625,7.425 L2.281875,8.8725 C1.51625,9.1275 1,9.84375 1,10.650625 L1,12.25 L16,12.25 L16,10.650625 C16,9.84375 15.48375,9.1275 14.718125,8.8725 L14.718125,8.8725" id="Shape"></path>
+            </g>
+        </g>
+    </g>
 </svg>
