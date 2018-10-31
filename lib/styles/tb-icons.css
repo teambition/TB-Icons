@@ -1831,3 +1831,19 @@
 .icon-star-s:before {
   content: "\EBC4";
 }
+
+.icon-checkbox-checked-s:before {
+  content: "\EBC5";
+}
+
+.icon-plus-s:before {
+  content: "\EBC6";
+}
+
+.icon-remove-s:before {
+  content: "\EBC7";
+}
+
+.icon-unordered-list-s:before {
+  content: "\EBC8";
+}

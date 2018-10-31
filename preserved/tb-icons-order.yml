@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 454
+seed: 458
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -453,5 +453,9 @@ order: {
   triangle-right-s: 452,
   triangle-up-s: 453,
   star-s: 454,
+  checkbox-checked-s: 455,
+  plus-s: 456,
+  remove-s: 457,
+  unordered-list-s: 458,
   
 }

@@ -158,6 +158,11 @@
         "order": 109
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -686,6 +691,11 @@
         "name": "star-s",
         "unicode": "EBC4",
         "order": 454
+      },
+      {
+        "name": "checkbox-checked-s",
+        "unicode": "EBC5",
+        "order": 455
       }
     ]
   },
@@ -1096,6 +1106,11 @@
         "name": "unordered-list",
         "unicode": "EB8E",
         "order": 398
+      },
+      {
+        "name": "unordered-list-s",
+        "unicode": "EBC8",
+        "order": 458
       }
     ]
   },
@@ -1276,6 +1291,16 @@
         "name": "trash",
         "unicode": "EB7F",
         "order": 383
+      },
+      {
+        "name": "plus-s",
+        "unicode": "EBC6",
+        "order": 456
+      },
+      {
+        "name": "remove-s",
+        "unicode": "EBC7",
+        "order": 457
       }
     ]
   },
@@ -1711,11 +1736,6 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
-      },
-      {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
       },
       {
         "name": "coupon",
