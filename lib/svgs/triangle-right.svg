@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>triangle-right</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Deprecated" transform="translate(-202.000000, -271.000000)" fill="#000000">
-            <g id="triangle-right" transform="translate(202.000000, 271.000000)">
-                <path d="M13.5766296,8.41599858 L2.97801744,15.48174 C2.74825309,15.6349163 2.43781842,15.5728293 2.28464219,15.343065 C2.22988635,15.2609312 2.20066734,15.1644274 2.20066734,15.0657149 L2.20066734,0.934231978 C2.20066734,0.658089603 2.42452497,0.434231978 2.70066734,0.434231978 C2.79937983,0.434231978 2.89588368,0.463450991 2.97801744,0.51820683 L13.5766296,7.58394828 C13.806394,7.73712451 13.8684809,8.04755919 13.7153047,8.27732353 C13.6786872,8.33224967 13.6315558,8.37938115 13.5766296,8.41599858 Z"></path>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <path d="M13.577 8.416L2.978 15.482a.5.5 0 0 1-.777-.416V.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"/>
 </svg>

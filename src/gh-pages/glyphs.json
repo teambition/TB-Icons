@@ -684,17 +684,17 @@
       },
       {
         "name": "transform-status",
-        "unicode": "EBBF",
+        "unicode": "EBBE",
         "order": 449
       },
       {
         "name": "star-s",
-        "unicode": "EBC4",
+        "unicode": "EBC3",
         "order": 454
       },
       {
         "name": "checkbox-checked-s",
-        "unicode": "EBC5",
+        "unicode": "EBC4",
         "order": 455
       }
     ]
@@ -729,22 +729,22 @@
       },
       {
         "name": "triangle-down-s",
-        "unicode": "EBC0",
+        "unicode": "EBBF",
         "order": 450
       },
       {
         "name": "triangle-left-s",
-        "unicode": "EBC1",
+        "unicode": "EBC0",
         "order": 451
       },
       {
         "name": "triangle-right-s",
-        "unicode": "EBC2",
+        "unicode": "EBC1",
         "order": 452
       },
       {
         "name": "triangle-up-s",
-        "unicode": "EBC3",
+        "unicode": "EBC2",
         "order": 453
       }
     ]
@@ -791,6 +791,11 @@
         "name": "travel",
         "unicode": "EB80",
         "order": 384
+      },
+      {
+        "name": "bill",
+        "unicode": "EBC8",
+        "order": 459
       }
     ]
   },
@@ -1109,7 +1114,7 @@
       },
       {
         "name": "unordered-list-s",
-        "unicode": "EBC8",
+        "unicode": "EBC7",
         "order": 458
       }
     ]
@@ -1294,12 +1299,12 @@
       },
       {
         "name": "plus-s",
-        "unicode": "EBC6",
+        "unicode": "EBC5",
         "order": 456
       },
       {
         "name": "remove-s",
-        "unicode": "EBC7",
+        "unicode": "EBC6",
         "order": 457
       }
     ]

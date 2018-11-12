@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>arrow/triangle-right-s</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Arrow" transform="translate(-92.000000, -200.000000)" fill="#000000">
-            <g id="arrow/triangle-right-s" transform="translate(92.000000, 200.000000)">
-                <path d="M5.61,12.2714549 L5.61,3.72 C5.61,3.55431458 5.74431458,3.42 5.91,3.42 C5.98890291,3.42 6.0646293,3.45108468 6.12077637,3.50652091 L10.2542297,7.58758707 C10.4507317,7.78160136 10.4527485,8.09817742 10.2587342,8.2946795 L10.258706,8.29470801 L6.12346219,12.4822483 C6.00704417,12.6001403 5.81709843,12.6013351 5.69920652,12.4849171 C5.64212739,12.4285515 5.61,12.3516739 5.61,12.2714549 Z" id="triangle-right-s"></path>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <path d="M5.61 12.271V3.72a.3.3 0 0 1 .51-.213l4.134 4.08a.5.5 0 0 1 .005.708l-4.136 4.187a.3.3 0 0 1-.513-.21z"/>
 </svg>
