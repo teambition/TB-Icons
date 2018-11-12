@@ -158,11 +158,6 @@
         "order": 109
       },
       {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
-      },
-      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -696,6 +691,21 @@
         "name": "checkbox-checked-s",
         "unicode": "EBC4",
         "order": 455
+      },
+      {
+        "name": "dependency",
+        "unicode": "EBC9",
+        "order": 460
+      },
+      {
+        "name": "dependency-post",
+        "unicode": "EBCA",
+        "order": 462
+      },
+      {
+        "name": "dependency-pre",
+        "unicode": "EBCB",
+        "order": 463
       }
     ]
   },
@@ -1741,6 +1751,11 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
+      },
+      {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
       },
       {
         "name": "coupon",

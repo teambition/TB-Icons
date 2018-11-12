@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 459
+seed: 464
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -457,5 +457,8 @@ order: {
   remove-s: 457,
   unordered-list-s: 458,
   bill: 459,
+  dependency: 460,
+  dependency-post: 462,
+  dependency-pre: 463,
   
 }

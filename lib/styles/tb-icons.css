@@ -1847,3 +1847,15 @@
 .icon-bill:before {
   content: "\EBC8";
 }
+
+.icon-dependency:before {
+  content: "\EBC9";
+}
+
+.icon-dependency-post:before {
+  content: "\EBCA";
+}
+
+.icon-dependency-pre:before {
+  content: "\EBCB";
+}
