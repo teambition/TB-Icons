@@ -756,6 +756,36 @@
         "name": "triangle-up-s",
         "unicode": "EBC2",
         "order": 453
+      },
+      {
+        "name": "arrow-backward",
+        "unicode": "EBCC",
+        "order": 465
+      },
+      {
+        "name": "arrow-down-s",
+        "unicode": "EBCD",
+        "order": 466
+      },
+      {
+        "name": "arrow-forward",
+        "unicode": "EBCE",
+        "order": 467
+      },
+      {
+        "name": "arrow-left-s",
+        "unicode": "EBCF",
+        "order": 468
+      },
+      {
+        "name": "arrow-right-s",
+        "unicode": "EBD0",
+        "order": 469
+      },
+      {
+        "name": "arrow-up-s",
+        "unicode": "EBD1",
+        "order": 470
       }
     ]
   },
