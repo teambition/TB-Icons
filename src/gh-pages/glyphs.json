@@ -706,6 +706,11 @@
         "name": "dependency-pre",
         "unicode": "EBCB",
         "order": 463
+      },
+      {
+        "name": "new-tab",
+        "unicode": "EBD2",
+        "order": 471
       }
     ]
   },
