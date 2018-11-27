@@ -158,6 +158,11 @@
         "order": 109
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -711,6 +716,11 @@
         "name": "new-tab",
         "unicode": "EBD2",
         "order": 471
+      },
+      {
+        "name": "area",
+        "unicode": "EBD3",
+        "order": 472
       }
     ]
   },
@@ -1786,11 +1796,6 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
-      },
-      {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
       },
       {
         "name": "coupon",

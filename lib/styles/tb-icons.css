@@ -1887,3 +1887,7 @@
 .icon-new-tab:before {
   content: "\EBD2";
 }
+
+.icon-area:before {
+  content: "\EBD3";
+}
