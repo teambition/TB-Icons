@@ -1236,6 +1236,11 @@
         "name": "folder-private",
         "unicode": "EBAA",
         "order": 427
+      },
+      {
+        "name": "upload-pic",
+        "unicode": "EBD4",
+        "order": 473
       }
     ]
   },

@@ -1891,3 +1891,7 @@
 .icon-area:before {
   content: "\EBD3";
 }
+
+.icon-upload-pic:before {
+  content: "\EBD4";
+}
