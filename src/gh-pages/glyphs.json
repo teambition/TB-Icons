@@ -158,11 +158,6 @@
         "order": 109
       },
       {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
-      },
-      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -801,6 +796,11 @@
         "name": "arrow-up-s",
         "unicode": "EBD1",
         "order": 470
+      },
+      {
+        "name": "arrow-collapse",
+        "unicode": "EBD5",
+        "order": 474
       }
     ]
   },
@@ -1496,6 +1496,11 @@
         "name": "usercase-library",
         "unicode": "EBB9",
         "order": 443
+      },
+      {
+        "name": "testcase-group",
+        "unicode": "EBD6",
+        "order": 475
       }
     ]
   },
@@ -1801,6 +1806,11 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
+      },
+      {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
       },
       {
         "name": "coupon",

@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 473
+seed: 475
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -469,5 +469,7 @@ order: {
   new-tab: 471,
   area: 472,
   upload-pic: 473,
+  arrow-collapse: 474,
+  testcase-group: 475,
   
 }
