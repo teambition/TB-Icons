@@ -1903,3 +1903,7 @@
 .icon-testcase-group:before {
   content: "\EBD6";
 }
+
+.icon-custom-view:before {
+  content: "\EBD7";
+}

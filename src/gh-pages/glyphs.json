@@ -716,6 +716,11 @@
         "name": "area",
         "unicode": "EBD3",
         "order": 472
+      },
+      {
+        "name": "custom-view",
+        "unicode": "EBD7",
+        "order": 476
       }
     ]
   },
