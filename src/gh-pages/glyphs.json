@@ -2391,6 +2391,11 @@
         "name": "window-min",
         "unicode": "EB9F",
         "order": 415
+      },
+      {
+        "name": "ruler",
+        "unicode": "EBD8",
+        "order": 477
       }
     ]
   },
