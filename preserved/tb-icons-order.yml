@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 477
+seed: 482
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -473,5 +473,10 @@ order: {
   testcase-group: 475,
   custom-view: 476,
   ruler: 477,
+  diagram-ring: 478,
+  histogram: 479,
+  line-chart: 480,
+  size-column: 481,
+  size-grid: 482,
   
 }

@@ -721,6 +721,36 @@
         "name": "custom-view",
         "unicode": "EBD7",
         "order": 476
+      },
+      {
+        "name": "ruler",
+        "unicode": "EBD8",
+        "order": 477
+      },
+      {
+        "name": "diagram-ring",
+        "unicode": "EBD9",
+        "order": 478
+      },
+      {
+        "name": "histogram",
+        "unicode": "EBDA",
+        "order": 479
+      },
+      {
+        "name": "line-chart",
+        "unicode": "EBDB",
+        "order": 480
+      },
+      {
+        "name": "size-column",
+        "unicode": "EBDC",
+        "order": 481
+      },
+      {
+        "name": "size-grid",
+        "unicode": "EBDD",
+        "order": 482
       }
     ]
   },
@@ -2391,11 +2421,6 @@
         "name": "window-min",
         "unicode": "EB9F",
         "order": 415
-      },
-      {
-        "name": "ruler",
-        "unicode": "EBD8",
-        "order": 477
       }
     ]
   },

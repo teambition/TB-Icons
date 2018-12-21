@@ -1911,3 +1911,23 @@
 .icon-ruler:before {
   content: "\EBD8";
 }
+
+.icon-diagram-ring:before {
+  content: "\EBD9";
+}
+
+.icon-histogram:before {
+  content: "\EBDA";
+}
+
+.icon-line-chart:before {
+  content: "\EBDB";
+}
+
+.icon-size-column:before {
+  content: "\EBDC";
+}
+
+.icon-size-grid:before {
+  content: "\EBDD";
+}
