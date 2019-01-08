@@ -158,6 +158,11 @@
         "order": 109
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -751,6 +756,16 @@
         "name": "size-grid",
         "unicode": "EBDD",
         "order": 482
+      },
+      {
+        "name": "export-project",
+        "unicode": "EBDE",
+        "order": 483
+      },
+      {
+        "name": "logo-t",
+        "unicode": "EBDF",
+        "order": 484
       }
     ]
   },
@@ -1841,11 +1856,6 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
-      },
-      {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
       },
       {
         "name": "coupon",
