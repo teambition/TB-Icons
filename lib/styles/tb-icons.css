@@ -1939,3 +1939,7 @@
 .icon-logo-t:before {
   content: "\EBDF";
 }
+
+.icon-leaf:before {
+  content: "\EBE0";
+}
