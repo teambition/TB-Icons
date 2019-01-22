@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 485
+seed: 487
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -481,5 +481,7 @@ order: {
   export-project: 483,
   logo-t: 484,
   leaf: 485,
+  bar-chart: 486,
+  share-clone: 487,
   
 }

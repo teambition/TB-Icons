@@ -766,6 +766,16 @@
         "name": "leaf",
         "unicode": "EBE0",
         "order": 485
+      },
+      {
+        "name": "bar-chart",
+        "unicode": "EBE1",
+        "order": 486
+      },
+      {
+        "name": "share-clone",
+        "unicode": "EBE2",
+        "order": 487
       }
     ]
   },
