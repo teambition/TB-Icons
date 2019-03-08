@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 489
+seed: 494
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -485,5 +485,10 @@ order: {
   share-clone: 487,
   vertical-flag-fill: 488,
   vertical-flag: 489,
+  inbox-fill: 490,
+  building-fill: 491,
+  archive-fill: 492,
+  import-project-fill: 493,
+  trash-fill: 494,
   
 }

@@ -1959,3 +1959,23 @@
 .icon-vertical-flag:before {
   content: "\EBE4";
 }
+
+.icon-inbox-fill:before {
+  content: "\EBE5";
+}
+
+.icon-building-fill:before {
+  content: "\EBE6";
+}
+
+.icon-archive-fill:before {
+  content: "\EBE7";
+}
+
+.icon-import-project-fill:before {
+  content: "\EBE8";
+}
+
+.icon-trash-fill:before {
+  content: "\EBE9";
+}

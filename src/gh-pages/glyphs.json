@@ -791,6 +791,31 @@
         "name": "vertical-flag",
         "unicode": "EBE4",
         "order": 489
+      },
+      {
+        "name": "inbox-fill",
+        "unicode": "EBE5",
+        "order": 490
+      },
+      {
+        "name": "building-fill",
+        "unicode": "EBE6",
+        "order": 491
+      },
+      {
+        "name": "archive-fill",
+        "unicode": "EBE7",
+        "order": 492
+      },
+      {
+        "name": "import-project-fill",
+        "unicode": "EBE8",
+        "order": 493
+      },
+      {
+        "name": "trash-fill",
+        "unicode": "EBE9",
+        "order": 494
       }
     ]
   },
