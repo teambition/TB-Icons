@@ -816,6 +816,46 @@
         "name": "trash-fill",
         "unicode": "EBE9",
         "order": 494
+      },
+      {
+        "name": "applications",
+        "unicode": "EBEA",
+        "order": 495
+      },
+      {
+        "name": "dev-doc",
+        "unicode": "EBEB",
+        "order": 496
+      },
+      {
+        "name": "dev-project",
+        "unicode": "EBEC",
+        "order": 497
+      },
+      {
+        "name": "last-time",
+        "unicode": "EBED",
+        "order": 499
+      },
+      {
+        "name": "org-user-fill",
+        "unicode": "EBEE",
+        "order": 500
+      },
+      {
+        "name": "project-fill",
+        "unicode": "EBEF",
+        "order": 501
+      },
+      {
+        "name": "space",
+        "unicode": "EBF0",
+        "order": 502
+      },
+      {
+        "name": "test",
+        "unicode": "EBF1",
+        "order": 503
       }
     ]
   },
