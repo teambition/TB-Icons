@@ -158,6 +158,11 @@
         "order": 109
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -856,6 +861,11 @@
         "name": "iteration",
         "unicode": "EBF2",
         "order": 504
+      },
+      {
+        "name": "external-member",
+        "unicode": "EBF3",
+        "order": 505
       }
     ]
   },
@@ -1946,11 +1956,6 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
-      },
-      {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
       },
       {
         "name": "coupon",
