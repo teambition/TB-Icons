@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 505
+seed: 506
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -500,5 +500,6 @@ order: {
   test: 503,
   iteration: 504,
   external-member: 505,
+  workhour: 506,
   
 }

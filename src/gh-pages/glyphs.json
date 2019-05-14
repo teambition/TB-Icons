@@ -866,6 +866,11 @@
         "name": "external-member",
         "unicode": "EBF3",
         "order": 505
+      },
+      {
+        "name": "workhour",
+        "unicode": "EBF4",
+        "order": 506
       }
     ]
   },
