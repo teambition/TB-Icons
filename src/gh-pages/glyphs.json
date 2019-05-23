@@ -868,9 +868,9 @@
         "order": 505
       },
       {
-        "name": "workhour",
+        "name": "stopwatch",
         "unicode": "EBF4",
-        "order": 506
+        "order": 507
       }
     ]
   },
