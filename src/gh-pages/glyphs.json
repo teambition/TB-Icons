@@ -871,6 +871,11 @@
         "name": "stopwatch",
         "unicode": "EBF4",
         "order": 507
+      },
+      {
+        "name": "double-tick",
+        "unicode": "EBF5",
+        "order": 508
       }
     ]
   },

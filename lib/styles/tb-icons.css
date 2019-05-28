@@ -2023,3 +2023,7 @@
 .icon-stopwatch:before {
   content: "\EBF4";
 }
+
+.icon-double-tick:before {
+  content: "\EBF5";
+}
