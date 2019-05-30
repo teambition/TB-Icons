@@ -2027,3 +2027,11 @@
 .icon-double-tick:before {
   content: "\EBF5";
 }
+
+.icon-aliyun:before {
+  content: "\EBF6";
+}
+
+.icon-wechat-enterprise:before {
+  content: "\EBF7";
+}

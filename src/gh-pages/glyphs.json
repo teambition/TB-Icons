@@ -1126,6 +1126,16 @@
         "name": "dribbble-fill",
         "unicode": "EBB7",
         "order": 441
+      },
+      {
+        "name": "aliyun",
+        "unicode": "EBF6",
+        "order": 509
+      },
+      {
+        "name": "wechat-enterprise",
+        "unicode": "EBF7",
+        "order": 510
       }
     ]
   },

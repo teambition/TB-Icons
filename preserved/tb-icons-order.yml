@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 508
+seed: 510
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -502,5 +502,7 @@ order: {
   external-member: 505,
   stopwatch: 507,
   double-tick: 508,
+  aliyun: 509,
+  wechat-enterprise: 510,
   
 }
