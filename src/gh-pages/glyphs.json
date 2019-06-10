@@ -876,6 +876,11 @@
         "name": "double-tick",
         "unicode": "EBF5",
         "order": 508
+      },
+      {
+        "name": "plan",
+        "unicode": "EBF8",
+        "order": 511
       }
     ]
   },
