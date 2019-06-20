@@ -158,11 +158,6 @@
         "order": 109
       },
       {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
-      },
-      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -881,6 +876,16 @@
         "name": "plan",
         "unicode": "EBF8",
         "order": 511
+      },
+      {
+        "name": "distribute",
+        "unicode": "EBF9",
+        "order": 512
+      },
+      {
+        "name": "speaker",
+        "unicode": "EBFA",
+        "order": 513
       }
     ]
   },
@@ -1981,6 +1986,11 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
+      },
+      {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
       },
       {
         "name": "coupon",

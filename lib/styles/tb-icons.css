@@ -2039,3 +2039,11 @@
 .icon-plan:before {
   content: "\EBF8";
 }
+
+.icon-distribute:before {
+  content: "\EBF9";
+}
+
+.icon-speaker:before {
+  content: "\EBFA";
+}
