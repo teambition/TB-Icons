@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 513
+seed: 525
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -507,5 +507,17 @@ order: {
   plan: 511,
   distribute: 512,
   speaker: 513,
+  asc-sort-s: 514,
+  board-view-s: 515,
+  collapse-sidebar: 516,
+  desc-sort-s: 517,
+  expand-sidebar: 518,
+  filter-s: 519,
+  menu-s: 520,
+  sort-s: 521,
+  table-view-s: 522,
+  time-view-s: 523,
+  ul-s: 524,
+  users-s: 525,
   
 }

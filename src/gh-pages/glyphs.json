@@ -886,6 +886,41 @@
         "name": "speaker",
         "unicode": "EBFA",
         "order": 513
+      },
+      {
+        "name": "board-view-s",
+        "unicode": "EBFC",
+        "order": 515
+      },
+      {
+        "name": "collapse-sidebar",
+        "unicode": "EBFD",
+        "order": 516
+      },
+      {
+        "name": "expand-sidebar",
+        "unicode": "EBFF",
+        "order": 518
+      },
+      {
+        "name": "filter-s",
+        "unicode": "EC00",
+        "order": 519
+      },
+      {
+        "name": "menu-s",
+        "unicode": "EC01",
+        "order": 520
+      },
+      {
+        "name": "table-view-s",
+        "unicode": "EC03",
+        "order": 522
+      },
+      {
+        "name": "time-view-s",
+        "unicode": "EC04",
+        "order": 523
       }
     ]
   },
@@ -971,6 +1006,21 @@
         "name": "arrow-collapse",
         "unicode": "EBD5",
         "order": 474
+      },
+      {
+        "name": "asc-sort-s",
+        "unicode": "EBFB",
+        "order": 514
+      },
+      {
+        "name": "desc-sort-s",
+        "unicode": "EBFE",
+        "order": 517
+      },
+      {
+        "name": "sort-s",
+        "unicode": "EC02",
+        "order": 521
       }
     ]
   },
@@ -1486,6 +1536,11 @@
         "name": "ul",
         "unicode": "EB89",
         "order": 393
+      },
+      {
+        "name": "ul-s",
+        "unicode": "EC05",
+        "order": 524
       }
     ]
   },
@@ -2606,6 +2661,11 @@
         "name": "users",
         "unicode": "EB95",
         "order": 405
+      },
+      {
+        "name": "users-s",
+        "unicode": "EC06",
+        "order": 525
       }
     ]
   }
