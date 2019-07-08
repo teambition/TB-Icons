@@ -21,15 +21,18 @@
       </h2>
 
       <nav class="aside-nav">
-        <ul>
-          <% glyphs.forEach(function(glyphGroup) { %>
-            <li>
-              <a href="#<%= glyphGroup['name'] %>">
-                <%= glyphGroup['name'] %>
-              </a>
-            </li>
-          <% }) %>
-        </ul>
+        <% glyphs.forEach(function(glyphGroup) { %>
+          <ul>
+            <h4><%= glyphGroup.category %></h4>
+            <% glyphGroup.subCategory.forEach(function(item) { %>
+              <li>
+                <a href="#<%= item['subCategory'] %>">
+                  <%= item['subCategory'] %>
+                </a>
+              </li>
+            <% }) %>
+          </ul>
+        <% }) %>
 
         <a href="../svgs">
           <svg class="svg-symbols" role="img">
@@ -49,11 +52,13 @@
 
     <section class="section">
 
-      <% glyphs.forEach(function(glyphGroup) { %>
+      <% glyphs.forEach(function(category) { %>
         <article class="article">
-          <h2 class="title" id="<%= glyphGroup['name'] %>"><%= glyphGroup['name'] %></h2>
+          <h2 class="title" id="<%= category['category'] %>"><%= category['category'] %></h2>
+          <% category.subCategory.forEach(function(subGroup) { %>
           <ul>
-            <% glyphGroup['glyphs'].forEach(function(glyph) { %>
+            <h4><%= subGroup.subCategory %></h4>
+            <% subGroup.glyphs.forEach(function(glyph) { %>
               <li class="card" title="<%= glyph['name'] %>">
                 <div class="code" title="<%= glyph['unicode'] %>"><%= glyph['unicode'] %></div>
                 <div class="content">
@@ -71,6 +76,7 @@
               </li>
             <% }) %>
           </ul>
+          <% }) %>
         </article>
       <% }) %>
 
