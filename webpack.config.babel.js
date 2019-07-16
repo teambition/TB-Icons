@@ -1,19 +1,22 @@
-import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import MiniCssExtractPlugin from 'mini-css-extract-plugin'
+
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import webpack from 'webpack'
 
-const IS_BUILD = (process.env.NODE_ENV === 'build')
+const NODE_ENV = process.env.NODE_ENV || 'development'
+const __DEV__ = NODE_ENV === 'development'
+// const __PROD__ = NODE_ENV === 'production'
 
-const JS_NAME = IS_BUILD ? 'js/[name].[chunkhash:8].js' : 'js/[name].js'
-const CSS_NAME = IS_BUILD ? 'css/[name].[chunkhash:8].css' : 'css/[name].css'
-const ASSETS_NAME = IS_BUILD ? 'assets/[name].[hash:8].[ext]' : 'assets/[name].[ext]'
+const JS_NAME = __DEV__ ? 'js/[name].[chunkhash:8].js' : 'js/[name].js'
+const __CSS_NAME__ = __DEV__ ? 'css/[name].[chunkhash:8].css' : 'css/[name].css'
+const ASSETS_NAME = __DEV__ ? 'assets/[name].[hash:8].[ext]' : 'assets/[name].[ext]'
 
 const htmlminOptions = {
-  collapseWhitespace: IS_BUILD,
-  removeComments: IS_BUILD,
-  removeEmptyAttributes: IS_BUILD,
-  sortAttributes: IS_BUILD,
-  sortClassName: IS_BUILD
+  collapseWhitespace: __DEV__,
+  removeComments: __DEV__,
+  removeEmptyAttributes: __DEV__,
+  sortAttributes: __DEV__,
+  sortClassName: __DEV__
 }
 
 const DEV_HOST = process.env.HOST || 'localhost'
@@ -24,7 +27,8 @@ const publicPath = {
   build: 'http://teambition.github.io/TB-Icons/v2/'
 }
 
-let config = {
+let webpackConfig = {
+  target: 'web',
   entry: {
     iconfonts: [
       './lib/styles/tb-icons.styl',
@@ -39,7 +43,7 @@ let config = {
   output: {
     path: './build/v2',
     filename: JS_NAME,
-    publicPath: IS_BUILD ? publicPath.build : publicPath.dev
+    publicPath: __DEV__ ? publicPath.build : publicPath.dev
   },
   resolve: {
     extensions: [
@@ -50,16 +54,25 @@ let config = {
     loaders: [
       {
         test: /\.js$/,
-        loader: 'babel',
+        loader: 'babel-loader',
         exclude: /node_modules/
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style', 'css?sourceMap!postcss')
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'post-loader'
+        ]
       },
       {
         test: /\.styl$/,
-        loader: ExtractTextPlugin.extract('style', 'css?sourceMap!postcss!stylus')
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'post-loader',
+          'stylus-loader',
+        ]
       },
       {
         test: /\.html$/,
@@ -71,61 +84,89 @@ let config = {
       },
       {
         test: /\.(gif|jpeg|jpg|png)(\?\S*)?$/,
-        query: {
-          name: ASSETS_NAME,
-          limit: 1024
-        },
-        loader: 'url'
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 1024,
+              name: ASSETS_NAME,
+            }
+          }
+        ]
       },
       {
         test: /\.eot(\?\S*)?$/,
-        query: {
-          name: ASSETS_NAME,
-          limit: 1024
-        },
-        loader: 'url'
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 1024,
+              name: ASSETS_NAME
+            }
+          }
+        ]
       },
       {
         test: /\.svg(\?\S*)?$/,
-        query: {
-          name: ASSETS_NAME,
-          limit: 1024,
-          minetype: 'image/svg+xml'
-        },
-        loader: 'url'
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              name: ASSETS_NAME,
+              limit: 1024,
+              minetype: 'image/svg+xml'
+            },
+          }
+        ]
       },
       {
         test: /\.ttf(\?\S*)?$/,
-        query: {
-          name: ASSETS_NAME,
-          limit: 1024,
-          minetype: 'application/octet-stream'
-        },
-        loader: 'url'
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              name: ASSETS_NAME,
+              limit: 1024,
+              minetype: 'application/octet-stream'
+            }
+          }
+        ]
       },
       {
         test: /\.woff(\?\S*)?$/,
-        query: {
-          name: ASSETS_NAME,
-          limit: 1024,
-          minetype: 'application/font-woff'
-        },
-        loader: 'url'
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              name: ASSETS_NAME,
+              limit: 1024,
+              minetype: 'application/font-woff'
+            }
+          }
+        ]
       },
       {
         test: /\.woff2(\?\S*)?$/,
-        query: {
-          name: ASSETS_NAME,
-          limit: 1024,
-          minetype: 'application/font-woff2'
-        },
-        loader: 'url'
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              name: ASSETS_NAME,
+              limit: 1024,
+              minetype: 'application/font-woff2'
+            }
+          }
+        ]
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin(CSS_NAME, {
-      disable: !IS_BUILD
+    // new ExtractTextPlugin(CSS_NAME, {
+    //   disable: !__DEV__
+    // }),
+    // disable in pro
+    new MiniCssExtractPlugin({
+      filename: __CSS_NAME__
     }),
     new HtmlWebpackPlugin({
       inject: false,
@@ -149,51 +190,52 @@ let config = {
       showErrors: true
     })
   ],
-  postcss(bundle) {
-    let plugins = [
-      require('autoprefixer')
-    ]
+  // cssnano???
+  // postcss(bundle) {
+  //   let plugins = [
+  //     require('autoprefixer')
+  //   ]
 
-    if (IS_BUILD) {
-      plugins.push(require('cssnano'))
-    }
+  //   if (__DEV__) {
+  //     plugins.push(require('cssnano'))
+  //   }
 
-    return plugins
-  }
+  //   return plugins
+  // }
 }
 
-if (!IS_BUILD) {
-  config.debug = true
-  config.devtool = 'eval-source-map'
-  config.devServer = {
-    host: DEV_HOST,
-    port: DEV_PORT
-  }
+// if (!__DEV__) {
+//   webpackConfig.debug = true
+//   webpackConfig.devtool = 'eval-source-map'
+//   webpackConfig.devServer = {
+//     host: DEV_HOST,
+//     port: DEV_PORT
+//   }
 
-  config.plugins = config.plugins.concat([
-    new webpack.NoErrorsPlugin(),
-    new webpack.optimize.OccurenceOrderPlugin()
-  ])
+//   webpackConfig.plugins = webpackConfig.plugins.concat([
+//     new webpack.NoErrorsPlugin(),
+//     new webpack.optimize.OccurenceOrderPlugin()
+//   ])
 
-  Object.keys(config.entry).forEach(function(key) {
-    config.entry[key] = config.entry[key].concat(
-      'webpack/hot/dev-server',
-      `webpack-dev-server/client?${publicPath.dev}`
-    )
-  })
-}
+//   Object.keys(webpackConfig.entry).forEach(function(key) {
+//     webpackConfig.entry[key] = webpackConfig.entry[key].concat(
+//       'webpack/hot/dev-server',
+//       `webpack-dev-server/client?${publicPath.dev}`
+//     )
+//   })
+// }
 
-if (IS_BUILD) {
-  config.plugins = config.plugins.concat(
-    new webpack.optimize.AggressiveMergingPlugin(),
-    new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      },
-      sourceMap: false
-    })
-  )
-}
+// if (__DEV__) {
+//   webpackConfig.plugins = webpackConfig.plugins.concat(
+//     new webpack.optimize.AggressiveMergingPlugin(),
+//     new webpack.optimize.DedupePlugin(),
+//     new webpack.optimize.UglifyJsPlugin({
+//       compress: {
+//         warnings: false
+//       },
+//       sourceMap: false
+//     })
+//   )
+// }
 
-export default config
+export default webpackConfig
