@@ -921,6 +921,11 @@
         "name": "time-view-s",
         "unicode": "EC04",
         "order": 523
+      },
+      {
+        "name": "letter-a-upper-box",
+        "unicode": "EC07",
+        "order": 528
       }
     ]
   },
