@@ -926,6 +926,11 @@
         "name": "letter-a-upper-box",
         "unicode": "EC07",
         "order": 528
+      },
+      {
+        "name": "submit-fill",
+        "unicode": "EC08",
+        "order": 529
       }
     ]
   },

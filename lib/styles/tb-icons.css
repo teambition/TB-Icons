@@ -2099,3 +2099,7 @@
 .icon-letter-a-upper-box:before {
   content: "\EC07";
 }
+
+.icon-submit-fill:before {
+  content: "\EC08";
+}
