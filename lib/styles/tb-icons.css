@@ -2103,3 +2103,7 @@
 .icon-submit-fill:before {
   content: "\EC08";
 }
+
+.icon-task-detail:before {
+  content: "\EC09";
+}

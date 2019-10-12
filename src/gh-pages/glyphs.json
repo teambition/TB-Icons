@@ -931,6 +931,11 @@
         "name": "submit-fill",
         "unicode": "EC08",
         "order": 529
+      },
+      {
+        "name": "task-detail",
+        "unicode": "EC09",
+        "order": 530
       }
     ]
   },
