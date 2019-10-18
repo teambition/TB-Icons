@@ -2107,3 +2107,7 @@
 .icon-task-detail:before {
   content: "\EC09";
 }
+
+.icon-markdown-fill:before {
+  content: "\EC0A";
+}

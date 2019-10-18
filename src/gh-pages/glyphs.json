@@ -936,6 +936,11 @@
         "name": "task-detail",
         "unicode": "EC09",
         "order": 530
+      },
+      {
+        "name": "markdown-fill",
+        "unicode": "EC0A",
+        "order": 531
       }
     ]
   },
