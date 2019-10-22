@@ -941,6 +941,16 @@
         "name": "markdown-fill",
         "unicode": "EC0A",
         "order": 531
+      },
+      {
+        "name": "tier",
+        "unicode": "EC0B",
+        "order": 532
+      },
+      {
+        "name": "path-slash",
+        "unicode": "EC0C",
+        "order": 533
       }
     ]
   },
