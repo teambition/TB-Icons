@@ -951,6 +951,16 @@
         "name": "path-slash",
         "unicode": "EC0C",
         "order": 533
+      },
+      {
+        "name": "nav",
+        "unicode": "EC0D",
+        "order": 534
+      },
+      {
+        "name": "arrow-share",
+        "unicode": "EC0E",
+        "order": 535
       }
     ]
   },

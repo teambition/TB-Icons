@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 533
+seed: 535
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -525,5 +525,7 @@ order: {
   markdown-fill: 531,
   tier: 532,
   path-slash: 533,
+  nav: 534,
+  arrow-share: 535,
   
 }
