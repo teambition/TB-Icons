@@ -2127,3 +2127,7 @@
 .icon-arrow-share:before {
   content: "\EC0E";
 }
+
+.icon-mini-program:before {
+  content: "\EC0F";
+}

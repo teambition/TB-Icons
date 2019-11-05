@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 535
+seed: 536
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -527,5 +527,6 @@ order: {
   path-slash: 533,
   nav: 534,
   arrow-share: 535,
+  mini-program: 536,
   
 }
