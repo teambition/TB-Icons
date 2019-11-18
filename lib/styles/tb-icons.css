@@ -2131,3 +2131,7 @@
 .icon-mini-program:before {
   content: "\EC0F";
 }
+
+.icon-rss-thin:before {
+  content: "\EC10";
+}
