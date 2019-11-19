@@ -971,6 +971,16 @@
         "name": "rss-thin",
         "unicode": "EC10",
         "order": 537
+      },
+      {
+        "name": "heart-o",
+        "unicode": "EC11",
+        "order": 538
+      },
+      {
+        "name": "heart",
+        "unicode": "EC12",
+        "order": 539
       }
     ]
   },

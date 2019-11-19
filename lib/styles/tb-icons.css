@@ -2135,3 +2135,11 @@
 .icon-rss-thin:before {
   content: "\EC10";
 }
+
+.icon-heart-o:before {
+  content: "\EC11";
+}
+
+.icon-heart:before {
+  content: "\EC12";
+}
