@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 539
+seed: 540
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -531,5 +531,6 @@ order: {
   rss-thin: 537,
   heart-o: 538,
   heart: 539,
+  print: 540,
   
 }

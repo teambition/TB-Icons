@@ -981,6 +981,11 @@
         "name": "heart",
         "unicode": "EC12",
         "order": 539
+      },
+      {
+        "name": "print",
+        "unicode": "EC13",
+        "order": 540
       }
     ]
   },
