@@ -986,6 +986,11 @@
         "name": "print",
         "unicode": "EC13",
         "order": 540
+      },
+      {
+        "name": "shopping-cart",
+        "unicode": "EC14",
+        "order": 541
       }
     ]
   },

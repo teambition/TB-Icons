@@ -2147,3 +2147,7 @@
 .icon-print:before {
   content: "\EC13";
 }
+
+.icon-shopping-cart:before {
+  content: "\EC14";
+}
