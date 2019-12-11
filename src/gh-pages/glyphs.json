@@ -158,6 +158,11 @@
         "order": 109
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -991,6 +996,31 @@
         "name": "shopping-cart",
         "unicode": "EC14",
         "order": 541
+      },
+      {
+        "name": "assign-task",
+        "unicode": "EC15",
+        "order": 542
+      },
+      {
+        "name": "task-created-fill",
+        "unicode": "EC16",
+        "order": 543
+      },
+      {
+        "name": "task-created",
+        "unicode": "EC17",
+        "order": 544
+      },
+      {
+        "name": "todo-fill",
+        "unicode": "EC18",
+        "order": 545
+      },
+      {
+        "name": "todo",
+        "unicode": "EC19",
+        "order": 546
       }
     ]
   },
@@ -2111,11 +2141,6 @@
         "name": "copy-task",
         "unicode": "EA6F",
         "order": 111
-      },
-      {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
       },
       {
         "name": "coupon",
