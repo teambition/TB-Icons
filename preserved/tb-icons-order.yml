@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 547
+seed: 548
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -539,5 +539,6 @@ order: {
   todo-fill: 545,
   todo: 546,
   aone: 547,
+  expand-more: 548,
   
 }

@@ -1021,6 +1021,11 @@
         "name": "aone",
         "unicode": "EC1A",
         "order": 547
+      },
+      {
+        "name": "expand-more",
+        "unicode": "EC1B",
+        "order": 548
       }
     ]
   },
