@@ -1026,6 +1026,16 @@
         "name": "expand-more",
         "unicode": "EC1B",
         "order": 548
+      },
+      {
+        "name": "ding-cloud",
+        "unicode": "EC1C",
+        "order": 549
+      },
+      {
+        "name": "ding",
+        "unicode": "EC1D",
+        "order": 550
       }
     ]
   },
@@ -2726,6 +2736,11 @@
         "name": "window-min",
         "unicode": "EB9F",
         "order": 415
+      },
+      {
+        "name": "lightball",
+        "unicode": "EC1E",
+        "order": 551
       }
     ]
   },
