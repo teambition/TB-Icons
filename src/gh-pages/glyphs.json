@@ -1036,6 +1036,16 @@
         "name": "ding",
         "unicode": "EC1D",
         "order": 550
+      },
+      {
+        "name": "lightball",
+        "unicode": "EC1E",
+        "order": 551
+      },
+      {
+        "name": "milestone",
+        "unicode": "EC1F",
+        "order": 552
       }
     ]
   },
@@ -2736,11 +2746,6 @@
         "name": "window-min",
         "unicode": "EB9F",
         "order": 415
-      },
-      {
-        "name": "lightball",
-        "unicode": "EC1E",
-        "order": 551
       }
     ]
   },
