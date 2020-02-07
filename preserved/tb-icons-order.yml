@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 552
+seed: 554
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -544,5 +544,7 @@ order: {
   ding: 550,
   lightball: 551,
   milestone: 552,
+  briefcase-stroke-new: 553,
+  meta: 554,
   
 }

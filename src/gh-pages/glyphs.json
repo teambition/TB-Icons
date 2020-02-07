@@ -158,6 +158,11 @@
         "order": 109
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -1038,14 +1043,19 @@
         "order": 550
       },
       {
-        "name": "lightball",
-        "unicode": "EC1E",
-        "order": 551
-      },
-      {
         "name": "milestone",
         "unicode": "EC1F",
         "order": 552
+      },
+      {
+        "name": "briefcase-stroke-new",
+        "unicode": "EC20",
+        "order": 553
+      },
+      {
+        "name": "meta",
+        "unicode": "EC21",
+        "order": 554
       }
     ]
   },
@@ -2168,11 +2178,6 @@
         "order": 111
       },
       {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
-      },
-      {
         "name": "coupon",
         "unicode": "EA71",
         "order": 113
@@ -2746,6 +2751,11 @@
         "name": "window-min",
         "unicode": "EB9F",
         "order": 415
+      },
+      {
+        "name": "lightball",
+        "unicode": "EC1E",
+        "order": 551
       }
     ]
   },
