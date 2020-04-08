@@ -158,11 +158,6 @@
         "order": 109
       },
       {
-        "name": "copy",
-        "unicode": "EA70",
-        "order": 112
-      },
-      {
         "name": "crown",
         "unicode": "EA74",
         "order": 116
@@ -2183,6 +2178,11 @@
         "order": 111
       },
       {
+        "name": "copy",
+        "unicode": "EA70",
+        "order": 112
+      },
+      {
         "name": "coupon",
         "unicode": "EA71",
         "order": 113
@@ -2761,6 +2761,11 @@
         "name": "lightball",
         "unicode": "EC1E",
         "order": 551
+      },
+      {
+        "name": "apple",
+        "unicode": "EC23",
+        "order": 556
       }
     ]
   },

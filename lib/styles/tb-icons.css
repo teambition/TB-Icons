@@ -2207,3 +2207,7 @@
 .icon-task-ding:before {
   content: "\EC22";
 }
+
+.icon-apple:before {
+  content: "\EC23";
+}
