@@ -1038,6 +1038,11 @@
         "order": 550
       },
       {
+        "name": "lightball",
+        "unicode": "EC1E",
+        "order": 551
+      },
+      {
         "name": "milestone",
         "unicode": "EC1F",
         "order": 552
@@ -1056,6 +1061,11 @@
         "name": "task-ding",
         "unicode": "EC22",
         "order": 555
+      },
+      {
+        "name": "recommend",
+        "unicode": "EC24",
+        "order": 557
       }
     ]
   },
@@ -2756,11 +2766,6 @@
         "name": "window-min",
         "unicode": "EB9F",
         "order": 415
-      },
-      {
-        "name": "lightball",
-        "unicode": "EC1E",
-        "order": 551
       },
       {
         "name": "apple",
