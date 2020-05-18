@@ -2215,3 +2215,7 @@
 .icon-recommend:before {
   content: "\EC24";
 }
+
+.icon-target:before {
+  content: "\EC25";
+}

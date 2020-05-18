@@ -1,5 +1,5 @@
 name: tb-icon-preserved
-seed: 557
+seed: 558
 order: {
   activities-trend: 1,
   add-stage: 2,
@@ -549,5 +549,6 @@ order: {
   task-ding: 555,
   apple: 556,
   recommend: 557,
+  target: 558,
   
 }
