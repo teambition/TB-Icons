@@ -46,7 +46,7 @@
     "gulp-gh-pages": "^0.5.4",
     "gulp-iconfont": "^8.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-svg-symbols": "^1.0.0",
+    "gulp-svg-symbols": "^3.2.3",
     "gulp-svgmin": "^1.2.2",
     "html-webpack-plugin": "^2.19.0",
     "inflection": "^1.10.0",
