@@ -40,7 +40,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "gh-pages": "^0.11.0",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-consolidate": "^0.2.0",
     "gulp-download": "0.0.1",
     "gulp-gh-pages": "^0.5.4",
