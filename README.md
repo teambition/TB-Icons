@@ -4,6 +4,10 @@ A classified icons set that consists of a part of Material Design icons and some
 
 You can check out all [Iconfonts](http://teambition.github.io/TB-Icons/v2/iconfonts/) or all [SVG symbols](http://teambition.github.io/TB-Icons/v2/svgs/)
 
+### 更新图标
+* [如何为 TB ICON 增加图标文件?](https://thoughts.teambition.com/workspaces/5ae958e45ce50e000140111d/docs/59ae7dab448d2e000134ecf3)
+* [论工程师如何独立发布 TB-Icons](https://thoughts.teambition.com/workspaces/5ae958e45ce50e000140111d/docs/5b223456ba4b310001425e17)
+
 
 ### Updates
 

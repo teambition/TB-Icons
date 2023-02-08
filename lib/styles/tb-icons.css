@@ -2219,3 +2219,7 @@
 .icon-target:before {
   content: "\EC25";
 }
+
+.icon-progress:before {
+  content: "\EC26";
+}
